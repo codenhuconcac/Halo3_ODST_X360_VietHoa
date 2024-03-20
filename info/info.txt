@@ -1,0 +1,13 @@
+ENGLISH
+c100 - CHUẨN BỊ CHO CUỘC CHIẾN - Start a new game, drop into the nighttime city.
+c200 - COASTAL HIGHWAY - The end of the road.
+h100 - ĐƯỜNG PHỐ MOMBASA - Explore the city, find your ODST team.
+l200 - DATA HIVE - Find Dare, secure the Superintendent.
+l300 - COASTAL HIGHWAY - Escort the asset out of the city.
+mainmenu - Main Menu - This is the main menu.
+sc100 - TAYARI PLAZA - Beat the Covenant to Dare's crash-site.
+sc110 - UPLIFT RESERVE - Lead a Warthog charge, clear hostiles from the park.
+sc120 - KIZINGO BLVD. - Scorpion rampage through the heart of the city.
+sc130 - ONI ALPHA SITE - Fall back, deny access to this vital facility.
+sc140 - NMPD HQ - Pelican down. Keep your sniper rifle handy.
+sc150 - KIKOWANI STN. - Aerial combat in the flooded city.
