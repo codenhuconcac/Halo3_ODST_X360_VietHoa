@@ -1,0 +1,2380 @@
+// Lưu ý khi dịch: Cố gắng đừng cho strings quá dài. Giới hạn sẽ là khoảng 255 cho đến ~300 ký tự, phụ thuộc vào string đó là chính.
+
+=================================== global strings (every maps) ===================================
+
+
+=== main_menu/strings ===
+1079	build_number	<build_number/>
+1080	version_number	<version_number/>
+1081	start_new_campaign	BẮT ĐẦU CHIẾN DỊCH
+1082	resume_campaign	TIẾP TỤC CHIẾN DỊCH
+1083	campaign	CHIẾN DỊCH
+1084	survival	FIREFIGHT
+1085	multiplayer	FIREFIGHT
+1086	training	BATTLE SIM
+1087	mapeditor	FORGE
+1088	theater	THEATER
+1089	press_start	Press START to continue
+1090	start_menu	<start_button/> Profile
+1091	content_download	Uploading debug files. Please do not turn off your Xbox 360 console.
+1092	leave_game	QUIT TO XBOX DASHBOARD
+1093	locked	PLAY THE BETA
+1094	title	SELECT DIFFICULTY
+1095	extras_portal	<extras_portal/>
+1096	extras_portal_default	PHỤ LỤC
+
+=== main_menu/button_keys ===
+1097	main_menu_offline	<start_button/> Cài Đặt
+1098	main_menu_online	<start_button/> Cài Đặt   <y_button/> Bạn Bè
+
+=== start_menu/strngs ===
+1099	start_menu_headquarters	TRUYỀN THÔNG
+1100	start_menu_settings	CÀI ĐẶT
+1101	start_menu_game_campaign	GAME
+1102	start_menu_game_multiplayer	GAME
+1103	start_menu_campaign_objectives	<objectives/>
+
+=== start_menu/button_keys/strings ===
+1139	a_select_b_back	<a_button/> Chọn   <b_button/> Quay lại
+1140	a_select_b_done	<a_button/> Chọn   <b_button/> Xong
+1141	a_confirm_b_cancel	<a_button/> Xác nhận   <b_button/> Hủy
+1142	a_select_b_back_x_rename	<a_button/> Select   <b_button/> Back   <x_button/> Edit
+1143	button_key_game_options_party_leader	<a_button/> Select   <b_button/> Done   <x_button/> Save
+1144	button_key_game_options_non_party_leader	<a_button/> Chọn   <b_button/> Xong
+1145	leader_help_text	Change the options for the game.
+1146	member_help_text	View current options. Only the Party Leader may change the options.
+1147	b_done_key	<b_button/>  Done
+1148	a_select_b_back_x_toggle	<a_button/> Select   <b_button/> Back   <x_button/> Toggle Icon
+1149	a_select_b_done_x_toggle	<a_button/> Select   <b_button/> Done   <x_button/> Toggle Icon
+1150	a_confirm_b_cancel_x_toggle	<a_button/> Confirm   <b_button/> Cancel   <x_button/> Toggle Icon
+
+=== start_menu/panes/hq/strings ===
+1351	news	TIN TỨC
+1352	screenshot	ẢNH CHỤP MÀN HÌNH
+1353	service_record	HỒ SƠ PHỤC VỤ
+1354	shared_files	CHIA SẺ TỆP TIN
+1355	transfers	TỆP TIN ĐANG CHUYỂN
+1356	file_share_bungie	ĐÜỢC BUNGIE ÜA THÍCH
+1357	news_description	Kết nối tới Xbox LIVE để nhận tin tức và cập nhật từ Bungie.
+1358	headquarters	TRUYỀN THÔNG
+1359	settings	CÀI ĐẶT
+1360	game	TRÒ CHƠI
+1361	frequent_medals	Most Frequently Earned Medals:
+1362	medal_value	(value)
+1363	stats	First Game Played on: (value)
+Last Game Played on: (value)
+Total Games: (value)
+Total Live Kills: (value)
+Weapon of Choice: (value)
+1364	kills	Kills:
+(value)
+1365	skill	Skill:
+1366	rank	Rank:
+1367	file_share_description	Use the File Share to upload and download Halo 3: ODST saved films and screenshots. You can view screenshots from all other Halo 3 titles but not saved films.
+1368	shared	The File Share is a location where you can store saved multiplayer game films and, in the future, other types of Halo 3 game files.  
+
+Shared Map Variants:  <filevalue>
+Shared Game Variants: (value)
+Saved Films: (value)
+1369	downloads_description	Pending and current Halo 3, Halo 3: Mythic, and Halo 3: ODST file transfers will be listed here. To transfer content, go to the File Share.
+1370	screenshots_description	Check out all the screenshots you've taken in Halo 3: ODST or downloaded from someone else. A picture taunts a thousand words.
+1371	marketplace	Marketplace
+1372	marketplace_description	Visit Xbox LIVE Marketplace to browse Halo 3: ODST items.
+1373	bnet_pro	<bnet-pro-button/>
+1374	bnet_pro_description	<bnet-pro-message/>
+1375	news_title	TIN TỨC VÀ CẬP NHẬT
+1376	need_live_account	Đăng nhập vào Xbox LIVE để sử dụng tính năng này
+
+===alert/strings===
+1980	can_not_view_in_game_title	KHÔNG KHẢ DỤNG1
+1981	can_not_view_in_game	This is not available during gameplay.
+1982	must_be_signed_in_to_bring_up_start_menu_title	NOT SIGNED IN
+1983	must_be_signed_in_to_bring_up_start_menu	You must be signed in to display the start menu.
+1984	controller_detatched_title	CONTROLLER
+1985	controller_detatched	Your Xbox 360 Controller is disconnected. Reconnect your Xbox 360 Controller and press <a_button/> to dismiss.
+1986	controller_no_storage_device_chosen_title	NO STORAGE DEVICE
+1987	controller_no_storage_device_chosen	You have not selected a storage device. No progress or changes to game settings will be saved.
+1988	button_key_a_ok	<a_button/> OK
+1989	button_key_unresolved_error	<color argb=#55FFFFFF><a_button/> OK</color>
+1990	sign_in_failed_generic_title	SIGN-IN FAILED
+1991	sign_in_failed_generic	Unable to sign in to gamer profile.
+1992	sign_in_failed_game_full_title	UNABLE TO JOIN
+1993	sign_in_failed_game_full	You were unable to join because the current game does not have enough openings.
+1994	sign_in_failed_no_split_screen_on_alpha_title	UNABLE TO JOIN
+1995	sign_in_failed_no_split_screen_on_alpha	There are too many players signed in to this Xbox 360 console to play splitscreen in this version of Halo 3: ODST.
+1996	sign_in_game_in_theater_title	Unable to Join
+1997	sign_in_game_in_theater	A player on this Xbox 360 Console is watching a film. You may not join while a film is in progress.
+1998	not_implemented_yet_title	KHÔNG KHẢ DỤNG2
+1999	not_implemented_yet	This feature is not yet available.
+2000	sign_in_game_in_matchmaking_title	Unable to Join
+2001	sign_in_game_in_matchmaking	A player on this Xbox 360 Console is playing in Matchmaking. You may not join a Matchmaking game in progress.
+2002	sign_in_game_in_campaign_title	Unable to Join
+2003	sign_in_game_in_campaign	A player on this Xbox 360 Console is playing in Campaign. You may not join a Campaign game in progress.
+2004	sign_in_game_in_survival_title	Unable to Join
+2005	sign_in_game_in_survival	A player on this Xbox 360 Console is playing Firefight. You may not join a Firefight game in progress.
+2006	signed_out_while_in_live_session_title	Signed Out
+2007	signed_out_while_in_live_session	A player on this Xbox 360 console signed out of their gamer profile. This will cause all players on the same Xbox 360 console to leave the party.
+2008	join_failed_player_not_online_enabled_title	Unable to Join
+2009	join_failed_player_not_online_enabled	You were unable to join because a player in your party does not have permission to play on Xbox LIVE.
+2010	must_be_connected_to_live_in_live_lobby_title	CONNECTION LOST
+2011	must_be_connected_to_live_in_live_lobby	You appear to have lost your connection to Xbox LIVE. You must be connected to Xbox LIVE to play.
+2012	must_be_connected_to_live_to_transfer_title	NO CONNECTION
+2013	must_be_connected_to_live_to_transfer	You must be connected to Xbox LIVE in order to upload or download files from the FIle Share.
+2014	kicked_by_duplicate_user_title	SIGNED OUT
+2015	kicked_by_duplicate_user	A gamer profile on this Xbox 360 console was signed out because their profile was signed in on a different Xbox 360 console.
+2016	back_out_main_menu_with_profile_title	Sign Out?
+2017	back_out_main_menu_with_profile	If you would like to sign out, press the Xbox Guide button and sign out from the guide.
+2018	no_profile_sent_to_main_menu_title	Signed Out
+2019	no_profile_sent_to_main_menu	You were returned to the main menu because all gamer profiles have been signed out of the game.
+2020	unable_to_join	UNABLE TO JOIN
+2021	game_closed_title	PARTY CLOSED
+2022	game_full_title	PARTY FULL
+2023	join_failed_failed_to_find_session_title	Unable to Join
+2024	join_failed_failed_to_find_session	The party you tried to join is no longer available.
+2025	join_failed_not_enough_space_title	Unable to Join
+2026	join_failed_not_enough_space	The party you tried to join does not have enough openings.
+2027	join_failed_game_not_open_title	Unable to Join
+2028	join_failed_game_not_open	The party you tried to join is closed.
+2029	join_failed_target_is_matchmaking_title	Unable to Join
+2030	join_failed_target_is_matchmaking	The party you tried to join is in Matchmaking.
+2031	join_failed_peer_version_too_low_title	Unable to Join
+2032	join_failed_peer_version_too_low	This party is playing with a newer version of Halo 3: ODST. You will need to upgrade your version of Halo 3: ODST to join this party.
+2033	join_failed_host_version_too_low_title	Unable to Join
+2034	join_failed_host_version_too_low	You are playing with a newer version of Halo 3: ODST than the party you tried to join.
+2035	join_failed_data_decode_failure	You were unable to connect due to corrupted data somewhere along the line.
+2036	join_failed_generic_error_title	Unable to Join
+2037	join_failed_generic_error	You were unable to connect to the party.
+2038	join_failed_host_timed_out_title	Unable to Join
+2039	join_failed_host_timed_out	The request to join has timed out.
+2040	join_failed_unable_to_connect_open_nat_title	Unable to Join
+2041	join_failed_unable_to_connect_open_nat	The party may have an incompatible network setup. You have an OPEN NAT, which is the most flexible. Visit www.bungie.net/router for more information.
+2042	join_failed_unable_to_connect_moderate_nat_title	Unable to Join
+2043	join_failed_unable_to_connect_moderate_nat	The party may have an incompatible network setup. Your setting is MODERATE NAT, which can be less compatible. Visit www.bungie.net/router for more information.
+2044	join_failed_unable_to_connect_closed_nat_title	Unable to Join
+2045	join_failed_unable_to_connect_closed_nat	The party may have an incompatible network setup. Your setting is STRICT NAT, which is the least compatible. Visit www.bungie.net/router for more information.
+2046	join_failed_unable_to_connect_party_open_nat_title	Unable to Join
+2047	join_failed_unable_to_connect_party_open_nat	The party may have an incompatible network setup. You have an OPEN NAT, which is the most flexible. Visit www.bungie.net/router for more information.
+2048	join_failed_unable_to_connect_party_moderate_nat_title	Unable to Join
+2049	join_failed_unable_to_connect_party_moderate_nat	The party may have an incompatible network setup. Your setting is MODERATE NAT, which can be less compatible. Visit www.bungie.net/router for more information.
+2050	join_failed_unable_to_connect_party_strict_nat_title	Unable to Join
+2051	join_failed_unable_to_connect_party_strict_nat	The party may have an incompatible network setup. Your setting is STRICT NAT, which is the least compatible. Visit www.bungie.net/router for more information.
+2052	join_failed_film_in_progress_title	Unable to Join
+2053	join_failed_film_in_progress	The party you tried to join is watching a film.
+2054	join_failed_party_member_not_online_enabled_title	Unable to Join
+2055	join_failed_party_member_not_online_enabled	You were unable to join because a player in your party does not have permission to play on Xbox LIVE.
+2056	datamine_uploading	Uploading files to the datamine. Please wait...
+2057	datamine_uploading_title	Uploading
+2058	datamine_upload_failed	Upload to the datamine failed.
+2059	datamine_upload_failed_title	Upload Failed
+2060	service_tag_invalid_format	This Service Tag is in an invalid format. It must be any combination of four letters and numbers.
+2061	service_tag_invalid_format_title	Invalid Format
+2062	service_tag_disallowed	This Service Tag is not allowed under current UNSC regulations.
+2063	service_tag_disallowed_title	Not Allowed
+2064	service_tag_reserved	This Service Tag is reserved for use by the UNSC.
+2065	service_tag_reserved_title	Reserved
+2066	service_tag_verification_failed	This Service Tag is not allowed by Xbox LIVE. You must change the tag.
+2067	service_tag_verification_failed_title	Not Allowed
+2068	matchmaking_search_timed_out_title	Unable to Match
+2069	matchmaking_search_timed_out	There may not be enough players to support a game in this playlist. Try a different playlist.
+2070	online_files_string_verify_failed_verify	The file could not be queued for upload. Please try again later.
+2071	online_files_string_verify_failed_verify_title	Name Is Blocked
+2072	online_files_string_verify_failed_name	The custom name for this file is not allowed by Xbox LIVE. You must change the name to upload it to your File Share.
+2073	online_files_string_verify_failed_name_title	Name Is Blocked
+2074	online_files_string_verify_failed_description	The custom description for this file is not allowed by Xbox LIVE. You must change the description to upload it to your File Share.
+2075	online_files_string_verify_failed_description_title	Description Blocked
+2076	online_files_upload_completed_title	Upload Complete
+2077	online_files_upload_completed	The file was successfully added to your File Share.
+2078	online_files_download_completed_title	Download Complete
+2079	online_files_download_completed	The file was successfully added to your library.
+2080	online_files_transfer_failed_title	TRANSFER FAILED
+2081	online_files_transfer_failed	File transfer will be attempted again automatically.
+2082	online_files_transfer_failed_cancelling_title	TRANSFER FAILED
+2083	online_files_transfer_failed_cancelling	A file was unable to be transferred.
+2084	online_files_file_rename_already_exists_title	Name Taken
+2085	online_files_file_rename_already_exists	Another file already has this name.  Select a different name.
+2086	network_string_failed_film_name_title	Bad Name
+2087	network_string_failed_film_name	The name for this film is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2088	network_string_failed_game_variant_name_title	Bad Name
+2089	network_string_failed_game_variant_name	The name for this game variant is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2090	network_string_failed_map_variant_name_title	Bad Name
+2091	network_string_failed_map_variant_name	The name for this map variant is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2092	network_string_failed_film_description_title	Bad Description
+2093	network_string_failed_film_description	The description for this film is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2094	network_string_failed_game_variant_description_title	Bad Description
+2095	network_string_failed_game_variant_description	The description for this game variant is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2096	network_string_failed_map_variant_description_title	Bad Description
+2097	network_string_failed_map_variant_description	The description for this map variant is not allowed to be displayed online. It will be replaced with BLAM! when playing on Xbox LIVE.
+2098	player_profile_read_failed_title	Failed to Read
+2099	player_profile_read_failed_controller0	Failed to read the gamer card settings for '<controller0_gamertag/>'.
+2100	player_profile_read_failed_controller1	Failed to read the gamer card settings for '<controller1_gamertag/>'.
+2101	player_profile_read_failed_controller2	Failed to read the gamer card settings for '<controller2_gamertag/>'.
+2102	player_profile_read_failed_controller3	Failed to read the gamer card settings for '<controller3_gamertag/>'.
+2103	guide_can_not_view_hq_service_record_in_game	The Service Record is not available when playing a game or watching a film.
+2104	guide_can_not_view_hq_service_record_in_game_title	Không khả dụng1
+2105	guide_can_not_view_hq_file_share_in_game	The File Share is not available when playing a game or watching a film.
+2106	guide_can_not_view_hq_file_share_in_game_title	Không khả dụng2
+2107	guide_could_not_get_game_details_title	Không khả dụng3
+2108	guide_could_not_get_game_details	We were unable to retrieve Party Details for this player. The player may have recently left the party.
+2109	guide_could_not_get_service_record_title	Không khả dụng4
+2110	guide_could_not_get_service_record	The Service Record is not available for this player. They may not have played a game of Halo 3: ODST yet, or there may be a problem retrieving their Service Record.
+2111	guide_could_not_get_service_record_for_file_share_title	Không khả dụng5
+2112	guide_could_not_get_service_record_for_file_share	The File Share is not available for this player. They may not have played a game of Halo 3: ODST yet, or there may be a problem retrieving their File Share.
+2113	utility_drive_was_cleared	Utility drive was cleared.
+2114	utility_drive_was_cleared_title	Maintenance
+2115	maximum_party_not_available	Maximum party size is only available when the network is configured for system link or Xbox LIVE.
+2116	maximum_party_not_available_title	KHÔNG KHẢ DỤNG3
+2117	content_download_not_allowed_title	NOT ALLOWED
+2118	content_download_not_allowed_message	You do not have permission to save user-created content on your Xbox 360 console.
+2119	content_download_restricted_to_friends_title	ACCESS RESTRICTED
+2120	content_download_restricted_to_friends_message	You are only allowed to save user-created content from gamers on your Xbox LIVE friends list.
+2121	content_download_friends_check_failed_title	ACCESS FAILURE
+2122	content_download_friends_check_failed_message	You are only allowed to save user-created content from gamers on your Xbox LIVE friends list, and we were unable to access your friends list.
+2123	guide_player_muted_in_guide_title	KHÔNG KHẢ DỤNG4
+2124	guide_player_muted_in_guide	You have muted this player in the Xbox Guide. View the gamer card for this player to change this setting.
+2125	banhammer_custom_message_title	INFORMATION
+2126	booted_from_game_title	BETRAYAL
+2127	booted_from_game	You were booted from the game for betraying a teammate. |r|n|r|nFriendly fire can be grounds for dismissal.
+2128	booted_from_session_title	REMOVED FROM PARTY
+2129	booted_from_session	You were removed from the party by the Party Leader.
+2130	online_files_failed_to_retrieve_catalog_title	KHÔNG KHẢ DỤNG5
+2131	online_files_failed_to_retrieve_catalog	We were unable to connect to the File Share at this time.
+2132	blank_name_title	Not Changed
+2133	blank_name_description	Your changes were not saved because you left the name blank.
+2134	rematch_error_encountered_title	Unable to Party Up
+2135	rematch_error_encountered	One or more parties were unable to be combined with your party.
+2136	save_film_failed_title	SAVE FAILED
+2137	save_film_failed	Failed to save the film to your storage device.
+2138	save_game_variant_failed_title	SAVE FAILED
+2139	save_game_variant_failed	Failed to save the game variant to your storage device.
+2140	save_map_variant_failed_title	SAVE FAILED
+2141	save_map_variant_failed	Failed to save the map variant to your storage device.
+2142	save_map_variant_cannot_rename_to_default_map_name_title	NAME TAKEN
+2143	save_map_variant_cannot_rename_to_default_map_name	The default map already has this name. Select a different name.
+2144	save_screenshot_failed_title	SAVE FAILED
+2145	save_screenshot_failed	Failed to save the screenshot to your saved game storage.
+2146	save_game_edit_failed_title	SAVE FAILED
+2147	save_game_edit_failed	Failed to save the changes to your saved game file.
+2148	save_film_snippet_duplicate_or_blank_name_title	INVALID NAME
+2149	save_film_snippet_duplicate_or_blank_name	The name for this film clip is already taken or it was left blank. Please select a valid name.
+2150	party_leader_idle_controller_title	Returned to Lobby
+2151	party_leader_idle_controller	You were returned to the Matchmaking Lobby because the Party Leader appears to be away from the game.
+2152	toast_file_download_started_title	Download Initiated
+2153	toast_file_download_started	Continue playing: The file will be downloaded automatically.
+2154	toast_file_download_paused_title	Download Paused
+2155	toast_file_download_paused	The download will resume automatically.
+2156	toast_file_download_resumed_title	Download Resumed
+2157	toast_file_download_complete_title	Download Complete
+2158	toast_file_upload_started_title	Upload Initiated
+2159	toast_file_upload_started	Continue playing: The file will be uploaded automatically.
+2160	toast_file_upload_paused_title	Upload Paused
+2161	toast_file_upload_paused	The upload will resume automatically.
+2162	toast_file_upload_resumed_title	Upload Resumed
+2163	toast_file_upload_resumed	Resuming the upload to your File Share.
+2164	toast_file_upload_complete_title	Upload Complete
+2165	toast_file_download_resumed_film	Resuming download to Theater.
+2166	toast_file_download_resumed_game	Resuming download to Custom Games.
+2167	toast_file_download_resumed_map	Resuming download of the map to Custom Games and the Forge.
+2168	toast_file_download_resumed_screenshot	Resuming download to Screenshots.
+2169	toast_file_download_complete_film	 is now available in the Theater.
+2170	toast_file_download_complete_game	 is now available in Custom Games.
+2171	toast_file_download_complete_map	 is now available in Custom Games and the Forge.
+2172	toast_file_download_complete_screenshot	 is now available in Screenshots.
+2173	toast_file_upload_complete_film	 has been uploaded to your File Share.
+2174	toast_file_upload_complete_game	 has been uploaded to your File Share.
+2175	toast_file_upload_complete_map	 has been uploaded to your File Share.
+2176	toast_file_upload_complete_screenshot	 has been uploaded to your File Share.
+2177	toast_file_save_film_title	Saving Film
+2178	toast_file_save_film	Saving to your library in the Theater.
+2179	toast_file_save_screenshot_title	Saving Screenshot
+2180	toast_file_save_screenshot	Saving Screenshot to your Media.
+2181	toast_matchmaking_problem_connection_title	Party Up Failure
+2182	toast_matchmaking_problem_connection	Unable to connect some players to the party.
+2183	toast_matchmaking_problem_no_vote_title	No Party Available
+2184	toast_matchmaking_problem_no_vote	No other players offered to party up with you.
+2185	toast_matchmaking_problem_migration_title	Network Difficulties
+2186	toast_matchmaking_problem_migration	Establishing new connection for the game.
+2187	toast_matchmaking_bad_nat_title	NETWORK WARNING
+2188	toast_matchmaking_bad_nat	Your NAT type is not Open. Matchmaking may be slow. Visit www.bungie.net/router for tips.
+2189	toast_invite_sent_title	Invite Sent
+2190	toast_invite_sent	An invite has been sent to the selected player.
+2191	toast_restarting_search_title	Restarting Search
+2192	toast_restarting_search	Searching for possible matches.
+2193	toast_film_player_left_title	Player Left
+2194	toast_film_player_left	<film-party-player-left/> left the film.
+2195	saved_film_playback_error_title	Film Error
+2196	saved_film_playback_error	An error occurred while the film was playing.
+2197	saved_film_oos_alert_title	Film Error
+2198	saved_film_oos_alert	An error occurred while the film was playing.
+2199	settings_communication_go_to_xbox_guide_title	VOICE
+2200	settings_communication_go_to_xbox_guide	You must change this setting in the Xbox Guide. Press the Xbox Guide button and go to Personal Settings to change your Xbox Guide voice settings.
+2201	saved_film_lost_connection_title	Lost Connection
+2202	saved_film_lost_connection	You lost your connection to the party. The Party Leader may have experienced network difficulty while playing the saved film.
+2203	bnet_currently_subscribed_custom_message_title	BUNGIE PRO
+2204	bnet_just_subscribed_custom_message_title	CONGRATULATIONS SUBSCRIBER
+2205	bnet_over_limit_custom_message_title	OVER LIMIT
+2206	pregame_selected_film_invalid_title	Invalid
+2207	pregame_selected_film_invalid_message	This film is no longer valid.  It may be damaged or it may be from a different version of Halo 3: ODST.
+2208	pregame_selected_game_variant_invalid_title	Invalid
+2209	pregame_selected_game_variant_invalid_message	This game variant is no longer valid.  It may be damaged or it may be from a different version of Halo 3: ODST.
+2210	pregame_selected_map_variant_invalid_title	Invalid
+2211	pregame_selected_map_variant_invalid_message	This map variant is no longer valid.  It may be damaged or it may be from a different version of Halo 3: ODST.
+2212	pregame_selected_screenshot_invalid_title	Invalid
+2213	pregame_selected_screenshot_invalid_message	This screenshot is no longer valid.  It may be damaged or it may be from a different version of Halo 3: ODST.
+2214	player_dropped_from_campaign_error_title	Lost Connection
+2215	player_dropped_from_campaign_error	The game ended because a player left the game.
+2216	player_quit_from_campaign_error_title	GAME ENDED
+2217	player_quit_from_campaign_error	A player ended the game.
+2218	switched_to_live_with_no_live_connection_title	NO CONNECTION
+2219	switched_to_live_with_no_live_connection	You do not have a connection to Xbox LIVE.  Press the Xbox Guide button if you would like to try to connect to Xbox LIVE.
+2220	network_coop_oos_alert_title	GAME ERROR
+2221	network_coop_oos_alert	An error occurred while playing co-op campaign. Restart at the last save point to continue.
+2222	custom_music_in_campaign_title	Music Warning
+2223	custom_music_in_campaign	Hey, your music is playing.|r|nWe recommend you turn it off to experience Halo 3: ODST at its best.|r|n|r|nIf you do not turn off your music in the Xbox Guide you will not hear any Halo 3: ODST music or dialog during the game.
+2224	content_item_corrupt_title	Invalid
+2225	content_item_corrupt	This screenshot is no longer valid.  It may be damaged or it may be from a different version of Halo 3: ODST.
+2226	online_files_failed_to_preview_screenshot_title	Không khả dụng6
+2227	online_files_failed_to_preview_screenshot	We were unable to retrieve this screenshot.
+2228	campaign_start_failed_unknown_reason_title	Failed to Start
+2229	campaign_start_failed_unknown_reason	Game Failed to Start
+2230	content_need_profile_to_save_title	Unable to Save 
+2231	content_need_profile_to_save	You need to be signed in to a gamer profile in order to save content.  You may create a gamer profile in the Xbox Guide.
+2232	file_share_upload_requires_gold_or_pro_title	Không khả dụng7
+2233	file_share_upload_requires_gold_or_pro	You must have an Xbox LIVE Gold Membership or be a Bungie Pro subscriber in order to upload files to the File Share.
+2234	online_files_not_enough_space_for_upload_title	No Free Space
+2235	online_files_not_enough_space_for_upload	Your File Share doesn't have enough free space to upload this file. Remove files from your File Share and try again.
+2236	online_files_failed_to_enqueue_for_upload_title	Unable to Upload
+2237	online_files_failed_to_enqueue_for_upload	This file was unable to be added to your upload queue.
+2238	online_files_failed_to_enqueue_for_download_title	Unable to Download
+2239	online_files_failed_to_enqueue_for_download	This file was unable to be added to your download queue.
+2240	online_files_not_enough_space_for_download_title	No Free Space
+2241	online_files_not_enough_space_for_download	Your storage device doesn't have enough free space to download this file. Remove files from your storage device in the Xbox Dashboard and try again.
+2242	save_game_name_taken_title	Name Taken
+2243	save_game_name_taken	Another file already has this name.  Select a different name.
+2244	campaign_resume_campaign_failed_to_read_saved_game_title	Unable to Resume
+2245	campaign_resume_campaign_failed_to_read_saved_game	We were unable to resume your saved Campaign game.  Visit the Campaign Lobby to start from your most recent save point or start a new game.
+2246	sign_in_user_content_not_permitted_title	Unable to Join
+2247	sign_in_user_content_not_permitted	A player on this Xbox 360 console is playing with user-created content. Your gamer profile is restricted from playing with user-created content.
+2248	join_failed_user_content_not_permitted_title	Unable to Join
+2249	join_failed_user_content_not_permitted	The party you tried to join is playing with user-created content.  You were unable to join because a player in your party is restricted from playing with user-created content.
+2250	bnet_bought_subscription_wait_for_download_title	Thank you
+2251	bnet_bought_subscription_wait_for_download	Thank you for purchasing Bungie Pro.  Your download will complete shortly at which time you will be able to access your additional File Share space.
+2252	content_out_of_slots_title	Unable to Save
+2253	content_out_of_slots	You can only have 100 custom content items.  Delete some content to save new ones.
+2254	content_out_of_slots_for_screenshot_title	Unable to Save
+2255	content_out_of_slots_for_screenshot	You can only have 50 screenshots.  Delete some if you want to save new ones.
+2256	content_almost_out_of_slots_title	Warning
+2257	content_almost_out_of_slots	You can only have 100 custom content items and you're running close to that limit
+2258	content_almost_out_of_slots_for_screenshot_title	Warning
+2259	content_almost_out_of_slots_for_screenshot	You can only have 50 screenshots and you're running close to that limit.
+2260	join_failed_campaign_in_progress_title	Unable to Join
+2261	join_failed_campaign_in_progress	Unable to join campaign game in progress.
+2262	campaign_start_new_campaign_only_one_player_title	Không khả dụng8
+2263	campaign_start_new_campaign_only_one_player	Too many gamer profiles are signed in. Sign out of all other gamer profiles if you wish to play a solo game, or select Campaign to play co-operatively.
+2264	bungie_favorites_needs_signed_into_live_title	Không khả dụng9
+2265	bungie_favorites_needs_signed_into_live	Xin lỗi, bạn phải đăng nhập bằng hồ sơ đã kích hoạt Xbox LIVE để sử dụng tính năng này.
+2266	bungie_favorites_needs_non_guest_live_account_title	Không khả dụng10
+2267	bungie_favorites_needs_non_guest_live_account	Xin lỗi, bạn phải đăng nhập bằng hồ sơ đã kích hoạt Xbox LIVE để sử dụng tính năng này.
+2268	extras_portal_needs_signed_into_live_title	KHÔNG KHẢ DỤNG
+2269	extras_portal_needs_signed_into_live	Xin lỗi, bạn phải đăng nhập bằng hồ sơ đã kích hoạt Xbox LIVE để sử dụng tính năng này.
+2270	extras_portal_needs_non_guest_live_account_title	Không khả dụng12
+2271	extras_portal_needs_non_guest_live_account	Xin lỗi, bạn phải đăng nhập bằng hồ sơ đã kích hoạt Xbox LIVE để sử dụng tính năng này.
+2272	join_failed_survival_in_progress_title	Unable to Join
+2273	join_failed_survival_in_progress	Unable to join Firefight game in progress.
+2274	file_share_selected_item_incompatible_title	Không khả dụng13
+2275	file_share_selected_item_incompatible	The chosen action is not available because the selected item is not compatible with Halo 3: ODST.
+2276	extras_portal_unavailable_title	Không khả dụng14
+2277	extras_portal_unavailable	We're sorry, this feature is not available at the current time.
+
+
+=================================== c100 - PREPARE TO DROP ===================================
+
+
+=== cinematics\subtitles\c100 ===
+0	c100_010_mic	MICKEY: Bọn hải quân đã chiến đấu tốt đấy chứ.
+1	c100_020_dut	DUTCH: Đương nhiên rồi. Vì Trái đất mà.
+2	c100_030_rom	ROMEO: Đúng kiểu muộn còn hơn không.
+3	c100_040_dut	DUTCH: Thể hiện chút sự tôn trọng đi chứ, Romeo?
+4	c100_050_rom	ROMEO: Tôi chỉ nói chơi vậy thôi mà, Dutch -- họ cũng lỡ cả đám này rồi.
+5	c100_060_dut	DUTCH: Không. Họ để riêng cho chúng ta đấy.
+6	c100_070_buc	BUCK:  Mấy người biết phải làm gì rồi đấy. Đi thôi nào.
+7	c100_080_rom	ROMEO:  Xin chào, người đẹp.
+8	c100_090_buc	BUCK:  Tới mấy cái kén. Ngay.
+9	c100_100_dar	DARE:  Lính thay thế đấy à?
+10	c100_110_buc	BUCK:  Bao nhiêu năm trong chiến tranh này rồi. Ai lại không chứ?
+11	c100_120_dar	DARE:  Ít nhất họ nghe chúng ta.
+12	c100_130_buc	BUCK:  Nghe tôi thôi. Và họ sẽ không thích những gì họ đã nghe đâu.
+13	c100_140_dar	DARE:  Mệnh lệnh là mệnh lệnh.
+14	c100_150_buc	BUCK:  Thôi nào, Veronica! Cái gì khác còn quan trọng hơn con tàu chở địch đấy?
+15	c100_160_dar	DARE:  Mệnh lệnh của tôi. Và Buck, gọi tôi là đại úy.
+16	c100_170_dar	DARE:  Giờ thì đến lượt tôi, nhưng anh có thể cho tôi biết vị trí ngồi.
+17	c100_180_mic	MICKEY:  Cô ấy đang mặc loại giáp quái gì thế?
+18	c100_190_rom	ROMEO:  Tôi chẳng biết nữa, Mickey. Lúc đó tôi không có soi đồ của cô ấy.
+19	c100_200_rom	ROMEO:  Phịt! Thật luôn?
+20	c100_210_dut	DUTCH:  Thì nhiệm vụ này sẽ là tiếp cận gần mà.
+21	c100_220_rom	ROMEO:  Chuẩn luôn.
+22	c100_230_buc	BUCK:  Cái thứ 2 từ cuối lên. Ngay bên cái của tôi.
+23	c100_240_rom	ROMEO:  Ấm cúng phết...
+24	c100_250_rom	ROMEO:  Anh có định nói tên của cô ấy không, pháo binh?
+25	c100_260_buc	BUCK:  Gái Tình báo Hải quân. Sếp mới của chúng ta.
+26	c100_270_mic	MICKEY:  Ôi, anh bạn...
+27	c100_280_buc	BUCK:  Vậy nên là cẩn thận cái mồm, tìm chỗ ngồi... và chuẩn bị tinh thần mà chiến đấu!
+28	c100_290_rom	ROMEO:  Nhưng anh muốn tôi làm cái quái gì với thứ này trên con tàu của Covenant?
+29	c100_300_rom	ROMEO:  Dậy đê, bé yêu.
+30	c100_310_dut	DUTCH:  Thư giãn đi, tân binh. Anh ấy chẳng có ý gì đâu.
+31	c100_320_dut	DUTCH:  Với cả, liệu bây giờ có phải là khoảnh khắc... để trở nên mạnh mẽ, theo với sự im lặng?
+32	c100_330_dar	DARE (radio):  Đã báo cáo rằng bộ binh của Covenant đang tập trung đông đảo ngay dưới tàu chở quân.
+33	c100_340_buc	BUCK (radio):  Chúng đang rút lui ư? Sao lại thế?
+34	c100_350_dar	DARE (radio):  Chúng ta sẽ không tìm được câu trả lời nếu vẫn cứ ở đây.
+35	c100_360_buc	BUCK (radio):  Toàn bộ hạm đội! Chúng ta kém cỏi - nhưng vẫn rất hung hãn!
+36	c100_361_buc	BUCK (radio):  Chuẩn bị tinh thần đi, mọi người! Tôi không muốn dọn mớ hỗn độn mà mấy người gây ra trong kén đâu!
+37	c100_362_buc	BUCK (radio):  Chúng ta sẽ đáp xuống địa ngục, bộ binh! Phải mạnh mẽ lên thôi!
+38	c100_370_rom	ROMEO (radio):  Tôi rút lại câu nói lúc trước. Bọn Hải quân tiêu con mẹ nó rồi.
+39	c100_380_buc	BUCK (radio):  Này Romeo. Nhớ lúc tôi bảo anh câm mồm không?
+40	c100_390_rom	ROMEO (radio):  Ừ sao?
+41	c100_400_buc	BUCK (radio):  Coi nó như là mệnh lệnh đặc biệt đi.
+42	c100_410_buc	BUCK (radio):  Đại úy? Ta bay được 15km khỏi boong rồi.
+43	c100_420_dar	DARE (radio):  Đợi mệnh lệnh của tôi để điều chỉnh hướng bay.
+44	c100_430_dut	DUTCH (radio):  Cô ấy vừa nói gì cơ?
+45	c100_440_dar	DARE (radio):  Bắt đầu chỉnh!
+46	c100_450_mic	MICKEY (radio):  Chúng ta đang bay chệch hướng!
+47	c100_460_dar	DARE (radio):  Chúng ta đang bay chính xác nơi tôi cần tới
+48	c100_470_mic	MICKEY (radio):  Nhưng chúng ta sẽ bay trượt qua tàu chở quân đấy mất!
+49	c100_480_dut	DUTCH (radio):  Bức xạ!
+50	c100_490_mic	MICKEY (radio):  Covenant vừa thiết lập quả bom à?!
+51	c100_500_dar	DARE (radio):  Không. Con tàu đó đang chuẩn bị dịch chuyển!
+52	c100_530_dar	DARE (radio):  Đó là cổng dịch chuyển slip-space! Anh cần phải --
+53	c100_510_dut	DUTCH (radio):  EMP! Đang mất nguồn điện!
+54	c100_540_buc	BUCK (radio):  Ổn định lại rồi bật dù của mấy người! Chúng ta sẽ phải đáp mạnh xuống!
+
+=================================== h100 - MOMBASA STREETS ===================================
+
+=== chapter_titles/atlas/h100 ===
+0	title_1	THE ROOKIE
+1	title_2	Occupied city center
+2	title_3	6 hours after drop
+3	obj_0	Contact city SUPERINTENDENT
+4	obj_1	Search TAYARI PLAZA for ODST squadmate
+5	obj_2	Search UPLIFT RESERVE for ODST squadmate
+6	obj_3	Search KIZINGO BOULEVARD for ODST squadmate
+7	obj_4	Search ONI ALPHA SITE for ODST squadmate
+8	obj_5	Search NMPD HEADQUARTERS for ODST squadmate
+9	obj_6	Search KIKOWANI STATION for ODST squadmate
+10	obj_7	Locate entrance to CITY UNDERGROUND
+11	ach_no_good_sam	Good Samaritan Achievement no longer available
+ <a_button/>  Continue
+12	comm_new_data	New COMM data!
+13	intel_new_data	New INTEL data!
+14	tr_blank	 
+15	tr_blank_long	 
+16	tr_look	Use  <stick_look/>  to look around the pod
+17	tr_look_ok	Look settings assigned
+18	tr_look_accept	Do you like these settings?
+   <button_accept/>  Accept Settings    <button_cancel/>  Invert Camera
+19	tr_look_reject	Inverting camera controls
+20	tr_eject	Initiate emergency hatch release
+21	tr_4switch	Arm explosive bolts to exit pod
+22	tr_3switch	3 bolts remaining
+23	tr_2switch	2 bolts remaining
+24	tr_1switch	1 bolt remaining
+25	tr_eject_success	Eject sequence initiated
+26	tr_blink_0	> <
+27	tr_blink_1	> . <
+28	tr_blink_2	> . . <
+29	tr_blink_3	> . . . <
+30	tr_access_0	SUPERINTENDENT ONLINE
+31	tr_access_1	< SUPERINTENDENT ONLINE >
+32	tr_access_2	< < SUPERINTENDENT ONLINE > >
+33	tr_access_3	< < < SUPERINTENDENT ONLINE > > >
+34	tr_establish_0	AUTH:[DARE.V.500341(S1)]
+35	tr_establish_1	SEC:[ONI.PRTCL-1A]
+36	tr_establish_2	PASSWORD:[VERGIL]
+37	tr_establish_3	CONNECTION ESTABLISHED!
+38	tr_download_0	DOWNLOADING CITY MAP
+39	tr_download_1	> DOWNLOADING CITY MAP <
+40	tr_download_2	> > DOWNLOADING CITY MAP < <
+41	tr_download_3	> > > DOWNLOADING CITY MAP < < <
+42	tr_interrupted_0	SIGNAL LOST
+43	tr_interrupted_1	. SIGNAL LOST .
+44	tr_interrupted_2	. . SIGNAL LOST . .
+45	tr_interrupted_3	. . . SIGNAL LOST . . .
+46	tutorial_set_normal	Your aiming has been set to Normal
+Settings can be changed from the START Menu
+47	tutorial_set_invert	Your aiming has been set to Inverted
+Settings can be changed from the START Menu
+48	tr_stamina_depleted	Your STAMINA is low!
+49	tr_stamina_recharge	Avoid combat to regain STAMINA
+50	tr_stamina_full	STAMINA restored!
+51	tr_stamina_revisited01	Your STAMINA will regenerate over time
+ <a_button/>  Continue
+52	tr_stamina_revisited02	Avoid combat to regain STAMINA
+ <a_button/>  Continue
+53	tr_health_depleted	Your HEALTH is low!
+54	tr_health_locate	Find a medical kiosk to restore HEALTH
+55	tr_health_full	HEALTH restored!
+56	tr_health_repeat	Would you like to repeat HEALTH training?
+   <y_button/>  Repeat    <button_cancel/>  Decline
+57	tr_health_revisited	Find a medical kiosk to restore HEALTH
+ <a_button/>  Continue
+58	tr_vision_on	Press <button_flashlight/>  to activate your VISR
+59	tr_vision_help	Your VISR will help with target identification
+ <a_button/>  Continue
+60	tr_vision_allies	Friendly units appear GREEN
+ <a_button/>  Continue
+61	tr_vision_enemies	Enemy units appear RED
+ <a_button/>  Continue
+62	tr_vision_devices	Equipment and unlocked doors appear BLUE
+ <a_button/>  Continue
+63	tr_vision_terminals	Important objects appear YELLOW
+ <a_button/>  Continue
+64	tr_visor_building	Use your VISR to conduct a detailed search
+ <a_button/>  Continue
+65	tr_vision_repeat	Would you like to repeat VISR training?
+   <y_button/>  Repeat    <button_cancel/>  Decline
+66	tr_purpose_01	You are separated from your ODST squad
+ <a_button/>  Continue
+67	tr_purpose_02	Contact city SUPERINTENDENT for assistance
+ <a_button/>  Continue
+68	tr_dpad	Press  <dpad_up/>  or  <dpad_down/>  for assistance
+69	tr_pda_activate	Press  <button_back/>  to activate VISR database
+70	tr_pda_check	Check NAV data!
+71	tr_pda_01	NAV data will help you find your ODST squad
+ <a_button/>  Continue
+72	tr_pda_02	The green arrow indicates your current location
+ <a_button/>  Continue
+73	tr_pda_move	Use <left_stick/>  to move map
+74	tr_pda_zoom	Use <right_stick/>  to zoom map
+75	tr_pda_dpad	Use  <dpad_up/>  or  <dpad_down/>  to switch between NAV beacons
+76	tr_pda_waypoint	Press  <a_button/>  to place a waypoint
+77	tr_pda_waypoint_compass	Note the waypoint marker in your compass
+ <a_button/>  Continue
+78	tr_pda_y_button	Press  <y_button/>  to cycle waypoint selection
+79	tr_pda_new_nav_data	New NAV data!
+ <a_button/>  Continue
+80	tr_pda_list	Use  <dpad_up/>  or  <dpad_down/>  to select the TAYARI PLAZA beacon
+81	tr_pda_beacon_compass	Note the beacon marker in your compass
+ <a_button/>  Continue
+82	tr_pda_tayari	TAYARI PLAZA is the last known location of an ODST squadmate
+ <a_button/>  Continue
+83	tr_pda_locate_beacon	Proceed to the beacon and begin your search
+ <a_button/>  Continue
+84	tr_pda_intel_01	Press  <left_bumper/>  or  <right_bumper/>  to check INTEL data
+85	tr_pda_intel_02	All mission objectives will be stored here
+ <a_button/>  Continue
+86	tr_pda_intel_03	You have completed your first objective
+ <a_button/>  Continue
+87	tr_pda_comm_open	Press  <button_back/>  to open VISR database
+88	tr_pda_comm_01	Press  <left_bumper/>  or  <right_bumper/>  to check COMM data
+89	tr_pda_comm_02	You may find COMM data hidden in the city
+ <a_button/>  Continue
+90	tr_pda_comm_03	All audio and visual data will be stored here
+ <a_button/>  Continue
+91	tr_pda_comm_download	COMM data downloaded
+92	tr_pda_comm_play01	Playing COMM data
+93	tr_pda_comm_dpad	Use  <dpad_up/>  or  <dpad_down/>  to select data block
+94	tr_pda_comm_a_button	Press  <a_button/>  to play COMM data and  <x_button/>  to stop
+95	tr_pda_comm_play02	COMM data will play even if you close your VISR database
+ <a_button/>  Continue
+96	tr_pda_repeat	Would you like to repeat VISR database training?
+   <y_button/>  Repeat    <button_cancel/>  Decline
+97	tr_pda_deactivate	Press  <button_back/>  or  <b_button/>  to deactivate VISR database
+98	tr_pda_nav_beacon	You have reached the NAV beacon
+ <a_button/>  Continue
+99	tr_pda_nav_building	Search building for a clue to your squadmate's location
+ <a_button/>  Continue
+100	sc110_uplift	UPLIFT RESERVE is the last known location of an ODST squadmate
+ <a_button/>  Continue
+101	sc110_note_beacon	Note the beacon marker in your compass
+ <a_button/>  Continue
+102	sc110_navigate_beacon	Now leaving MOMBASA STREETS
+ <a_button/>  Continue
+103	arg_supply_point	Superintendent SUPPLY-CACHE unlocked!
+ <a_button/>  Continue
+104	arg_supply_point_location	Check NAV data for supply-cache locations
+ <a_button/>  Continue
+105	tutorial_set_normal_01	Your aiming has been set to Normal
+ <a_button/>  Continue
+106	tutorial_set_invert_01	Your aiming has been set to Inverted
+ <a_button/>  Continue
+107	tutorial_start_menu	Settings can be changed from the START Menu
+ <a_button/>  Continue
+108	tr_vision_currently_active	Your VISR is currently active
+ <a_button/>  Continue
+109	nav_in_current_bsp	Search this sector for the BEACON
+110	nav_in_beacon	The BEACON is nearby
+111	coop_resume	Cooperative Checkpoint Unlocked
+112	tr_pda_disable_waypoint	Press  <x_button/>  to remove waypoint
+113	tr_pda_new_nav_data_fade	New NAV data!
+114	tr_blank_short	 
+115	intel_new_data_accept	New INTEL data!
+ <a_button/>  Continue
+116	obj_0_accept	Contact city SUPERINTENDENT
+ <a_button/>  Continue
+117	obj_1_accept	Search TAYARI PLAZA for ODST squadmate
+ <a_button/>  Continue
+118	obj_completed	Objective Completed!
+ <a_button/>  Continue
+119	tr_retrain	Would you like to perform TRAINING?
+   <y_button/>  Accept    <button_cancel/>  Decline
+120	tr_pda_deactivate_fade	Press  <button_back/>  or  <b_button/>  to deactivate VISR database
+
+=== cinematics\subtitles\h100 ===
+121	l100out_010_rom	ROMEO (flashback):  You gonna tell us her name, Gunny?
+122	l100out_020_buc	BUCK (flashback):  Ms. Naval Intelligence. Our new boss.
+123	l100out_030_mic	MICKEY (flashback):  Oh, brother...
+124	l100out_040_buc	BUCK (flashback):  So check your mouths, find your chairs...
+And get set for a combat drop!
+125	sc110int_010_buc	BUCK (flashback):  You hear from Mickey? Dutch?
+126	sc110int_020_rom	ROMEO (flashback):  Negative.
+127	sc110int_030_buc	BUCK (flashback):  We need to get above this crap, link with the bee-net. 
+One of our drones must have seen where they hit.
+128	sc120int_010_ma5	MARINE (flashback):  Where's the rest of your team, trooper?
+129	sc120int_020_dut	DUTCH (flashback):  Scattered. Dead. I don't know.
+130	sc120int_030_ma5	MARINE (flashback):  That's too bad! We're gonna need all the men we can get!
+131	sc130int_010_dar	DARE (flashback):  Standby to adjust trajectory. On my mark.
+132	sc130int_020_dut	DUTCH (flashback):  What did she just say?
+133	sc130int_030_dar	DARE (flashback):  Mark!
+134	sc130int_040_mic	MICKEY (flashback):  We're way off course!
+135	sc130int_050_dar	DARE (flashback):  We're heading exactly where I need to go!
+136	sc140int_010_buc	BUCK (flashback):  We're in the Police HQ.
+137	sc140int_020_dut	DUTCH (flashback):  Can you take us there?
+138	sc140int_030_ma3	MARINE (flashback):  Affirmative!
+139	sc140int_040_buc	BUCK (flashback):  Alright. Meet you up top!
+140	sc150int_010_buc	BUCK (flashback):  How bad?
+141	sc150int_020_rom	ROMEO (flashback):  Not good.
+142	sc150int_030_mic	MICKEY (flashback):  We're gonna get you outta here.
+143	sc150int_040_rom	ROMEO (flashback):  Aaggh!...
+144	sc200out_510_dar	DARE (radio):  Can anyone hear me? This is Captain Veronica Dare! 
+145	sc200out_520_dar	DARE (radio):  My beacon is active -- need immediate assistance! 
+Someone, please respond!
+
+=== pda/strings_pda ===
+1941	item_1	Circle 1, Arc 1
+1942	item_2	Circle 1, Arc 2
+1943	item_3	Circle 1, Arc 3
+1944	item_4	Circle 2, Arc 1
+1945	item_5	Circle 2, Arc 2
+1946	item_6	Circle 2, Arc 3
+1947	item_7	Circle 3, Arc 1
+1948	item_8	Circle 3, Arc 2
+1949	item_9	Circle 3, Arc 3
+1950	item_10	Circle 4, Arc 1
+1951	item_11	Circle 4, Arc 2
+1952	item_12	Circle 4, Arc 3
+1953	item_13	Circle 5, Arc 1
+1954	item_14	Circle 5, Arc 2
+1955	item_15	Circle 5, Arc 3
+1956	item_16	Circle 6, Arc 1
+1957	item_17	Circle 6, Arc 2
+1958	item_18	Circle 6, Arc 3
+1959	item_19	Circle 7, Arc 1
+1960	item_20	Circle 7, Arc 2
+1961	item_21	Circle 7, Arc 3
+1962	item_22	Circle 8, Arc 1
+1963	item_23	Circle 8, Arc 2
+1964	item_24	Circle 8, Arc 3
+1965	item_25	Circle 9, Arc 1
+1966	item_26	Circle 9, Arc 2
+1967	item_27	Circle 9, Arc 3
+1968	item_28	Circle 9, Arc 4
+1969	item_29	Circle 9, Arc 5
+1970	item_30	Circle 9, Arc 6
+1971	group_1	[Circle 1 of 9 Initiated, Arc 1 of 3]|n|n<color argb=#ffffcc00>FATHER: 'Maddie? Where are you?'</color>|n|n[End of Arc]
+1972	group_2	[Arc 2 of 3]|n|n<color argb=#ffffcc00>FATHER: 'Maddie? Where are you?'</color>|n|n[End of Arc]
+1973	group_3	[Arc 3 of 3]|n|n<color argb=#ffffcc00>FATHER: 'Maddie? Where are you?'</color>|n|n[End of Arc, Circle 1 Complete]
+1974	group_4	Where in New Mombasa is Madison Cruz?
+1975	group_5	Where in New Mombasa is Madison Cruz?
+1976	group_6	Where in New Mombasa is Madison Cruz?
+1977	group_7	Where in New Mombasa is Madison Cruz?
+1978	group_8	Where in New Mombasa is Madison Cruz?
+1979	group_9	Where in New Mombasa is Madison Cruz?
+1980	group_10	Where in New Mombasa is Madison Cruz?
+1981	group_11	Where in New Mombasa is Madison Cruz?
+1982	group_12	Where in New Mombasa is Madison Cruz?
+1983	group_13	Where in New Mombasa is Madison Cruz?
+1984	group_14	Where in New Mombasa is Madison Cruz?
+1985	group_15	Where in New Mombasa is Madison Cruz?
+1986	group_16	Where in New Mombasa is Madison Cruz?
+1987	group_17	Where in New Mombasa is Madison Cruz?
+1988	group_18	Where in New Mombasa is Madison Cruz?
+1989	group_19	Where in New Mombasa is Madison Cruz?
+1990	group_20	Where in New Mombasa is Madison Cruz?
+1991	group_21	Where in New Mombasa is Madison Cruz?
+1992	group_22	Where in New Mombasa is Madison Cruz?
+1993	group_23	Where in New Mombasa is Madison Cruz?
+1994	group_24	Where in New Mombasa is Madison Cruz?
+1995	group_25	Where in New Mombasa is Madison Cruz?
+1996	group_26	Where in New Mombasa is Madison Cruz?
+1997	group_27	Where in New Mombasa is Madison Cruz?
+1998	group_28	Where in New Mombasa is Madison Cruz?
+1999	group_29	Where in New Mombasa is Madison Cruz?
+2000	group_30	Where in New Mombasa is Madison Cruz?
+2001	section_label	NAV
+2002	section_label_previous	COMM
+2003	section_label_next	INTEL
+2004	header	Header
+2005	placed_key	<a_button/>  Place Waypoint
+<y_button/>  Next Waypoint
+<x_button/>  Remove Waypoint
+2006	unplaced_key	<a_button/>  Place Waypoint
+<y_button/> Next Waypoint
+2007	place_beacon	<a_button/>  Place Waypoint
+2008	select_beacon	<a_button/>  Select Beacon
+2009	remove_beacon	<x_button/>  Remove Waypoint
+2010	next_beacon	<y_button/>  Cycle Selection
+2011	placed_objective_waypoint	Navigation Marker
+2012	fl_beacon_sc100	Tayari Plaza
+2013	fl_beacon_sc110	Uplift Reserve
+2014	fl_beacon_sc120	Kizingo Boulevard
+2015	fl_beacon_sc130	ONI Alpha Site
+2016	fl_beacon_sc140	NMPD Headquarters
+2017	fl_beacon_sc150	Kikowani Station
+2018	fl_l150_sc100	Underground Access
+2019	fl_l150_sc110	Underground Access
+2020	fl_l150_sc120	Underground Access
+2021	fl_l150_sc130	Underground Access
+2022	fl_l150_sc140	Underground Access
+2023	fl_l150_sc150	Underground Access
+2024	dismiss_pda	<back_button/>  Close VISR
+2025	map_legend	Enemy
+Friendly
+Beacon
+Waypoint
+Locked Door
+2026	enemy	<skull_toughluck/>  <color argb=#80ffffff>Enemy</color>
+2027	friendly	<skull_blackeye/>  <color argb=#80ffffff>Friendly</color>
+2028	waypoint	<skull_iron/>  <color argb=#80ffffff>Beacon</color>
+2029	beacon	<skull_catch/>  <color argb=#80ffffff>Waypoint</color>
+2030	door_locked	<medal_6kill/>  <color argb=#80ffffff>Locked Door</color>
+2031	odst01	Rookie
+2032	romeo	Romeo
+2033	sergeant	Buck
+2034	rookie	Rookie
+2035	dutch	Dutch
+2036	mickey	Mickey
+2037	locked_door	Locked
+2038	you	<medal_melee_kill/>  <color argb=#80ffffff>Player</color>
+2039	supply_cache	Supply Cache
+
+=== pda/strings_comm ===
+2040	section_label	BỘ ĐÀM
+2041	section_label_previous	THÔNG TIN
+2042	section_label_next	CHỈ DẪN
+2043	header	Header
+2044	play	<a_button/>  Phát      <medal_7kill/>
+2045	play_all	<y_button/>  Phát Tất Cả      <medal_snipe_kill/>
+2046	pause	<a_button/>  Tạm Dừng
+2047	stop	<x_button/>  Dừng      <medal_vehi_spree/>
+2048	dismiss_pda	<back_button/>  Đóng VISR
+2049	item_1	CHÜƠNG 1, PHẦN 1
+2050	item_2	CHÜƠNG 1, PHẦN 2
+2051	item_3	CHÜƠNG 1, PHẦN 3
+2052	item_4	CHÜƠNG 2, PHẦN 1
+2053	item_5	CHÜƠNG 2, PHẦN 2
+2054	item_6	CHÜƠNG 2, PHẦN 3
+2055	item_7	CHÜƠNG 3, PHẦN 1
+2056	item_8	CHÜƠNG 3, PHẦN 2
+2057	item_9	CHÜƠNG 3, PHẦN 3
+2058	item_10	CHÜƠNG 4, PHẦN 1
+2059	item_11	CHÜƠNG 4, PHẦN 2
+2060	item_12	CHÜƠNG 4, PHẦN 3
+2061	item_13	CHÜƠNG 5, PHẦN 1
+2062	item_14	CHÜƠNG 5, PHẦN 2
+2063	item_15	CHÜƠNG 5, PHẦN 3
+2064	item_16	CHÜƠNG 6, PHẦN 1
+2065	item_17	CHÜƠNG 6, PHẦN 2
+2066	item_18	CHÜƠNG 6, PHẦN 3
+2067	item_19	CHÜƠNG 7, PHẦN 1
+2068	item_20	CHÜƠNG 7, PHẦN 2
+2069	item_21	CHÜƠNG 7, PHẦN 3
+2070	item_22	CHÜƠNG 8, PHẦN 1
+2071	item_23	CHÜƠNG 8, PHẦN 2
+2072	item_24	CHÜƠNG 8, PHẦN 3
+2073	item_25	CHÜƠNG 9, PHẦN 1
+2074	item_26	CHÜƠNG 9, PHẦN 2
+2075	item_27	CHÜƠNG 9, PHẦN 3
+2076	item_28	CHÜƠNG 9, PHẦN 4
+2077	item_29	CHÜƠNG 9, PHẦN 5
+2078	item_30	CHÜƠNG 9, PHẦN 6
+2079	arg_text	NHẤN <a_button/> ĐỂ CHẠY BẢN GHI ÂM
+2080	trans_prompt	NHẤN  <a_button/>  ĐỂ CHẠY BẢN GHI ÂM
+2081	cir1_arc1	<<< Circle 1, Arc 1 transcript starts here! >>>
+2082	c01a01_010_sup	SUPERINTENDENT: Xin chào lữ khách. Mombasa chào đón bạn!
+2083	c01a01_011_sup	SUPERINTENDENT: Lo lắng? Căng thẳng? Xin hãy giữ bình tĩnh.
+2084	c01a01_012_sup	SUPERINTENDENT: Mạch điều khiển đã được kích hoạt -- sẵn sàng phục vụ!
+2085	c01a01_013_sup	[ÂM THANH: Tiếng chuông của Vergil.]
+2086	c01a01_020_cm1	[ÂM THANH: Còi tàu reo lên, cùng với tiếng của hành khách đang chen chúc ở nhà ga.]
+2087	c01a01_080_sup	QUẦY BÁN (từ loa): Xin chào, lữ khách! Cơ quan Vận tải Mombasa chào mừng bạn đến với nhà ga Kikowani. Bạn cần gì?
+2088	c01a01_090_sad	SADIE: Cho tôi một vé tới phố Mombasa Cũ. Thẻ của tôi đây -- Không, bỏ đi. Cái này truy được.
+2089	c01a01_091_sad	SADIE: Trời ạ! Xu, mình cần xu... [Bỏ xu vào quầy.]
+2090	c01a01_110_sup	QUẦY BÁN: Cảm ơn! Bạn quyết định tới đâu?
+2091	c01a01_120_sad	SADIE: Magongo. Kể cả khi bị bắt... tôi cũng phải tới được đó.
+2092	c01a01_130_sup	QUẦY BÁN: Cảm ơn! Chuyến một người tới Magongo!
+2093	c01a01_140_sad	SADIE: Đi nào, đi nào!
+2094	c01a01_150_sup	QUẦY BÁN: Xin hãy nhặt vé của bạn!
+2095	c01a01_160_sad	SADIE: Đợi đã! Giữ cửa lại đi!
+2096	c01a01_160_fol	[ÂM THANH: Tiếng cửa tàu đóng lại.]
+2097	c01a01_170_sup	TÀU (từ loa): Toàn bộ đã có mặt, tàu số 14.
+2098	c01a01_180_sad	SADIE: Suýt thì toi...
+2099	c01a01_190_sup	TÀU: Điểm dừng kế tiếp -- Makupa, đường Nairobi, trạm Hope, và Magongo -- hết chuyến.
+2100	c01a01_200_sad	SADIE: Sắp tới rồi... sắp rồi --
+2101	c01a01_201_fol	[ÂM THANH: Phanh tàu rít lên rồi dừng lại.]
+2102	c01a01_210_sup	SUPERINTENDENT (từ tàu): Dừng khẩn cấp. Xin hãy giữ bình tĩnh. Dừng khẩn cấp --
+2103	c01a01_220_sad	SADIE: Trời ơi! Cậu ấy tìm được mình rồi!
+2104	cir1_arc2	<<< Circle 1, Arc 2 transcript starts here! >>>
+2105	c01a02_010_cm2	[ÂM THANH: Phanh tàu rít lên rồi dừng lại.]
+2106	c01a02_020_cf1	ĐÁM ĐÔNG: Có chuyện gì à?
+2107	c01a02_030_cf2	ĐÁM ĐÔNG: Chúng ta phải đợi bao lâu đây?
+2108	c01a02_080_sup	SUPERINTENDENT (từ tàu): Dừng khẩn cấp. Xin hãy giữ bình tĩnh. Dừng khẩn cấp --
+2109	c01a02_090_sad	SADIE: Vergil, cậu không được dừng tàu như thế! Để người ta đi nữa chứ!
+2110	c01a02_100_sup	SUPERINTENDENT (tiếng nhiễu): Dừng khẩn cấp --
+2111	c01a02_110_sad	SADIE: Dừng lại đi, Vergil!
+2112	c01a02_120_pas	HÀNH KHÁCH: Làm gì thế, cô nương? Nói chuyện với tàu à?
+2113	c01a02_130_sad	SADIE (nói với Vergil): Nếu cậu không liên tục chỉnh qua đèn đỏ của đèn giao thông thì tớ đã không tới đây rồi!
+2114	c01a02_140_sup	SUPERINTENDENT: [Tiếng chuông của Vergil.] Đi vòng! Chú ý lối đi!
+2115	c01a02_150_pas	HÀNH KHÁCH: Oa. Khoan đã... chiếc tàu trả lời cô ư? Chuyện quái gì đang xảy ra vậy?
+2116	c01a02_160_sad	SADIE: Xin lỗi anh. Tôi chỉ đang cố rời khỏi thành phố mà thôi.
+2117	c01a02_161_sad	SADIE (thì thầm): Vergil, tớ phải nhập ngũ đấy!
+2118	c01a02_170_sup	SUPERINTENDENT: Chú ý tốc độ! Trẻ em ở gần!
+2119	c01a02_180_sad	SADIE: Tớ 19 tuổi rồi!
+2120	c01a02_181_sad	SADIE: Và hơn nữa, bọn UNSC đang gọi những người mà họ có thể tìm được!
+2121	c01a02_181_fol	SUPERINTENDENT: [Chạy bản ghi âm của một vụ tai nạn.]
+2122	c01a02_190_sad	SADIE: Đó đúng là điều mà cha sẽ nói!
+2123	c01a02_200_pas	HÀNH CHÍNH: Cô thấy đấy... chiếc tàu cũng có lý mà. Có rất nhiều binh lính phải đổ máu rồi.
+2124	c01a02_210_sad	SADIE: Cậu ấy không phải là chiếc tàu, mà là cả thành phố.
+2125	c01a02_211_sad	SADIE (thì thầm, nói với Vergil): Cái loại thành phố tệ bạc!
+2126	c01a02_211_fol	SUPERINTENDENT: [Rên rỉ như cún con.]
+2127	c01a02_220_sad	SADIE: Cái trò đó chỉ làm được khi tớ còn nhỏ thôi, Vergil. Giờ thì mở cửa đi!
+2128	c01a02_221_fol	[ÂM THANH: Cửa tàu rít lên.]
+2129	c01a02_240_cf2	ĐÁM ĐÔNG: Chuyện đó là sao vậy?
+2130	c01a02_250_cm5	ĐÁM ĐÔNG: Tuyệt, vậy giờ chúng ta phải đi bộ lên sân ga à?
+2131	c01a02_260_cm4	ĐÁM ĐÔNG: Cút ra! Để tôi đi!
+2132	c01a02_300_sup	SUPERINTENDENT: Khởi hành, trạm Hope. Hiện đang rời trạm HOPE --
+2133	c01a02_310_sad	SADIE: Vergil... đi chết đi!
+2134	c01a02_311_fol	[ÂM THANH: Tiếng nổ rắc từ cổng Slip-space của Covenant.]
+2135	c01a02_330_cm1	ĐÁM ĐÔNG: Đám Covenant tới! Chạy đi!
+2136	c01a02_340_cc1	ĐÁM ĐÔNG: Mẹ ơi? Sao vậy?
+2137	c01a02_350_cm2	ĐÁM ĐÔNG: Chúng tới rồi! Chúng tìm được ta rồi!
+2138	c01a02_410_sad	SADIE: Thôi bỏ đi... địa ngục tới rồi.
+2139	cir1_arc3	<<< Circle 1, Arc 3 transcript starts here! >>>
+2140	c01a03_010_cm4	[ÂM THANH: Còi ô tô, tiếng đám đông hoảng sợ khi chiếc tàu chở quân của Covenant bay ở phía trên.]
+2141	c01a03_020_cm6	ĐÁM ĐÔNG: Chạy đi! Đám Covenant đang tới!
+2142	c01a03_030_cf2	ĐÁM ĐÔNG: Xin anh, chở tôi đi!  Đưa tôi ra khỏi đây đi mà! Đợi đã!
+2143	c01a03_050_cm1	ĐÁM ĐÔNG: Cho tôi mượn được không? Tôi phải gọi người nhà!
+2144	c01a03_060_cf1	ĐÁM ĐÔNG: Tôi nói rồi! Tôi đã nói là chuyện này sẽ xảy ra! Họ không nghe, và giờ chúng ta chết chắc rồi!
+2145	c01a03_080_sad	SADIE (nói vào bộ đàm): Vergil? Cậu nghe được không? Tớ đang dùng bộ đàm. Tớ ra khỏi tàu rồi và --
+2146	c01a03_090_sup	SUPERINTENDENT (từ bộ đàm): Không được đỗ xe! Ai vi phạm sẽ bị xử phạt và lôi đi!
+2147	c01a03_100_sad	SADIE: Tớ biết! Tớ thấy mà! Chiếc tàu khổng lồ của Covenant, ngay trên trung tâm thành phố!
+2148	c01a03_101_sad	SADIE: Có quầy bán ở sân ga! Trạm Makupa! Gặp tớ ở đó, OK?
+2149	c01a03_101_fol	[ÂM THANH: Tiếng chuông của Vergil.]
+2150	c01a03_110_sad	SADIE (đẩy qua đám đông): Xin lỗi! Xin lỗi! Này! Cẩn thận vào anh ơi!
+2151	c01a03_120_sup	QUẦY BÁN (từ loa): Xin hãy xác định điểm đến.
+2152	c01a03_130_sad	SADIE: Vergil, cho tớ thấy cha! Nhanh lên!
+2153	c01a03_140_sup	QUẦY BÁN: Xin lỗi, tôi chưa nghe rõ -- [nhiễu]
+2154	c01a03_150_end	TIẾN SĨ ENDESHA (từ quầy bán): Sadie? Con đâu rồi?
+2155	c01a03_160_sad	SADIE: Nhà ga. Phố Mombasa cũ. Cha ơi, có tàu --
+2156	c01a03_170_end	TIẾN SĨ ENDESHA: Nghe này, con yêu. Ta muốn nói với con vào bữa sáng, nhưng con đi sớm quá...
+2157	c01a03_171_end	TIẾN SĨ ENDESHA: Con biết về dự án mới nhất của ta không? Cuộc khảo sát địa chấn cho khu trung tâm xây dựng mới ấy?
+2158	c01a03_180_sad	SADIE: Cha! Có tàu của Covenant đang --
+2159	c01a02_181_end	TIẾN SĨ ENDESHA: Thế rồi, Vergil đã tìm thấy thứ gì đó dưới thành phố. Ta chưa từng thấy thứ gì như vậy --
+2160	c01a03_200_sad	SADIE: Cha! Covenant đang tấn công thành phố! Cha có nghe rõ không?! Cha phải rời khỏi đó!
+2161	c01a03_210_end	TIẾN SĨ ENDESHA: Đừng lo con à, ta đang ở dưới lòng đất tận 9 tầng. Và ta đã dựng trung tâm dữ liệu của Vergil rất là bảo mật.
+2162	c01a03_220_sad	SADIE: Được thôi. Vậy con sẽ tới.
+2163	c01a03_230_end	TIẾN SĨ ENDESHA: Không! Không được đâu con! Ở yên đấy! Ta sẽ bảo Vergil --
+2164	c01a03_240_sad	SADIE: Xin lỗi cha! (tiếng sóng nhiễu giả) Có, gì đó, không ổn --
+2165	c01a03_250_end	TIẾN SĨ ENDESHA: Đây là đường truyền hình ảnh, Sadie.  Ta có thể thấy con đang tạo mấy thứ tiếng đó.
+2166	c01a03_260_sad	SADIE: Ừ nhỉ... được!
+2167	c01a03_261_sad	SADIE: Vergil, đưa con tàu đó đi ngược chiều!
+2168	c01a03_270_end	TIẾN SĨ ENDESHA: Sadie Endesha! Ta không chấp nhận việc con đưa mình vào nguy hiểm --
+2169	c01a03_271_fol	[ÂM THANH: Tiếng pháo plasma của Covenant khai hỏa.]
+2170	c01a03_272_end	TIẾN SĨ ENDESHA: Tiếng gì thế?
+2171	c01a03_280_sad	SADIE: Ôi... Bom tới!
+2172	c01a03_280_fol	[ÂM THANH: Tiếng đạn pháo nổ vào nhà ga.]
+2173	cir2_arc1	<<< Circle 2, Arc 1 transcript starts here! >>>
+2174	c02a01_010_fol	[ÂM THANH: Tiếng đạn pháo nổ vào nhà ga.]
+2175	c02a01_010_cm3	ĐÁM ĐÔNG: Bọn chúng cho nổ chiếc tàu rồi!
+2176	c02a01_020_cf2	ĐÁM ĐÔNG: Không! Chồng tôi vẫn còn trên đó mà!
+2177	c02a01_040_cm6	ĐÁM ĐÔNG: Mẹ kiếp! Tôi chạy đây!
+2178	c02a01_040_fol	[ÂM THANH: Tiếng còi hú khi xe cảnh sát tấp vào lề đường cạnh nhà ga.]
+2179	c02a01_090_sad	SADIE (đi qua đám đông tới đường phố, ho): Ô! Này! Đừng đẩy nữa!
+2180	c02a01_100_kin	KINSLER (từ xe cảnh sát): Sadie? Cô Endesha, là cô đấy à?!
+2181	c02a01_110_sad	SADIE: Cảnh sát trưởng Kinsler?! (nói vào đám đông) A! Bỏ tôi ra!
+2182	c02a01_130_kin	KINSLER: Sĩ quan Branley! Kiểm soát đám đông trước khi họ giẫm cô ấy xuống vỉa hè!
+2183	c02a01_140_mik	MIKE (bước khỏi xe): Rõ, thưa sếp!
+2184	c02a01_150_mik	MIKE: NMPD đây! Mọi người lùi lại ngay!
+2185	c02a01_190_cm1	ĐÁM ĐÔNG: Lắm mồm thế cảnh sát!
+2186	c02a01_220_cm3	ĐÁM ĐÔNG: Này! Đưa xe đây!
+2187	c02a01_250_mik	MIKE: Tôi nói là lùi lại! [Bắn súng lục lên trời.]
+2188	c02a01_251_mik	MIKE: (nói với Sadie) Cô ổn chứ?
+2189	c02a01_260_sad	SADIE: Không. Tôi sẽ ổn thôi...
+2190	c02a01_270_cf1	ĐÁM ĐÔNG: Này, sao mấy người không giúp chúng tôi?
+2191	c02a01_280_cm3	ĐÁM ĐÔNG: Đúng rồi đấy, đưa xe đây, cảnh sát!
+2192	c02a01_290_kin	KINSLER: Branley! Đưa cô ấy vào xe!
+2193	c02a01_300_mik	MIKE: Nắm lấy tay tôi. Ta đi thôi.
+2194	c02a01_371_fol	[ÂM THANH: Sadie và Mike ngồi vào xe và đóng sập cửa.]
+2195	c02a01_380_kin	KINSLER: Cô làm cái quái quỷ gì ở thành phố cũ vậy?
+2196	c02a01_390_sad	SADIE: Chiếc tàu... nó bị gì đó.
+2197	c02a01_400_kin	KINSLER: Không bất ngờ...
+2198	c02a01_401_kin	KINSLER: (cười) Ta biết mọi thứ về Vergil và cả những cách bảo vệ quá mức của nó, Sadie.
+2199	c02a01_410_cm4	[ÂM THANH: Tiếng đám đông giận dữ đập vào xe.]
+2200	c02a01_440_kin	KINSLER: Branley! Lái đi!
+2201	c02a01_450_mik	MIKE: Rõ, thưa sếp! [Nhấn còi xe.] Địa điểm của chúng ta là gì?
+2202	c02a01_460_kin	KINSLER: Câu hỏi hay đấy...
+2203	c02a01_470_sad	SADIE: Cha tôi. Ông ấy đang làm việc.
+2204	c02a01_480_kin	KINSLER: Trung tâm dữ liệu dưới tòa nhà của ONI?
+2205	c02a01_481_kin	KINSLER: Không, ta không nghĩ vậy. Có quá nhiều Covenant ở quận đó.
+2206	c02a01_490_kin	KINSLER: Ta muốn đưa cô đến một nơi nào đó... riêng tư hơn.
+2207	c02a01_490_fol	[ÂM THANH: Tiếng xe cảnh sát phóng khỏi nhà ga.]
+2208	cir2_arc2	<<< Circle 2, Arc 2 transcript starts here! >>>
+2209	c02a02_010_fol	[ÂM THANH: Tiếng xe cảnh sát phóng khỏi nhà ga.]
+2210	c02a02_010_kin	KINSLER: Branley? Bật hộ tôi kính phản quang.
+2211	c02a02_020_mik	MIKE: Rõ, thưa sếp... [Bật kính phản quang của cửa sổ.]
+2212	c02a02_030_sad	SADIE: Ta đang đi đâu vậy?
+2213	c02a02_040_kin	KINSLER: Sở cảnh sát có hầm trú ẩn khẩn cấp bên ngoài thành phố. Nơi đó sẽ rất an toàn.
+2214	c02a02_050_sad	SADIE: Ông thật tốt, cảnh sát trưởng. Nhưng tôi không thể. Tôi xin lỗi. Nếu có thể thì hãy đưa tôi đến trung tâm thành phố -- --
+2215	c02a02_060_kin	KINSLER: Đúng là mẹ nào con nấy. Cô gái trẻ trung chính trực... "Luật sư công nhiệt huyết nhất của phố Mombasa Mới."
+2216	c02a02_061_kin	KINSLER: Đáng tiếc là thân chủ cuối cùng của cô ấy lại là một tên súc vật, giết người.
+2217	c02a02_062_kin	KINSLER: (tiến đối diện với Sadie) Đôi mắt như người mẹ...
+2218	c02a02_070_sad	SADIE: (nói vào bộ đàm) Vergil, dừng xe lại!
+2219	c02a02_080_kin	KINSLER: Là cảnh sát trưởng, nhiệm vụ của ta là tuân thủ pháp luật. Ta e rằng luật riêng tư ở đây rất nghiêm ngặt.
+2220	c02a02_082_kin	KINSLER: Xe của ta không thể nào bị theo dõi, Sadie. Và theo như Vergil, cô vừa mới biến mất...
+2221	c02a02_083_sad	[ÂM THANH: Tiếng Sadie tát vào mặt Kinsler.]
+2222	c02a02_090_kin	KINSLER: (cười) Đánh cảnh sát cơ à. Hành vi phạm tội nghiêm trọng.
+2223	c02a02_100_sad	SADIE: Đừng có mà tới đây!
+2224	c02a02_110_kin	KINSLER: (cười) Mẹ nào con nấy...
+2225	c02a02_120_sad	SADIE: (vật lộn) Bỏ tôi ra!
+2226	c02a02_130_kin	KINSLER: (vật lộn) Tận thế đã đến rồi...
+2227	c02a02_140_sad	SADIE: Vergil! Làm ơn! Ai đó cứu tôi với!
+2228	c02a02_150_kin	KINSLER: Chẳng ai đoái hoài đến một... kiếp người... bơ vơ!
+2229	c02a02_151_fol	[ÂM THANH: Tiếng lốp xe kêu rít lên khi xe đột ngột dừng.]
+2230	c02a02_160_kin	KINSLER: Sĩ quan! Sao lại dừng? Đi tiếp đi!
+2231	c02a02_160_fol	[ÂM THANH: Mike xuống xe và mở cửa hướng Kinster.]
+2232	c02a02_170_mik	MIKE: Đi ra.
+2233	c02a02_180_kin	KINSLER: Cái gì?!
+2234	c02a02_190_mik	MIKE: Ông nghe rồi đấy... [Tóm lấy Kinster.]
+2235	c02a02_200_kin	KINSLER: Thả áo của tao ra! Mày nghĩ mày đang làm gì hả?!
+2236	c02a02_210_mik	MIKE: Việc của tôi.
+2237	c02a02_211_fol	[ÂM THANH: Tiếng Mike đấm Kinster, đưa hắn nằm gục xuống đất.]
+2238	c02a02_280_sad	SADIE: Mong là cú đó đau, thằng già bệnh hoạn!
+2239	c02a02_290_kin	KINSLER: (thở hổn hển) Không đau bằng lúc ta --
+2240	c02a02_291_fol	[ÂM THANH: Tiếng Mike đấm Kinster lần nữa.]
+2241	c02a02_310_mik	MIKE: Cảnh sát trưởng, tôi sẽ lấy chiếc xe.
+2242	c02a02_311_mik	MIKE: Ông muốn rời khỏi thành phố ư? Vậy thì cứ đi bộ như những người khác. [Ngồi vào xe, đóng sập cửa.ư
+2243	c02a02_320_kin	KINSLER: (thổ máu) Mày sẽ phải trả giá, Branley!
+2244	c02a02_330_mik	MIKE: Tận thế đã đến rồi... Chẳng có ai đoái hoài về ông đâu.
+2245	c02a02_330_fol	[ÂM THANH: Tiếng lốp xe kêu rít lên khi xe cảnh sát phóng khỏi Kinsler.]
+2246	cir2_arc3	<<< Circle 2, Arc 3 transcript starts here! >>>
+2247	c02a03_010_fol	[ÂM THANH: Tiếng Mike hạ tấm kính phản quang.]
+2248	c02a03_010_mik	MIKE: Cô ổn chứ?
+2249	c02a03_020_sad	SADIE: Cảm ơn... vì đã giúp tôi thoát khỏi hắn.
+2250	c02a03_030_mik	MIKE: Kinsler đáng bị như vậy. Tôi mới làm tài xế cho hắn hai tuần mà đã thấy đủ chuyện kinh khủng để ám ảnh cả đời...
+2251	c02a03_031_mik	MIKE: Tên tôi là Mike. Mike Branley.
+2252	c02a03_040_sad	SADIE: Tôi là Sadie Endesha.
+2253	c02a03_041_sad	SADIE: Anh là cảnh sát mà lại tốt đến thế, cứ như thần hộ mệnh vậy.
+2254	c02a03_050_mik	MIKE: Tôi là cựu cảnh sát.
+2255	c02a03_060_sad	SADIE: Ừ nhỉ... tôi nhầm.
+2256	c02a03_070_mik	MIKE: À, dù gì thì tôi cũng đang muốn đổi nghề rồi.
+2257	c02a03_080_sad	SADIE: Làm lính thì sao?
+2258	c02a03_080_fol	[ÂM THANH: Tiếng nổ trong thành phố.]
+2259	c02a03_090_mik	MIKE: Đúng là tôi có nhu cầu.
+2260	c02a03_100_sad	SADIE: Mike. Tôi cần quay lại cây cầu để tới tòa nhà ONI ở trung tâm thành phố.
+2261	c02a03_110_mik	MIKE: Vậy thì rắc rối rồi, bởi vì tôi cần phải tránh xa plasma của Covenant.
+2262	c02a03_120_sad	SADIE: OK... Thế thì cho tôi xuống đi.
+2263	c02a03_130_mik	MIKE: Đừng ngốc thế chứ! Cô định làm cái gì?
+2264	c02a03_131_mik	MIKE: Có đáng để vượt qua hàng triệu người tị nạn chỉ để Covenant giết cô nhanh hơn không?
+2265	c02a03_140_sad	SADIE: (thì thầm) Thế nên người ta luôn mang tiền để thuê taxi vào buổi hẹn hò đầu tiên...
+2266	c02a03_150_mik	MIKE: Tôi đang cố cứu cô đấy!
+2267	c02a03_160_sad	SADIE: Anh đang cố cứu lấy thân mình thì có!
+2268	c02a03_170_mik	MIKE: Cả cô nữa!
+2269	c02a03_180_sad	SADIE: Có lẽ tôi mới là người duy nhất trong xe này đang lo lắng cho cái mạng của mình!
+2270	c02a03_190_mik	MIKE: Được thôi.
+2271	c02a03_200_sad	SADIE: Được thôi!
+2272	c02a03_200_fol	[ÂM THANH: Tiếng lốp xe kêu rít lên khi chiếc xe đột ngột dừng.]
+2273	c02a03_210_sad	SADIE: (mở cửa) Cảm ơn vì đã cứu tôi được có khoảng- 3 phút!
+2274	c02a03_220_mik	MIKE: Không có gì!
+2275	c02a03_221_fol	[ÂM THANH: Tiếng Sadie đóng sập cửa, Mike rời đi.]
+2276	c02a03_230_sad	SADIE: Có khi... mình đã cho anh ấy một bài học.
+2277	cir3_arc1	<<< Circle 3, Arc 1 transcript starts here! >>>
+2278	c03a01_010_fol	[SOUND: Tires squeal as Mike's car pulls away from Sadie.]
+2279	c03a01_010_sad	SADIE: Great. I'm stranded on the wrong side of the bridge in the middle of an alien invasion...
+2280	c03a01_011_sad	SADIE: And I just pissed-off the only person willing to help me out.
+2281	c03a01_012_sad	SADIE: Go me.
+2282	c03a01_012_fol	[SOUND: A goat near Sadie bleats.]
+2283	c03a01_020_sad	SADIE: My feeling exactly...
+2284	c03a01_030_cf1	CROWD: Move those animals!
+2285	c03a01_050_cm1	CROWD: Step aside! Let us past!
+2286	c03a01_080_cm6	CROWD: Clear out the street, we need to move!
+2287	c03a01_090_sad	SADIE: (into her Chatter) Dad?
+2288	c03a01_100_end	DR. ENDESHA: (from Chatter) Sadie! Thank God! Vergil couldn't find you anywhere!
+2289	c03a01_110_sad	SADIE: Yeah, you can thank Kinsler for that.
+2290	c03a01_120_end	DR. ENDESHA: Police Commissioner Kinsler? What do you mean?
+2291	c03a01_130_sad	SADIE: I don't want to talk about it...
+2292	c03a01_140_jns	JONAS: Get your kebabs here!
+2293	c03a01_141_sad	SADIE: Oh my God!
+2294	c03a01_150_end	DR. ENDESHA: What? What is it, Sadie?
+2295	c03a01_160_sad	SADIE: The biggest man I've ever seen!
+2296	c03a01_170_end	DR. ENDESHA: Where are you?
+2297	c03a01_180_sad	SADIE: The Old Town market. A butcher is giving away his food.
+2298	c03a01_200_sad	SADIE: Too bad it won't keep the Covenant from glassing the city...
+2299	c03a01_210_end	DR. ENDESHA: They won't glass the city!
+2300	c03a01_220_sad	SADIE: (walking to the butcher) Hang on, dad...
+2301	c03a01_230_end	DR. ENDESHA: I'm in contact with an ONI officer. She thinks these Covenant are just a reconnaissance force.
+2302	c03a01_231_end	DR. ENDESGA: And I think they're looking for the same thing Vergil found in his seismic survey!
+2303	c03a01_260_sad	SADIE: Dad. I'll call you back.
+2304	c03a01_232_fol	[SOUND: Honking car horn.]
+2305	c03a01_240_ang	ANGRY DRIVER: Move, you oaf! Get that table out of the road!
+2306	c03a01_250_jns	JONAS: Calm yourself, friend. Stop honking (laughs) and have a kebab.
+2307	c03a01_270_ang	ANGRY DRIVER: For the last time, move your fat ass --
+2308	c03a01_270_fol	[SOUND: The car creaks as Jonas leans on the hood.]
+2309	c03a01_280_ang	ANGRY DRIVER: Hey! Get off my car!
+2310	c03a01_290_jns	JONAS: My friend. I am an eight hundred pound man with a large cleaver who kills animals every day and chops them into pieces.
+2311	c02a01_291_jns	JONAS: (laughs) Do you really want us to be enemies? Or would you rather have a nice kebab?
+2312	cir3_arc2	<<< Circle 3, Arc 2 transcript starts here! >>>
+2313	c03a02_021_fol	[SOUND: Bleating goats and a honking car horn.]
+2314	c03a02_020_cf2	CROWD: Mommy, that's too loud!
+2315	c03a02_030_cm3	CROWD: Somebody make him stop!
+2316	c03a02_050_cm2	CROWD: Move that car!
+2317	c03a02_080_ang	ANGRY DRIVER: (honks) For the last time, you blimp! Get out of the road!
+2318	c03a02_081_fol	[SOUND: Jonas hefts his cleaver and smashes it onto the car.]
+2319	c03a02_090_ang	ANGRY DRIVER: You put your cleaver through the hood of my car!
+2320	c03a02_100_jns	JONAS: Oh, a thousand pardons. But it was either that or smash your windshield, pull you out...
+2321	c03a02_101_jns	JONAS: And make you into kebabs.
+2322	c03a02_120_ang	ANGRY DRIVER: What?! No! No-no! Hey wait!
+2323	c03a02_130_jns	JONAS: Then please. Stop honking your horn. It frightens the children.
+2324	c03a02_130_fol	[SOUND: The car backs-up quickly.]
+2325	c03a02_150_sad	SADIE: (into her Chatter) Sorry, dad. There's was sort of a... thing here. What were you saying?
+2326	c03a02_160_end	DR. ENDESHA: (from Chatter) Sadie, New Mombasa is the only place on Earth the Covenant is attacking!
+2327	c03a02_170_sad	SADIE: What? Why?
+2328	c03a02_180_end	DR. ENDESHA: Vergil's survey! He detected some very unusual seismic activity all along the Great Rift.
+2329	c03a02_190_jns	JONAS: (to Sadie) Would you like a kebab, young lady? Chicken, mutton, beef! One free for every refugee!
+2330	c03a02_200_sad	SADIE: I'm not a refugee! I'm going... there!
+2331	c03a02_210_jns	JONAS: Across the bridge? To where the aliens are landing?
+2332	c03a02_211_jns	JONAS: Take two kebabs...
+2333	c03a02_220_end	DR. ENDESHA: Sadie, stay out of the city center! I don't want you coming anywhere near the security zone!
+2334	c03a02_230_sad	SADIE: Sorry, Dad. Gotta go. I'll call you back.
+2335	c03a02_240_end	DR. ENDESHA: Sadie -- [Chatter disconnect.]
+2336	c03a02_250_jns	JONAS: Come, my friends! Don't be shy! Free food for the journey!
+2337	c03a02_290_gra	CROWD: Thank you! Asante! Asante sana!
+2338	c03a02_290_fol	[SOUND: Distant explosions in the city.]
+2339	c03a02_300_jns	JONAS: Now, young lady... If you are heading into the war zone, you must eat! Curried lamb? Roast chicken?
+2340	c03a02_310_sad	SADIE: They look delicious. Really. But I'm not hungry.
+2341	c03a02_310_fol	[SOUND: Another explosion nearer the market.]
+2342	c03a02_320_jns	JONAS: (biting into a kebab) My dear...
+2343	c03a02_321_jns	JONAS: The end of the world is nothing to face... (swallows) On an empty stomach.
+2344	c03a02_321_fol	[SOUND: Jonas chews, burps loudly and continues to eat his kebab.]
+2345	cir3_arc3	<<< Circle 3, Arc 3 transcript starts here! >>>
+2346	c03a02_009_fol	[SOUND: Jonas ignores nearby explosions and continues to loudly chew his kebab.]
+2347	c03a03_010_sad	SADIE: Listen, what you're doing? Feeding all these hungry people? It's really a noble thing...
+2348	c03a03_011_sad	SADIE: But you can't stay here! The fighting is going to spread -- across the water, into the old city!
+2349	c03a03_020_jns	JONAS: (chews and swallows) Would you be a dear and run to the wine merchant?
+2350	c03a03_021_jns	JONAS: (burps) This lamb would be perfect with a twenty-three Ida Sirah...
+2351	c03a03_030_sad	SADIE: I understand you're... too heavy to walk very far. But there are other options!
+2352	c03a03_040_jns	JONAS: (laughs) You could carry me, perhaps?
+2353	c03a03_050_sad	SADIE: (into her Chatter) Vergil, you listening?
+2354	c03a03_051_sup	SUPERINTENDENT: (from Chatter) [Vergil chime.]
+2355	c03a03_060_sad	SADIE: I need you to divert a city vehicle to my current location. A forklift, or maybe an Olifant --
+2356	c03a03_070_jns	JONAS: A garbage truck? I think I am insulted.
+2357	c03a03_080_sad	SADIE: If you stay here, you'll die!
+2358	c03a03_081_sad	SADIE: You need to get to the train station. Or the waterfront -- it's much closer!
+2359	c03a03_090_jns	JONAS: Look at me...
+2360	c03a03_091_jns	JONAS: Nobody will give me a place on a boat, or a bus, or a train. I would take up five seats.
+2361	c03a03_092_jns	JONAS: I am not worth five people...
+2362	c03a03_100_sad	SADIE: You can't just give up -- throw away your life!
+2363	c03a03_110_jns	JONAS: And what about your life? You seem determined to go to the one place you are most likely to die.
+2364	c03a03_130_sad	SADIE: I'm going to find my father. He needs me. Just like all your customers need you!
+2365	c03a03_140_jns	JONAS: Very well, young lady. I am convinced! I too will leave Mombasa...
+2366	c03a03_150_sad	SADIE: Good!
+2367	c03a03_160_jns	JONAS: ...As soon as you do.
+2368	c03a03_170_sad	SADIE: No!
+2369	c03a03_180_jns	JONAS: First you make your father safe. Then you come back and rescue me!
+2370	c03a03_181_jns	JONAS: My brave warrior princess, riding her fearless fork-lift! (laughs)
+2371	c03a03_190_sad	SADIE: Deal. Just... don't give up.
+2372	c03a03_200_jns	JONAS: Well if I run out of hope? (laughs) I will still have kebabs!
+2373	c03a03_201_fol	[SOUND: Covenant plasma fire slams into the market.]
+2374	c03a03_240_cm2	CROWD: The Covenant's getting closer!
+2375	c03a03_270_cm3	CROWD: My shop! Everything is gone!
+2376	c03a03_300_sad	SADIE: (pushing through crowd) Excuse me! Ow! Sorry!
+2377	c03a03_301_sad	SADIE: (to Jonas) I'll be back soon!
+2378	c03a03_310_jns	JONAS: Of course you will!
+2379	c03a03_320_cf3	CROWD: Wrong way, crazy girl!
+2380	c03a03_340_sad	SADIE: Please, just let me through!
+2381	c03a03_350_sup	SUPERINTENDENT: (from Chatter) CAUTION! ONE WAY STREET!
+2382	c03a03_360_sad	SADIE: Stop it, Vergil!
+2383	c03a03_380_sup	SUPERINTENDENT: WARNING! NO U-TURN ALLOWED!
+2384	c03a03_390_sad	SADIE: I'll find Dad. Then I'll come back.
+2385	c03a03_400_sup	SUPERINTENDENT: [Whines like a puppy.]
+2386	c03a03_410_sad	SADIE: I'm not crying...
+2387	c03a03_411_sad	SADIE: I'm not.
+2388	cir4_arc1	<<< Circle 4, Arc 1 transcript starts here! >>>
+2389	c04a01_010_fol	[SOUND: Civilians scream as fighting rages in the city.]
+2390	c04a01_010_cf1	CROWD: Oh God, Oh god!
+2391	c04a01_020_cf2	CROWD: Out of the car! We'll go on foot!
+2392	c04a01_030_cf1	CROWD: No! My bags! I have my whole life in there!
+2393	c04a01_040_cf2	CROWD: I don't give a damn! Leave it!
+2394	c04a01_290_lt1	LOOTER: Smash the machines! Take the money!
+2395	c04a01_300_lt2	LOOTER: Get back! This one's mine!
+2396	c04a01_310_lt3	LOOTER: Screw you! There's plenty for everyone!
+2397	c04a01_340_sup	ATM: (from speaker) Welcome to your African Trust automated teller machine! Banking with pride!
+2398	c04a01_350_sad	SADIE: Finally, an ATM that still works... Vergil, get Dad!
+2399	c04a01_360_sup	ATM: Please place your right hand -- [distortion]
+2400	c04a01_370_end	DR. ENDESHA: (from ATM) Sadie! Where are you?
+2401	c04a01_380_sad	SADIE: Outside one of the casinos, down by the river! I can barely hear you, dad! There are looters inside smashing everything!
+2402	c04a01_390_end	DR. ENDESHA: Covenant troops have spread all over the city center!
+2403	c04a01_391_end	DR. ENDESHA: I can see them on the monitors in my lab! You've got to get as far away as you can --
+2404	c04a01_400_sad	SADIE: Forget it! I'm coming to get you! End of discussion!
+2405	c04a01_400_fol	[SOUND: Smashing glass and a scream inside the casino.]
+2406	c04a01_410_sup	SUPERINTENDENT: (from ATM) INVEST WISELY! OPEN A PERSONAL SAVINGS ACOUNT TODAY!
+2407	c04a01_420_end	DR. ENDESHA: Listen to Vergil, Sadie!
+2408	c04a01_430_sad	SADIE: This looting is just the beginning, dad!
+2409	c04a01_431_sad	SADIE: Pretty soon we won't need the Covenant to tear us apart -- we'll do that all by ourselves!
+2410	c04a01_432_sad	SADIE: Vergil, you've watched me all my life, kept me safe. Now you've got to save the city!
+2411	c04a01_432_fol	[SOUND: Vergil plays a recording of a police siren over the PA.]
+2412	c04a01_440_lt4	LOOTER: It's the cops! Run for it!
+2413	c04a01_460_lt6	LOOTER: Crap. Grab what you can and go!
+2414	c04a01_480_lt8	LOOTER: No way I'm gettin' busted!
+2415	c04a01_500_sad	SADIE: That-a-boy! Scare them all the way to the river! I know they can afford the ferry!
+2416	c04a01_501_sad	SADIE: Dad, can Vergil track the Covenant as they move? Stream positional data to the UNSC?
+2417	c04a01_510_end	DR. ENDESHA: Yes, I might be able to re-configure his traffic congestion cameras to isolate known Covenant vehicle profiles.
+2418	c04a01_520_sad	SADIE: Maybe the ARGUS sniffers can pick-up their soldiers too?
+2419	c04a01_521_sad	SADIE: I've only seen vids of the different Covenant species, but I bet they all stink in their own, special way.
+2420	c04a01_530_end	DR. ENDESHA: That's an excellent idea! Vergil, get right on it!
+2421	c04a01_530_sup	SUPERINTENDENT: (from ATM) [Vergil chime].
+2422	c04a01_540_end	DR. ENDESHA: Sadie, I know I've been busy, and we don't always have time to talk.
+2423	c04a01_541_end	DR. ENDESHA: But sweetheart... you make me very, very proud.
+2424	c04a01_550_sad	SADIE: Well... I just figure if we know where the bastards are, we can at least run away better.
+2425	c04a01_550_fol	[SOUND: Shotgun pump.]
+2426	c04a01_560_cro	CRONE: That was a nice trick with the police sirens, girly. But I ain't so stupid.
+2427	c04a01_561_cro	CRONE: Step away from that cash machine, or I'm gonna blow your pretty head off!
+2428	cir4_arc2	<<< Circle 4, Arc 2 transcript starts here! >>>
+2429	c04a02_010_fol	[SOUND: Distant explosions mix with the jingle of nearby slot-machines.]
+2430	c04a02_010_lt7	CROWD: She's got a shotgun! Look out!
+2431	c04a02_020_lt5	CROWD: Come on! She's old, we can take her!
+2432	c04a02_040_cro	CRONE: (shoots into the air) You think I'm deaf?! Last warning! Back away from my cash machine!
+2433	c04a02_041_cro	CRONE: (to Sadie) You too, girly!
+2434	c04a02_050_end	DR. ENDESHA: (from ATM) Sadie! Get out of there!
+2435	c04a02_060_sad	SADIE: Look, I'm stepping back, OK? Why don't you just put down your gun and --
+2436	c04a02_070_cro	CRONE: (shoots into the air) Time to break the piggy bank!
+2437	c04a02_080_sad	SADIE: Hey! You almost hit me!
+2438	c04a02_100_cro	[SOUND: The Crone smashes the ATM with her fist.]
+2439	c04a02_110_sup	SUPERINTENDENT: (from ATM) AFRICAN TRUST --
+2440	c04a02_120_cro	CRONE: Open up!
+2441	c04a02_121_sup	SUPERINTENDENT: BANKING WITH PRIDE!
+2442	c04a02_122_cro	CRONE: Open up!
+2443	c04a02_121_fol	[SOUND: As the Crone continues smashing, a drop-ship flies toward the casino.]
+2444	c04a02_130_sad	SADIE: Everyone! Listen! That's a Covenant drop-ship!
+2445	c04a02_150_lt5	LOOTER: Covies! Let's get out of here!
+2446	c04a02_160_lt4	LOOTER: Leave the money! Run! Run!
+2447	c04a02_210_cro	CRONE: Forty years I've been coming to this place. Forty years of losing my hard-earned cash...
+2448	c04a01_211_cro	CRONE: Well, today I hit the jackpot! You hear me, you damn machine? I... want... my... money!
+2449	c04a01_211_fol	[SOUND: The Crone shoots the ATM.]
+2450	c04a02_220_sup	SUPERINTENDENT: [Vergil chime] INCORRECT PASSWORD. PLEASE REMOVE YOUR CARD.
+2451	c04a02_230_sad	SADIE: Vergil, give her the money! Then we've got to find some cover!
+2452	c04a02_231_fol	[SOUND: Money whirs out of the ATM.]
+2453	c04a02_240_cro	CRONE: (laughs) Out of my way, you little slut!
+2454	c04a02_250_sad	SADIE: (running) Gotta find a place to hide... There! Dumpster! Across the street!
+2455	c04a02_251_fol	[SOUND: Brutes exit the drop-ship and walk to the ATM.]
+2456	c04a02_270_sad	SADIE: (whisper) Brutes! Look how big they are!
+2457	c04a02_280_cro	CRONE: Jackpot! I win! I win!
+2458	c04a02_290_sad	SADIE: (whisper) Move! They're right on top of you!
+2459	c04a02_300_bru	BRUTE: [Angry roar.]
+2460	c04a02_310_sad	SADIE: Oh my God! It just tore the ATM off the casino wall!
+2461	c04a02_311_fol	[SOUND: The Brute slams the ATM onto the Crone.]
+2462	c04a02_330_cro	CRONE: (gurgling scream).
+2463	c04a02_340_sup	SUPERINTENDENT: (from Chatter) TRANSACTION COMPLETE! PLEASE COME AGAIN!
+2464	cir4_arc3	<<< Circle 4, Arc 3 transcript starts here! >>>
+2465	c04a03_010_fol	[SOUND: Slot-machines jingle inside the casino.]
+2466	c04a03_010_cro	CRONE: (dying) Jackpot... jackpot...
+2467	c04a03_020_sad	SADIE: (whisper) Oh my God! She's crushed under the ATM!
+2468	c04a03_030_bru	BRUTE: [Angry growl.]
+2469	c04a03_040_sad	SADIE: (whisper) Please don't look behind this dumpster, you big dumb Brutes. Please, please, please...
+2470	c04a03_040_bru	BRUTE: [Angry roar.]
+2471	c04a03_060_cro	CRONE: Alien son of a bitch! Think I'd share any of this with you --
+2472	c04a03_061_fol	[SOUND: A Brute shoots the Crone then they all march down the street.]
+2473	c04a03_080_sad	SADIE: That's it... keep walking. Nothing more to see here...
+2474	c04a03_090_end	DR. ENDESHA: (from Chatter) Sadie! Are you alright?!
+2475	c04a03_100_bru	[SOUND: The Brutes turn and shoot Sadie's dumpster.]
+2476	c04a03_110_sad	SADIE: I was!
+2477	c04a03_111_fol	[SOUND: The Brutes fire at Sadie as she runs for cover.]
+2478	c04a03_130_end	DR. ENDESHA: I'm sorry! Run! Run!
+2479	c04a03_131_fol	[SOUND: Suddenly, a car races down the street, smashes the Brutes, and then plows into the casino.]
+2480	c04a03_132_bru	BRUTES: [Dying growls.]
+2481	c04a03_150_sad	SADIE: Vergil?! A car just came out of nowhere -- smashed all the Brutes! Was that you?
+2482	c04a03_150_fol	[SOUND: The car door opens with a groan.]
+2483	c04a03_160_mik	MIKE: (exiting the car) My head... I thought air-bags were supposed to stop you from getting hurt...
+2484	c04a03_170_sad	SADIE: Mike! You came back!
+2485	c04a03_180_end	DR. ENDESHA: Who's 'Mike'? Sadie, what's going on?!
+2486	c04a03_190_sad	SADIE: Hang on, dad...
+2487	c04a03_191_sad	SADIE: (to Mike) Let me help you out of there.
+2488	c04a03_200_mik	MIKE: (groans) I'm OK... Seriously.
+2489	c04a03_210_sad	SADIE: That whole macho tough-guy thing? It's really never worked for me.
+2490	c04a03_211_sad	SADIE: Give me your hand...
+2491	c04a03_220_mik	MIKE: Uhn... Be gentle.
+2492	c04a03_230_mik	MIKE: Take me around front. Let me see what I hit...
+2493	c04a03_231_mik	MIKE: Brutes huh?
+2494	c04a03_232_mik	MIKE: Well that's never coming out of the grille.
+2495	cir5_arc1	<<< Circle 5, Arc 1 transcript starts here! >>>
+2496	c05a01_010_fol	[SOUND: Jingle of slot-machines, groaning car metal.]
+2497	c05a01_010_end	DR. ENDESHA: Sadie, thank the gentleman.
+2498	c05a01_020_sad	SADIE: (whisper) Great etiquette tip, Dad! Let me get back to you... [Chatter disconnect]
+2499	c05a01_030_sad	SADIE: My father says I should thank you for saving my life.
+2500	c05a01_040_mik	MIKE: Couldn't save the car, though. I think there's something stuck in the... Oh.
+2501	c05a01_050_sad	SADIE: That's a... Eww.
+2502	c05a01_060_mik	MIKE: Paw... Yeah. I can see that.
+2503	c05a01_070_sad	SADIE: Mike. Seriously. Thanks.
+2504	c05a01_080_mik	MIKE: Hey, I didn't want to be the guy who leaves the damsel in distress.
+2505	c05a01_090_sad	SADIE: Plus all the lights turned red when you tried to drive away.
+2506	c05a01_100_mik	MIKE: How did you...?
+2507	c05a01_110_sad	SADIE: Vergil.
+2508	c05a01_120_mik	MIKE: Who's that? Your... boyfriend?
+2509	c05a01_130_sad	SADIE: (laughs) Not quite. You know the Superintendent?
+2510	c05a01_140_mik	MIKE: Sure. The AI that runs the city. Picks up the garbage, monitors the traffic. It helped me trace a license-plate last week.
+2511	c05a01_150_sad	SADIE: Well... Vergil is part of the Superintendent -- a sub-routine my Dad wrote to look after me when I was a kid.
+2512	c05a01_160_mik	MIKE: Look after you?
+2513	c05a01_170_sad	SADIE: After my mom died, it was just Dad and me. He did his best. But his job...
+2514	c05a01_171_sad	SADIE: When Dad couldn't be there, Vergil was.
+2515	c05a01_172_sad	SADIE: He helped me get to school on time, made sure I bought a healthy lunch and didn't watch too much TV -- that sort of thing.
+2516	c05a01_180_mik	MIKE: Must have been annoying.
+2517	c05a01_190_sup	SUPERINTENDENT: (from Chatter) YOUR TAX DOLLARS AT WORK!
+2518	c05a01_200_sad	SADIE: It still is...
+2519	c05a01_210_sad	SADIE: Mike. Why are you helping me?
+2520	c05a01_220_mik	MIKE: I'm a cop. 'Service to All,' right?
+2521	c05a01_230_sad	SADIE: Uh-huh.
+2522	c05a01_240_mik	MIKE: Look, the city's under attack... A lot of people need help.
+2523	c05a01_241_mik	MIKE: Well... I can die a hero or die a coward but --
+2524	c05a01_250_sad	SADIE: Got any choices that don't involve dying?
+2525	c05a01_250_fol	[SOUND: Distant explosions in the city center.]
+2526	c05a01_260_mik	MIKE: Not if you want to go back over that bridge.
+2527	cir5_arc2	<<< Circle 5, Arc 2 transcript starts here! >>>
+2528	c05a02_020_fol	[SOUND: Honking car horns and panicked screams.]
+2529	c05a02_020_cm4	CROWD: Hold my hand, son! Don't look down!
+2530	c05a02_030_cf2	CROWD: Is it true? They've shut down the tether!?
+2531	c05a02_050_cf2	CROWD: Officer? Where should we go when we're off the bridge?
+2532	c05a02_060_po1	COP: Just keep walking! Get out of the city!
+2533	c05a02_070_po5	COP: Everyone try and stay calm! Marines will be here soon!
+2534	c05a02_090_ste	PROPAGANDA: (from PA) Citizens! Your neighbors are resisting!
+2535	c05a02_091_ste	PROPAGANDA: A popular uprising is inflicting heavy casualties on the invaders! We will prevail!
+2536	c05a02_100_mik	MIKE: How are we going to get across this bridge? It's packed!
+2537	c05a02_110_sad	SADIE: Good manners and pointy elbows!
+2538	c05a02_120_mik	MIKE: (whispers) Jeez, Branley. The things you do for a kiss...
+2539	c05a02_130_sad	SADIE: What?
+2540	c05a02_140_mik	MIKE: I said, I won't let you down, miss!
+2541	c05a02_140_sad	SADIE: Right!
+2542	c05a02_160_cm3	CROWD: Ow! Wrong way, girl!
+2543	c05a02_180_cf2	CROWD: Hey! Watch where you're stepping!
+2544	c05a02_230_sad	SADIE: (pushing through crowd) Excuse us! Sorry!
+2545	c05a02_240_mik	MIKE: Hey, step aside! Police business!
+2546	c05a02_241_sad	SADIE: It's an emergency! Let us through!
+2547	c05a02_242_mik	MIKE: Step aside people!
+2548	c05a02_250_sad	SADIE: You know, if the panicked mobs would just stay in nice, neat lines we'd –- Oof! Watch it! -- get across this bridge a lot faster!
+2549	c05a02_260_mik	MIKE: Do you hear that?
+2550	c05a02_270_sad	SADIE: What, the water? Don't tell me you're afraid of heights!
+2551	c05a02_280_mik	MIKE: Pelican drop-ship. Hard to see through all the smoke. But it's heading our way.
+2552	c05a02_290_sad	SADIE: (into Chatter) Vergil? Got eyes in the sky?
+2553	c05a02_291_fol	[SOUND: (from Chatter) Vergil chime, followed by tapping and barking.]
+2554	c05a02_300_sad	SADIE: Not good. Cane tapping. Seeing-eye dog. Means Vergil can't see it...
+2555	c05a02_310_mik	MIKE: And who do we know who likes to travel off the grid?
+2556	c05a02_320_cm4	CROWD: That's a police drop-ship! We're saved!
+2557	c05a02_330_cm2	CROWD: We can't all fit on that!
+2558	c05a02_340_cm3	CROWD: Says you! I'm getting on first!
+2559	c05a02_341_fol	[SOUND: A Pelican drop-ship settles on the bridge and opens its troop-bay door.]
+2560	c05a02_350_mik	MIKE: Aw, crap...
+2561	c05a02_360_kin	KINSLER: Hello, Sadie... Remember me?
+2562	cir5_arc3	<<< Circle 5, Arc 3 transcript starts here! >>>
+2563	c05a03_010_fol	[SOUND: Kinsler's Pelican drop-ship settles on the bridge.]
+2564	c05a03_010_cm4	CROWD: The commissioner! We're saved! He has a drop-ship!
+2565	c05a03_020_cm2	CROWD: Yeah, and a sub-machine gun!
+2566	c05a03_030_cm3	CROWD: Why's he pointing it at that girl?
+2567	c05a03_040_cm6	CROWD: Not our problem! Keep moving!
+2568	c05a03_050_kin	KINSLER: (readies his weapon) It's so good to see you again Sadie.
+2569	c05a03_051_kin	KINSLER: But please, no sudden movements. This Pelican isn't the stablest thing to stand on. I'd hate to shoot you accidentally.
+2570	c05a03_052_kin	KINSLER: Branley. Your service pistol. Remove it from your holster. Slowly...
+2571	c05a03_070_mik	MIKE: Yeah, yeah...
+2572	c05a03_080_kin	KINSLER: Now toss it off the bridge.
+2573	c05a03_090_mik	[SOUND: Mike throws his pistol into the water.]
+2574	c05a03_100_kin	KINSLER: Good. I must say, Sadie. You play very hard to get.
+2575	c05a03_110_sad	SADIE: Bet that makes you angry.
+2576	c05a03_120_kin	KINSLER: Oh... quite the opposite.
+2577	c05a03_130_sad	SADIE: (whispers into Chatter) Vergil... a little help here!
+2578	c05a03_140_kin	KINSLER: Your chatter made you easy to track. But I think you and Vergil have talked quite enough. Take it off.
+2579	c05a03_140_fol	[SOUND: Sadie rips her Chatter off her wrist.]
+2580	c05a03_150_kin	KINSLER: Now smash it!
+2581	c05a03_151_fol	[SOUND: Sadie crushes her chatter with her foot.]
+2582	c05a03_160_kin	KINSLER: Do you know what I've learned in all my years in politics?
+2583	c05a03_170_sad	SADIE: That you're an asshole?
+2584	c05a03_180_kin	KINSLER: The value of escalation. For example, last time we met, Branley hit me with his fist.
+2585	c05a03_190_mik	MIKE: Keep talking. I might do it again.
+2586	c05a03_200_kin	KINSLER: I think not. This time, I have a sub-machine gun. You see? Escalation...
+2587	c05a03_201_kin	KINSLER: Goodbye, Branley.
+2588	c05a03_210_sad	SADIE: Do it and you're a dead man.
+2589	c05a03_220_kin	KINSLER: Sadie. You're such a bright, beautiful girl. You have no idea how much it pains me when you act so incredibly stupid.
+2590	c05a03_220_fol	[SOUND: Rattle of approaching treads.]
+2591	c05a03_221_kin	SADIE: I have. The gun.
+2592	c05a03_230_sad	SADIE: Yes... But I have the garbage truck.
+2593	c05a03_250_fol	[SOUND: Metallic crunch as an Olifant smashes into the Pelican.]
+2594	c05a03_260_cm4	CROWD: An Olifant just hit that Pelican!
+2595	c05a03_270_cm3	CROWD: Don't see that every day!
+2596	c05a03_280_kin	KINSLER: My drop-ship! That's city property, Vergil! What the devil do you think you're doing?
+2597	c05a03_290_sad	SADIE: Escalation.
+2598	c05a03_300_fol	[SOUND: The Olifant honks then drops its garbage onto Kinsler.]
+2599	c05a03_300_kin	KINSLER: [Chokes and gags.]
+2600	c05a03_390_cm1	CROWD: (laughs) That Olifant just dumped its whole load!
+2601	c05a03_400_cm2	CROWD: (claps) The commissioner's totally buried in garbage!
+2602	c05a03_410_mik	MIKE: Ugh... Man, what a smell!
+2603	c05a03_420_sad	SADIE: Come on! This is our ride!
+2604	c05a03_430_mik	MIKE: Oh, no... No, no, no!
+2605	c05a03_431_mik	MIKE: I am not getting in the back of a -- (gags) -- Olifant!
+2606	c05a03_440_sad	SADIE: Think of it as an armored personnel carrier, for the... smell impaired.
+2607	cir6_arc1	<<< Circle 6, Arc 1 transcript starts here! >>>
+2608	c06a01_010_fol	[SOUND: Olifant engine and clanking treads.]
+2609	c06a01_010_ste	PROPAGANDA: (from PA) Stay strong, Mombasa! Our noble militia is hitting back hard! The enemy has begun to retreat!
+2610	c06a01_040_mik	MIKE: (groans) I think I'm gonna puke...
+2611	c06a01_050_sad	SADIE: Might make it smell better.
+2612	c06a01_060_mik	MIKE: Why do we have to ride back here again?
+2613	c06a01_070_sad	SADIE: It's the safest way to get to the ONI building. If we sit in the cab, we're targets.
+2614	c06a01_071_sad	SADIE: If we let Vergil drive us to the ONI building, the Covenant thinks we're just a harmless machine.
+2615	c06a01_080_sup	SUPERINTENDENT: (from Olifant radio) RECYCLING! DO YOUR PART!
+2616	c06a01_081_fol	[SOUND: The Olifant's access-door creaks open.]
+2617	c06a01_100_mik	MIKE: Uh-oh... Company! Get behind me!
+2618	c06a01_110_tom	TOM: Finally! Something between me and all the shooting! Guess we all had the same bright idea, huh?
+2619	c06a01_130_tom	TOM: Name's Tom Uberti. Damn glad to meet you! Married, right? You two own a house? Of course you do!
+2620	c06a01_131_tom	TOM: Say, when this is all over, if you're in the market for new ceramic siding? Hey now -- I'm your man!
+2621	c06a01_140_sad	SADIE: Tom? Shut up.
+2622	c06a01_141_sad	SADIE: Vergil, can you raise Dad on this Olifant's radio?
+2623	c06a01_141_sup	SUPERINTENDENT: [Vergil chime].
+2624	c06a01_150_tom	TOM: Wow, buddy! Is she a tough customer or what?
+2625	c06a01_160_mik	MIKE: You have no idea.
+2626	c06a01_170_end	DR. ENDESHA: (from radio) Sadie! You had me worried half to death!
+2627	c06a01_180_sad	SADIE: I'm okay. What about you?
+2628	c06a01_190_end	DR. ENDESHA: The fighting is spreading, damaging all sorts of systems. Power, data...
+2629	c06a01_191_end	DR. ENDESHA: The entire Superintendent infrastructure is close to collapse. I'm doing all I can, but --
+2630	c06a01_200_sad	SADIE: Dad, you've done an incredible job keeping Vergil together.
+2631	c06a01_210_end	DR. ENDESHA: Sadie, it's not me...
+2632	c06a01_211_end	DR. ENDESHA: It's the Covenant.
+2633	cir6_arc2	<<< Circle 6, Arc 2 transcript starts here! >>>
+2634	c06a02_010_fol	[SOUND: Explosions rock the Olifant on its treads.]
+2635	c06a02_010_sad	SADIE: Dad, it's hard to hear inside this Olifant. Say that again?
+2636	c06a02_020_end	DR. ENDESHA: (from radio) A plasma bombardment collapsed one of Vergil's tertiary data-centers.
+2637	c06a02_021_end	DR. ENDESHA: I was assessing the damage through the underground cameras, and I saw Covenant splicing cables, patching switches --
+2638	c06a02_030_mik	MIKE: Wait -- the Covenant are helping us?!
+2639	c06a02_040_tom	TOM: Well, I'll be damned!
+2640	c06a02_050_sad	SADIE: Dad, I just met my first Brutes. They didn't seem too helpful.
+2641	c06a02_060_end	DR. ENDESHA: No. The ones in the data-center weren't Brutes -- or any of the Covenant I've heard about.
+2642	c06a02_061_end	DR. ENDESHA: It's a whole new species, Sadie, and they're actually quite... beautiful.
+2643	c06a02_062_end	DR. ENDESHA: They have some sort of automatic defense system, but as long as you don't get too close...
+2644	c06a02_070_tom	TOM: You know -- and I'm just thinking out loud here -- maybe this whole invasion is just one, big misunderstanding!
+2645	c06a02_080_sad	SADIE: Shut up, Tom!
+2646	c06a02_090_end	DR. ENDESHA: Vergil's observing another group of them now, inside Kikowani subway station.
+2647	c06a02_091_end	DR. ENDESHA: Hang on a second. I'll connect the audio feed...
+2648	c06a02_100_tom	TOM: Number one rule of sales? Understand exactly what the customer needs. Not what he wants -- what he needs. You understand?
+2649	c06a02_110_mik	MIKE: Tom. Seriously. Zip it.
+2650	c06a02_120_end	DR. ENDESHA: It's dark in the station. Switching the camera to thermal...
+2651	c06a02_121_end	DR. ENDESHA: Strange... There aren't any Brutes around. Usually they never leave them alone.
+2652	c06a02_122_end	DR. ENDESHA: Alright, I see six of the new aliens, floating in a circle. They're surrounding a seventh, touching it with their tentacles...
+2653	c06a02_123_end	DR. ENDESHA: Amazing! You wouldn't believe how fast they can move their limbs!
+2654	c06a02_124_end	DR. ENDESHA: They're working... Doing something to the explosives in the seventh alien's armor --
+2655	c06a02_125_fol	[SOUND: Series of loud explosions.]
+2656	cir6_arc3	<<< Circle 6, Arc 3 transcript starts here! >>>
+2657	c06a03_010_fol	[SOUND: Series of loud explosions.]
+2658	c06a03_010_sad	SADIE: Dad, what were those explosions?! Vergil, can't this Olifant go any faster?!
+2659	c06a03_020_end	DR. ENDESHA: (from radio) I'm not sure what just happened... Six of the aliens are dead. But I think...
+2660	c06a03_021_end	DR. ENDESHA: Sadie, I think they gave their lives to free their companion.
+2661	c06a03_022_end	DR. ENDESHA: Yes! Yes, I can see it! Floating away down the subway tube! Vergil, keep an eye on that one!
+2662	c06a03_022_sup	SUPERINTENDENT: (from radio) [Vergil chime].
+2663	c06a03_030_mik	MIKE: Covenant with feelings, huh? That's a first.
+2664	c06a03_040_tom	TOM: What was I saying! They're friendly! Don't you see? We gotta negotiate!
+2665	c06a03_050_sad	SADIE: Negotiate?!
+2666	c06a03_060_tom	TOM: We shoot at them, they shoot back at us! That's just bad business!
+2667	c06a03_061_tom	TOM: Hey! Hey, aliens! We're in here! We want to surrender!
+2668	c06a03_080_mik	MIKE: Settle down, you idiot!
+2669	c06a03_090_sad	SADIE: Tom, don't you get it?! The friendly Covenant aren't the ones doing all the shooting!
+2670	c06a03_100_tom	TOM: To hell with demographics! This is a down market! Time to bargain if you want to make the sale!
+2671	c06a03_100_fol	[SOUND: Tom opens the Olifant's top hatch.]
+2672	c06a03_110_tom	TOM: You! Yeah, you in the tank! Over here!
+2673	c06a03_120_sad	SADIE: Close that hatch! Get down from there!
+2674	c06a03_130_mik	MIKE: Leave him, Sadie! I'm opening the back ramp! We're out of here!
+2675	c06a03_130_fol	[SOUND: Mike opens the Olifant's ramp.]
+2676	c06a03_140_tom	TOM: That's right! Up here! What Say you and me make a deal?
+2677	c06a03_150_sup	SUPERINTENDENT: (from PA) DON'T WALK! DON'T WALK!
+2678	c06a03_160_mik	MIKE: Sadie! It's a Wraith! Move!
+2679	c06a03_170_sad	SADIE: Where to?
+2680	c06a03_180_mik	MIKE: Alleyway! Come on!
+2681	c06a03_190_sup	SUPERINTENDENT: Clear the street! Oncoming traffic!
+2682	c06a03_200_tom	[SOUND: Wraith round hits Olifant, killing Tom.]
+2683	c06a03_210_sad	SADIE: Surrender accepted.
+2684	cir7_arc1	<<< Circle 7, Arc 1 transcript starts here! >>>
+2685	c07a01_010_fol	[SOUND: The Olifant burns in the background.]
+2686	c07a01_010_mik	MIKE: (running) That Wraith blew the hell out of our Olifant!
+2687	c07a01_020_sad	SADIE: (running) Poor Tom...
+2688	c07a01_030_mik	MIKE: Poor Tom?! He almost got us killed!
+2689	c07a01_030_fol	[SOUND: Rain begins to fall.]
+2690	c07a01_040_mik	MIKE: Now what?
+2691	c07a01_050_sad	SADIE: Stay out of sight, find a kiosk.  My dad's in the data-center under the ONI building.
+2692	c07a01_060_mik	MIKE: Basically right at the heart of the Covenant occupation.
+2693	c07a01_070_sad	SADIE: We're going to need Vergil's help getting him out of there.
+2694	c07a01_080_mik	MIKE: Here. Take my jacket. 
+2695	c07a01_090_sad	SADIE: I don't mind the rain.
+2696	c07a01_100_mik	MIKE: It's fiber-armored. I mind you getting shot.
+2697	c07a01_110_sad	SADIE: Thanks.
+2698	c07a01_120_sup	KIOSK: (from speaker) Optican, healthcare on demand! Please place your hand on the touch pad -- [distortion]
+2699	c07a01_130_sad	SADIE: Vergil, get me dad.
+2700	c07a01_140_sup	SUPERINTENDENT: (from kiosk) ELEVATED HEART-RATE. ARE YOU FEELING ANXIOUS? STRESSED?
+2701	c07a01_141_sup	SUPERINTENDENT: TRY OPTICAN'S NEWEST MOOD-SETTLING DRUG, 'STATENIZOL'.
+2702	c07a01_150_sad	SADIE: And stop playing doctor!
+2703	c07a01_160_end	DR. ENDESHA: (from kiosk) Finally, a kiosk with a camera! Now I can see that you are alright.
+2704	c07a01_161_end	DR. ENDESHA: But why are you dressed like a police officer?
+2705	c07a01_170_sad	SADIE: It's Mike's. (to Mike) Say hello.
+2706	c07a01_180_mik	MIKE: (clears his throat) It's good to meet you Doctor Endesha.
+2707	c07a01_190_end	DR. ENDESHA: You know... You are the first young man Sadie's ever introduced to me.
+2708	c07a01_200_sad	SADIE: Dad?!
+2709	c07a01_200_fol	[SOUND: Engineer sound followed by Vergil's imitation.]
+2710	c07a01_210_sad	SADIE: What's Vergil doing?
+2711	c07a01_220_end	DR. ENDESHA: Learning to whistle!
+2712	c07a01_230_mik	MIKE: Whistle?
+2713	c07a01_240_end	DR. ENDESHA: So he can communicate with the tentacle aliens!
+2714	c07a01_250_sup	SUPERINTENDENT: STRESS HARMS RELATIONSHIPS. GOOD COMMUNICATION AND GOOD MEDICINE CAN HELP.
+2715	c07a01_260_sad	SADIE: We just met a guy that tried the whole 'communicate with the enemy' thing. It didn't work out so well, Dad.
+2716	c07a01_270_end	DR. ENDESHA: These new aliens are different. Inquisitive not violent. They're searching for something under New Mombasa. I'm sure of it!
+2717	c07a01_271_end	DR. ENDESHA: And if Vergil can learn to speak with them, we'll be able to determine whether or not they can -- [static]
+2718	c07a01_280_sad	SADIE: Dad!
+2719	c07a01_290_ste	PROPAGANDA: (from PA) Attention citizens! The enemy has infiltrated our data systems!
+2720	c07a01_300_sup	SUPERINTENDENT: IRREGULAR PULSE! HEART-RATE FALLING! REPORT TO THE NEAREST -- [static]
+2721	c07a01_310_sad	SADIE: Vergil!
+2722	c07a01_320_ste	PROPAGANDA: (from PA) All civilian chatter is restricted!
+2723	c07a01_330_sad	SADIE: No!
+2724	c07a01_340_mik	MIKE: Whoa-whoa! Calm down!
+2725	c07a01_350_sad	SADIE: They killed him!
+2726	c07a01_360_mik	MIKE: Who?
+2727	c07a01_370_sad	SADIE: The police! They just pulled Vergil's plug!
+2728	c07a01_380_mik	MIKE: No way. The whole city would shut-down. The evacuation would grind to a halt. No one would be crazy enough to -–
+2729	c07a01_390_sad	SADIE: No one?!
+2730	c07a01_400_mik	MIKE: Aww crap...
+2731	cir7_arc2	<<< Circle 7, Arc 2 transcript starts here! >>>
+2732	c07a02_010_fol	[SOUND: Rain and distant thunder.]
+2733	c07a02_010_mik	MIKE: (running) Police Headquarters! Straight ahead!
+2734	c07a02_020_sad	SADIE: (running) How does a level one blackout work? How do we bring Vergil back?
+2735	c07a02_030_mik	MIKE: Emergency Communications department. But we can't just --
+2736	c07a02_040_sad	SADIE: Kick down the door? Plug Vergil back in?
+2737	c07a02_041_sad	SADIE: You bet your ass we can!
+2738	c07a02_050_mik	MIKE: Sadie! Wait!
+2739	c07a02_060_sad	SADIE: Here's a directory... Emergency Comms. Fourteenth Floor. Elevators are –-
+2740	c07a02_070_mik	MIKE: Hold up! Look... lobby's all shot up. And over by the elevators...
+2741	c07a02_080_sad	SADIE: Are those cops?
+2742	c07a02_090_mik	MIKE: All dead. Probably a Brute kill-squad...
+2743	c07a02_100_msh	MARSHALL: Howdy, folks.
+2744	c07a02_110_sad	SADIE: ...Or not.
+2745	c07a02_120_msh	MARSHALL: Sorry about the mess. Since it appears we're all going straight to hell today...
+2746	c07a02_121_msh	MARSHALL: I figured I'd send some of my old pals on their way myself.
+2747	c07a02_140_mik	MIKE: Listen, buddy. We don't want any trouble.
+2748	c07a02_150_sad	SADIE: We just need to get upstairs --
+2749	c07a02_160_msh	MARSHALL: Stay right where you are!
+2750	c07a02_170_msh	MARSHALL: Here comes another one now...
+2751	c07a02_170_fol	[SOUND: Elevator opens, Jim walks into lobby.]
+2752	c07a02_180_jim	JIM: (into Chatter) Mmm-hmm. Yeah. I don't know why they shut the Super down. We'll keep broadcasting as long as we --
+2753	c07a02_190_msh	MARSHALL: Hey there, Jim-bo!
+2754	c07a02_200_jim	JIM: What the... Officers down! There may be Covenant in the --
+2755	c07a02_210_msh	MARSHALL: Come on now. Get off your chatter, and pay attention.
+2756	c07a02_220_jim	JIM: Marshall? What are you doing here? Didn't you get fired?
+2757	c07a02_230_msh	MARSHALL: Remember how often I asked you not to use my half-and-half? And remember how often you didn't listen?
+2758	c07a02_240_jim	JIM: You? You did this?!
+2759	c07a02_250_msh	MARSHALL: Should have stayed in the elevator, Jim.
+2760	c07a02_260_jim	JIM: No! Please!
+2761	c07a02_270_msh	MARSHALL: I wrote! [fires] My name! [fires] Right there on the carton! [fires]
+2762	c07a02_280_jim	JIM: (dying gurgle)
+2763	c07a02_290_mik	MIKE: Sadie, let's go.
+2764	c07a02_300_msh	MARSHALL: According to this department, I have issues with anger management...
+2765	c07a02_301_msh	MARSHALL: If I we're you? I'd stay right where you are.
+2766	cir7_arc3	<<< Circle 7, Arc 3 transcript starts here! >>>
+2767	c07a03_010_fol	[SOUND: Marshall reloads his rifle.]
+2768	c07a03_010_msh	MARSHALL: You two are my hostages. Sit tight, or you're gonna end up like these old buddies of mine.
+2769	c07a03_020_sad	SADIE: Mike, we have to get upstairs -- turn Vergil back on!
+2770	c07a03_030_msh	MARSHALL: No talking!
+2771	c07a03_031_msh	MARSHALL: You work for the NMPD?
+2772	c07a03_040_sad	SADIE: Uh...
+2773	c07a03_050_mik	MIKE: No.
+2774	c07a03_060_msh	MARSHALL: Oh yeah? Where did you get the jacket?
+2775	c07a03_070_sad	SADIE: I stole it. From the trash.
+2776	c07a03_080_msh	MARSHALL: A thief, huh? Got a record, you little punk?
+2777	c07a03_090_mik	MIKE: Look. Why don't you put down your rifle and --
+2778	c07a03_100_msh	MARSHALL: Why don't you shut your goddamn mouth!
+2779	c07a03_100_fol	[SOUND: boots on the stairwell.]
+2780	c07a03_110_msh	MARSHALL: Hear that? SWAT pussies finally woke up. They'll be wearing body armor, so you have to take the head-shot.
+2781	c07a03_130_mik	MIKE: Get down, Sadie! Now!
+2782	c07a03_130_fol	[SOUND: SWAT officer kicks-open stairwell door.]
+2783	c07a03_140_po4	SWAT COP: Drop your weapon!
+2784	c07a03_150_msh	MARSHALL: Come and get it! [fires]
+2785	c07a03_160_po4	SWAT COP: (dying gurgle)
+2786	c07a03_170_po5	SWAT COMMANDER: Dammit! Take him down!
+2787	c07a03_180_po1	SWAT COP: Cover me!
+2788	c07a03_190_po5	SWAT COP: Man down! Man down!
+2789	c07a03_200_po3	SWAT COP: We're blocked in!
+2790	c07a03_200_fol	[SOUND: SWAT cops and Marshall exchange heavy fire.]
+2791	c07a03_240_po5	SWAT COMMANDER: Bang and clear!
+2792	c07a03_240_fol	[SOUND: SWAT Commander tosses a flash-bang grenade.]
+2793	c07a03_250_msh	MARSHALL: (screams) My eyes! Aww, you lousy sons of bitches --
+2794	c07a03_250_fol	[SOUND: Marshall dies in a hail of bullets.]
+2795	c07a03_260_po3	SWAT COMMANDER: Got him! Suspect down!
+2796	c07a03_270_mik	MIKE: Sadie? Sadie?! You OK?
+2797	c07a03_280_po5	SWAT COMMANDER: You! Hands where I can see 'em!
+2798	c07a03_290_mik	MIKE: Don't shoot! I'm NMPD dammit!
+2799	c07a03_300_po5	SWAT COMMANDER: Let me see a badge! Nice and slow!
+2800	c07a03_310_sad	SADIE: The whole city's crawling with Covenant, and we're killing each other!
+2801	c07a03_320_mik	MIKE: Here, see? Metro pee-dee?
+2802	c07a03_340_mik	MIKE: I need to get her to the fourteenth floor. It's an emergency!
+2803	c07a03_350_po5	SWAT COMMANDER: OK. Take her up. We'll deal with this mess...
+2804	c07a03_360_sad	SADIE: There must be a dozen bodies here...
+2805	c07a03_370_mik	MIKE: We can't save them, Sadie. But we can save Vergil.
+2806	c07a03_371_mik	MIKE: We have to go.
+2807	cir8_arc1	<<< Circle 8, Arc 1 transcript starts here! >>>
+2808	c08a01_010_fol	[SOUND: Sadie and Mike run up the stairwell.]
+2809	c08a01_010_mik	MIKE: Emergency Comms. Fourteenth floor. Should have taken the elevator...
+2810	c08a01_020_sad	SADIE: After what just happened? I don't think so.
+2811	c08a01_030_mik	MIKE: So... what exactly are you going to say to make them re-initialize Vergil?
+2812	c08a01_040_sad	SADIE: I'll think of something.
+2813	c08a01_050_mik	MIKE: 'Hi! I'm cute! Break the law for me!'
+2814	c08a01_060_sad	SADIE: That's not funny!
+2815	c08a01_070_mik	MIKE: I'm just saying... It worked on me.
+2816	c08a01_070_fol	[SOUND: Police communication officers type and answer phones.]
+2817	c08a01_080_om1	COMM COP: Still no Covenant activity outside the city limits!
+2818	c08a01_100_of1	COMM COP: I need a medivac! Nyali bridge!
+2819	c08a01_120_om1	COMM COP: I've got three more evac points at 200% capacity!
+2820	c08a01_160_om5	COMM COP: Somebody answer that damn Phone!
+2821	c08a01_170_mik	MIKE: Where's the duty officer?
+2822	c08a01_180_om2	COMM COP: Big desk. At the back.
+2823	c08a01_190_mik	MIKE: Thanks.
+2824	c08a01_220_om3	COMM COP: No way we can get everyone out!
+2825	c08a01_250_om5	COMM COP: Reports of another riot starting down at Kikowani!
+2826	c08a01_280_of1	COMM COP: I need someone else to man these comm lines!
+2827	c08a01_290_dty	DUTY OFFICER: (talking into chatter) As I've been trying to tell you, Captain, I don't have the authority to override --
+2828	c08a01_291_dty	DUTY OFFICER: What do you mean, 'gross misconduct?' Captain Dare, I assure you. People are dying down here!
+2829	c08a01_300_sad	SADIE: Excuse me...
+2830	c08a01_310_dty	DUTY OFFICER: Yes, of course I could turn the Superintendent back on. But Commissioner Kinsler gave me explicit instructions --
+2831	c08a01_320_sad	SADIE: You're busy, so I'm just going to borrow this stapler...
+2832	c08a01_330_dty	DUTY OFFICER: Listen, Captain, there's a Covenant carrier hovering right outside my window!
+2833	c08a01_331_dty	DUTY OFFICER: There's a sniper in my lobby, and you're threatening to have me fired?! [Slams chatter onto desk.]
+2834	c08a01_340_dty	DUTY OFFICER: Office of Naval Intelligence. Now there's a contradiction in terms...
+2835	c08a01_341_dty	DUTY OFFICER: [Sees Sadie and groans.] What do you want?
+2836	c08a01_350_sad	SADIE: I need you to turn Ver -- the Superintendent back on.
+2837	c08a01_360_dty	DUTY OFFICER: Not you, too! I'm telling all of you, the commissioner --
+2838	c08a01_370_sad	SADIE: I know. But I'm making you do it! At gunpoint!
+2839	c08a01_380_dty	DUTY OFFICER: What gun?
+2840	c08a01_390_sad	SADIE: This one!
+2841	c08a01_400_dty	DUTY OFFICER: You're holding my stapler inside your pocket and pointing it at me.
+2842	c08a01_410_sad	SADIE: You don't know that.
+2843	c08a01_420_mik	MIKE: It might be a gun.
+2844	c08a01_430_sad	SADIE: Or a rifle!
+2845	c08a01_440_mik	MIKE: Or a rocket launcher!
+2846	c08a01_450_sad	SADIE: And if it was, why, you would have to turn the Superintendent back on.
+2847	c08a01_460_mik	MIKE: Nobody could blame you.
+2848	c08a01_470_sad	SADIE: Or fire you...
+2849	c08a01_480_dty	DUTY OFFICER: ...If it was a gun.
+2850	c08a01_500_dty	DUTY OFFICER: Oh, no... Please don't shoot. I'll do... anything!
+2851	c08a01_520_sup	SUPERINTENDENT: [Loud Engineer whistle] SADIE! SADIE! SADIE! SADIE! SADIE!
+2852	c08a01_530_sad	SADIE: It's OK, Vergil! I'm here!
+2853	c08a01_540_mik	MIKE: He sounds... different.
+2854	c08a01_550_sad	SADIE: Vergil? What have those aliens done to you?!
+2855	c08a01_550_fol	[SOUND: Loud Engineer whistle.]
+2856	cir8_arc2	<<< Circle 8, Arc 2 transcript starts here! >>>
+2857	c08a02_010_fol	[SOUND: Loud Engineer whistle.]
+2858	c08a02_040_om3	COMM COP: You hear that crazy noise?!
+2859	c08a02_050_om1	COMM COP: No clue. Must be a corrupted signal!
+2860	c08a02_070_om1	COMM COP: Lost the connection with UNSC orbital command!
+2861	c08a02_110_mik	MIKE: Sadie, what's going on?!
+2862	c08a02_120_sad	SADIE: I don't know! Those aliens have been working on Vergil, and now that he's back on he sounds...
+2863	c08a02_130_mik	MIKE: ...Different.
+2864	c08a02_150_sad	SADIE: Vergil? It's still you, isn't it?
+2865	c08a02_150_fol	SUPERINTENDENT: [barks like a dog]
+2866	c08a02_160_sad	SADIE: Can you get Dad for me?
+2867	c08a02_160_fol	SUPERINTENDENT: [frightened Engineer whistle]
+2868	c08a02_170_sad	SADIE: Vergil can't reach him! Something's wrong...
+2869	c08a02_180_ste	PROPAGANDA: (from PA) Reports are coming in from all over the city! Covenant forces are pulling back in the face of furious resistance!
+2870	c08a02_190_mik	MIKE: Man, I have had it with his crap!
+2871	c08a02_200_ste	PROPAGANDA: Our enemies are cowards! Battle on, brave citizens, and victory will be ours!
+2872	c08a02_210_mik	MIKE: Hang on... That's coming from inside the building!
+2873	c08a02_220_sad	SADIE: Mike? Wait! Where are you going?
+2874	c08a02_230_ste	PROPAGANDA: This hour we pay tribute to our fallen heroes: Jim Odingo, Roberto Bustamante, and Marshall Glick...
+2875	c08a02_240_mik	MIKE: This is his office. Public Service Announcements Division...
+2876	c08a02_250_ste	PROPAGANDA: These officers were gunned-down in the very lobby of this building by Covenant snipers.
+2877	c08a02_251_ste	PROPAGANDA: But moments ago members of our citizen militia wiped-out the sniper nest with a homemade flamethrower...
+2878	c08a02_252_ste	PROPAGANDA: Made from nothing more than an old leaf-blower and a can of gasoline! Keep fighting, Mombasa! Fight and we will win!
+2879	c08a02_252_fol	[SOUND: Stephen turns-off his microphone.]
+2880	c08a02_260_ste	STEPHEN: Off the air...
+2881	c08a02_270_mik	MIKE: Covenant Sniper nest? Those people were massacred by a crazy ex-cop. Hell, one of those people was the crazy ex-cop!
+2882	c08a02_280_ste	STEPHEN: And your point is?
+2883	c08a02_290_mik	MIKE: People are dying out there and you're feeding them this... this garbage! None of it is true!
+2884	c08a02_300_ste	STEPHEN: Yes, well... [Stubs cigarette.]
+2885	c08a02_310_ste	STEPHEN: Some days, truth isn't really a luxury we can afford.
+2886	cir8_arc3	<<< Circle 8, Arc 3 transcript starts here! >>>
+2887	c08a03_010_sad	SADIE: Come on, Mike... He's a propaganda officer. He's just doing his job.
+2888	c08a03_020_mik	MIKE: His job?! More like lying to people for a living!
+2889	c08a03_030_ste	STEPHEN: Do you know who is still listening to my announcements? An old woman, too weak to leave her bed...
+2890	c08a03_031_ste	STEPHEN: A man, bleeding in the street. A teacher, hiding with her students in a school basement.
+2891	c08a03_032_ste	STEPHEN: They are all going to die.
+2892	c08a03_040_mik	MIKE: Maybe, maybe not. The marines will be here soon.
+2893	c08a03_050_ste	STEPHEN: They are all going to die!
+2894	c08a03_051_ste	STEPHEN: My job is to fill the time before they die with truth... With hope.
+2895	c08a03_052_ste	STEPHEN: But maybe you can do better... [Exhales cigarette smoke.]
+2896	c08a03_060_ste	STEPHEN: On the air... [Turns-on microphone.]
+2897	c08a03_070_ste	STEPHEN: A special honor, New Mombasa! I have here in studio uprising commander, Harris 'Two Shot' Kibaki.
+2898	c08a03_071_ste	STEPHEN: Commander, tell our listeners the latest news from the city center!
+2899	c08a03_072_ste	STEPHEN: Commander? Go ahead. Speak the truth.
+2900	c08a03_080_mik	MIKE: Well, things aren't as good as they could be. But they're looking up. We're... we're fighting hard.
+2901	c08a03_090_ste	STEPHEN: Good to hear it! Any words of advice, Two Shot?
+2902	c08a03_100_mik	MIKE: Just... keep fighting. We can win this battle if we stick together. We can save the city. We can win this war.
+2903	c08a03_100_fol	[SOUND: Stephen turns-off his microphone.]
+2904	c08a03_110_ste	STEPHEN: Off the air... Now, you are also a hero.
+2905	c08a03_120_sad	SADIE: You are, you know.
+2906	c08a03_130_mik	MIKE: I feel sick.
+2907	c08a03_140_ste	STEPHEN: No. What you feel is hope.
+2908	c08a03_140_fol	[SOUND: Stephen's control-console chirps.]
+2909	c08a03_150_ste	STEPHEN: Ah! See? You already have an admirer!
+2910	c08a03_151_ste	STEPHEN: (hitting a switch) Go ahead. You're on the line with Harris 'Two Shot' Kibaki --
+2911	c08a03_170_kin	KINSLER: (from console) That was truly inspiring, Officer Branley. Sadie must be very impressed.
+2912	c08a03_180_sad	SADIE: Kinsler!
+2913	c08a03_190_kin	KINSLER: But I think she'll be much more interested in this...
+2914	c08a03_191_kin	KINSLER: Sadie. I now control the fire-fighting systems in your father's lab. If you want to see him alive again...
+2915	c08a03_192_kin	KINSLER: You'll do exactly as I say.
+2916	cir9_arc1	<<< Circle 9, Arc 1 transcript starts here! >>>
+2917	c09a01_010_fol	[SOUND: Sadie and Mike run down a broken escalator.]
+2918	c09a01_010_sad	SADIE: Kinsler told me to meet him at the train station. That's what I'm going to do.
+2919	c09a01_020_mik	MIKE: Come on Sadie. You can't trust him! You know that!
+2920	c09a01_030_sad	SADIE: My father is still in Vergil's data-center!
+2921	c09a01_040_mik	MIKE: I've been listening to your dad all day. And the one thing he wouldn't want you to do? Put yourself in even more danger by --
+2922	c09a01_050_sad	SADIE: You're not listening at all! Kinsler said he'd trigger the emergency fire response!
+2923	c09a01_060_mik	MIKE: And that will -- ?
+2924	c09a01_070_sad	SADIE: Flood the data center with argon!
+2925	c09a01_080_mik	MIKE: Can people breathe argon?
+2926	c09a01_090_sad	SADIE: No, Mike. It freezes you! Dead!
+2927	c09a01_100_mik	MIKE: Look, I didn't know. I'm sorry.
+2928	c09a01_110_sad	SADIE: Vergil? Are you there?
+2929	c09a01_110_fol	SUPERINTENDENT: (from PA) [Engineer whistle].
+2930	c09a01_130_mik	MIKE: I know that look... What's your plan?
+2931	c09a01_140_sad	SADIE: Escalation.
+2932	cir9_arc2	<<< Circle 9, Arc 2 transcript starts here! >>>
+2933	c09a02_010_fol	[SOUND: Frightened civilians crowd the station.]
+2934	c09a02_010_cm4	CROWD: Out of the way, I'm getting on that train!
+2935	c09a02_020_cf1	CROWD: Not before me you're not!
+2936	c09a02_030_cm3	CROWD: There's not enough room!
+2937	c09a02_070_cm5	CROWD: My wife, has anyone seen my wife?!
+2938	c09a02_080_cm2	CROWD: They're getting closer, we have to go!
+2939	c09a02_090_sup	KIOSK: (from speaker) Trans-bay express train now departing Kikowani station.
+2940	c09a02_091_sup	KIOSK: All passengers must depart from platform fourteen -- [distortion]
+2941	c09a02_092_sup	[SOUND: (from kiosk) Loud Engineer whistle.]
+2942	c09a02_150_sup	SUPERINTENDENT: PLEASE REMAIN CALM! NO TICKETS -- NO PROBLEM! SLOW CHILDREN -- USE CAUTION!
+2943	c09a02_160_sad	SADIE: Maybe dad was right... The tentacle aliens he found? I think they are helping Vergil. Bringing him back from the dead.
+2944	c09a02_170_mik	MIKE: Why would they do that?
+2945	c09a02_180_sad	SADIE: Dad said they were looking for something... Something Vergil found.
+2946	c09a02_190_sup	SUPERINTENDENT: KEEP IT CLEAN! LEAVE ALL LUGGAGE ON PLATFORMS!
+2947	c09a02_200_sad	SADIE: Maybe they're sick of fighting, just like us. I don't know.
+2948	c09a02_201_sad	SADIE: Dad would know the answer...
+2949	c09a02_210_mik	MIKE: We'll ask him when we see him, OK?
+2950	c09a02_220_sad	SADIE: OK.
+2951	c09a02_230_mik	MIKE: Now where are you supposed to meet the Commissioner?
+2952	c09a02_240_sad	SADIE: Platform nine. He's got a private train.
+2953	c09a02_250_mik	MIKE: I still think you should let me --
+2954	c09a02_260_sad	SADIE: If I don't come alone, my dad will die! Kinsler made that clear!
+2955	c09a02_261_sad	SADIE: You and Vergil know what you have to do?
+2956	c09a02_270_mik	MIKE: Yeah...
+2957	c09a02_270_fol	[SOUND: Covenant plasma fire slams into station, crowd panics.]
+2958	c09a02_380_cf2	CROWD: Mommy! What's happening?!
+2959	c09a02_390_cm1	CROWD: I won't let them get me! I won't!
+2960	c09a02_400_cf2	CROWD: Quiet! You're scaring my children!
+2961	c09a02_440_mik	MIKE: Covenant are closing in. People are panicking. This is gonna get ugly...
+2962	c09a02_450_sad	SADIE: This day is a nightmare! It all keeps getting worse! Everything's falling apart!
+2963	c09a02_460_mik	MIKE: Not everything.
+2964	c09a02_470_sad	SADIE: Listen. I know I'm just a girl who got you fired...
+2965	c09a02_480_mik	MIKE: You're more than that.
+2966	c09a02_490_sad	SADIE: I might also be the girl who gets you killed!
+2967	c09a02_500_mik	MIKE: Maybe. But not today.
+2968	c09a02_510_sad	SADIE: Mike... I want you to live.
+2969	c09a02_511_sad	SADIE: I need you to live... For me.
+2970	cir9_arc3	<<< Circle 9, Arc 3 transcript starts here! >>>
+2971	c09a03_010_fol	[SOUND: Covenant plasma fire slams into station, crowd panics.]
+2972	c09a03_010_cm5	CROWD: Let us aboard!
+2973	c09a03_030_cm2	CROWD: The Commissioner's got plenty of room!
+2974	c09a03_060_cm3	CROWD: And goons with guns...
+2975	c09a03_070_cf2	CROWD: At least take my children!
+2976	c09a03_080_cf2	CROWD: Selfish devil! To hell with you!
+2977	c09a03_090_sad	SADIE: Platform nine...
+2978	c09a03_100_mik	MIKE: There's Kinsler's private train. Guarded by corrupt cops with machine-guns.
+2979	c09a03_110_sad	SADIE: I'm going in. My father's life is on the line.
+2980	c09a03_120_mik	MIKE: Be careful.
+2981	c09a03_130_sad	SADIE: You too.
+2982	c09a03_140_cf2	CROWD: What? Wait your turn!
+2983	c09a03_131_sad	SADIE: (pushing through crowd) Excuse me! Sorry! Coming through...
+2984	c09a03_160_cm4	CROWD: Watch it, girl! Quit shoving!
+2985	c09a03_170_cp1	CORRUPT COP: [Shoots into the air.] Get away from the train! You hear me! Everyone back off!
+2986	c09a03_200_kin	KINSLER: Steady, officer. Not yet.
+2987	c09a03_210_cp1	CORRUPT COP: I can't hold the crowd back much longer, sir!
+2988	c09a03_220_sad	SADIE: (from crowd) Kinsler!
+2989	c09a03_230_kin	KINSLER: You won't have to. My passenger has arrived.
+2990	c09a03_231_kin	KINSLER: This way, Sadie! Push right on through!
+2991	c09a03_240_cp1	CORRUPT COP: Make some room! Let her through! 
+2992	c09a03_330_cm4	CROWD: Why does she get to come onboard?!
+2993	c09a03_340_cf2	CROWD: It's not fair! We all deserve to live!
+2994	c09a03_350_cm1	CROWD: Now's our chance! Rush the train!
+2995	c09a03_350_fol	[SOUND: Corrupt cops fire into the crowd.]
+2996	c09a03_370_cm6	CROWD: I'm hit! Please... Someone help...
+2997	c09a03_390_cm3	CROWD: Murdering bastards!
+2998	c09a03_420_kin	KINSLER: Any other objections?!
+2999	c09a03_400_cf1	CROWD: Why?! Why?!
+3000	c09a03_421_kin	KINSLER: Careful, Sadie, watch your step.
+3001	c09a03_430_sad	SADIE: You ever worry there might really be a hell?
+3002	c09a03_440_kin	KINSLER: Oh I know there is, my dear. And you and I are leaving it.
+3003	c09a03_441_kin	KINSLER: Officer, close the doors.
+3004	c09a03_450_cp1	CORRUPT COP: Button-up men! We're out of here!
+3005	c09a03_450_fol	[SOUND: Train doors clanks shut.]
+3006	c09a03_480_cm6	CROWD: (muffled) Stop the train! Block the tracks!
+3007	c09a03_490_cm4	CROWD: (muffled) Jump for it!
+3008	c09a03_500_cf2	CROWD: (muffled) Open up! Let me in!
+3009	c09a03_530_kin	KINSLER: I don't want any of that on board.
+3010	c09a03_540_cp1	CORRUPT COP: Yes, sir!
+3011	c09a03_540_fol	[SOUND: Corrupt cops fire into the crowd.]
+3012	c09a03_550_sad	SADIE: You can't just kill them!
+3013	c09a03_560_kin	KINSLER: Why not? I'm getting quite good at it. For instance...
+3014	c09a03_561_kin	KINSLER: I killed your father an hour ago.
+3015	cir9_arc4	<<< Circle 9, Arc 4 transcript starts here! >>>
+3016	c09a04_010_fol	[SOUND: Corrupt cops fire into the crowd.]
+3017	c09a04_010_sad	SADIE: You... killed my father?
+3018	c09a04_030_kin	KINSLER: My men near Vergil's data-center tripped the fire-response system. He suffocated and froze.
+3019	c09a04_031_kin	KINSLER: Not a bad way to go, all things considered...
+3020	c09a04_032_kin	KINSLER: I wanted to tell you face to face.
+3021	c09a04_040_sad	SADIE: [Cries softly.]
+3022	c09a04_050_kin	KINSLER: (pouring a drink) Please, get all your tears out now.
+3023	c09a04_051_kin	KINSLER: It's a long ride, and I don't want to hear you moaning all the way to Nairobi.
+3024	c09a04_052_kin	KINSLER: Well, come to think of it... I might.
+3025	c09a04_060_cp2	CORRUPT COP #1: (radio) No sign of it yet, sir.
+3026	c09a04_070_kin	KINSLER: It's a pink, airborne octopus! How hard can it be to find?!
+3027	c09a04_080_cp2	CORRUPT COP #1: The tunnels are crawling with Buggers, Commissioner. We've lost a lot of men. Maybe we should --
+3028	c09a04_090_kin	KINSLER: No one leaves until I get that alien! Do you hear me, officer?
+3029	c09a04_091_kin	KINSLER: It found a way to hack a Superintendent-class A.I.! Knowing how it did that is vital to the war effort!
+3030	c09a04_100_sad	SADIE: Like you ever cared about anyone besides yourself!
+3031	c09a04_110_kin	KINSLER: Just because I'm a murderer, doesn't mean I'm unpatriotic.
+3032	c09a04_110_fol	[SOUND: Covenant plasma fire hits the station, rocking the train.]
+3033	c09a04_130_cp1	CORRUPT COP #2: Covenant armor approaching the station, sir! What do we do?!
+3034	c09a04_140_kin	KINSLER: (slamming his drink) We wait!
+3035	c09a04_150_kin	KINSLER: (sighs) Don't you see the beauty of it, Sadie? Whatever you think of me, whatever I have done...
+3036	c09a04_151_kin	KINSLER: I will leave this city with vital intelligence about the Covenant.
+3037	c09a04_160_sad	SADIE: Bastard!
+3038	c09a04_165_kin	KINSLER: Call me what you like...
+3039	c09a04_166_kin	KINSLER: But the world will call me a hero.
+3040	cir9_arc5	<<< Circle 9, Arc 5 transcript starts here! >>>
+3041	c09a05_010_fol	[SOUND: Corrupt cops fire into the crowd.]
+3042	c09a05_010_mik	MIKE: (muffled) Listen to me! The Covenant are coming!
+3043	c09a05_020_cm4	CROWD: (muffled) [Angry shouts and panicked screams.]
+3044	c09a05_130_mik	MIKE: (muffled) Listen to me if you want to live!
+3045	c09a05_140_kin	KINSLER: I've killed your father, Sadie, and now we're leaving the city. No one is coming to save you.
+3046	c09a05_141_kin	KINSLER: Not Branley. Not Vergil. It's the end of the line!
+3047	c09a05_141_fol	[SOUND: (from train) Engineer whistle.]
+3048	c09a05_142_fol	[SOUND: Sparks fly from the train's control-panel.]
+3049	c09a05_170_kin	KINSLER: What the hell is that?!
+3050	c09a05_190_sup	SUPERINTENDENT: (from train) WARNING, FIREWALL DOWN! CONTROL-CIRCUITS NOW OPEN TO REMOTE ACCESS!
+3051	c09a05_200_kin	KINSLER: That damn machine is dead! I killed it!
+3052	c09a05_260_kin	KINSLER: It doesn't matter! Anything it does to this car happens to you too!
+3053	c09a05_350_mik	MIKE: (muffled) Are you ready to die?
+3054	c09a05_370_cf2	CROWD: (muffled) No!
+3055	c09a05_440_mik	MIKE: (muffled) Do you want to live?
+3056	c09a05_460_cf2	CROWD: (muffled) Yes!
+3057	c09a05_530_mik	MIKE: (muffled) Are you ready to fight?!
+3058	c09a05_550_cf2	CROWD: (muffled) Yes!
+3059	c09a05_550_fol	[SOUND: Crowd pushes past cops, pounds on the train.]
+3060	c09a05_620_sad	SADIE: That's it, Mike!
+3061	c09a05_630_cp1	CORRUPT COP: We need to go now, sir!
+3062	c09a05_640_kin	KINSLER: Yes... go... The rest of your men will have to --
+3063	c09a05_650_sad	SADIE: Die?
+3064	c09a05_660_cp1	CORRUPT COP: Sir, we aren't moving! I've lost engine control!
+3065	c09a05_670_kin	KINSLER: Listen to me, Vergil, or whatever you are now! Move this train out of the station, or Sadie dies!
+3066	c09a05_671_kin	KINSLER: You hear me?! The Covenant will kill us all!
+3067	c09a05_671_fol	[SOUND: (from train) Angry Engineer whistle.]
+3068	c09a05_680_cp1	CORRUPT COP: I'm locked-out of the system! The train's not responding!
+3069	c09a05_690_kin	KINSLER: There is nothing you can do to hurt me that won't kill her!
+3070	c09a05_700_sad	SADIE: Almost nothing...
+3071	c09a05_701_sad	SADIE: Vergil. Open the doors.
+3072	c09a05_701_fol	[SOUND: Train doors open, angry crowd claws inside.]
+3073	c09a05_710_kin	KINSLER: What?! No! No! Get back! Get back! Get away from me!
+3074	c09a05_730_cf2	CROWD: [Furious, blood-thirsty shouts.]
+3075	c09a05_731_kin	KINSLER: [Screams as the crowd tears him apart.]
+3076	cir9_arc6	<<< Circle 9, Arc 6 transcript starts here! >>>
+3077	c09a06_010_fol	[SOUND: Crowd climbs onto the train.]
+3078	c09a06_020_cm1	CROWD: Let's go! Covenant's coming!
+3079	c09a06_030_cf1	CROWD: Up we go, baby! Hold momma's hand!
+3080	c09a06_060_cf2	CROWD: Help her up, c'mon, there we go!
+3081	c09a06_080_mik	MIKE: Sadie! Sadie! Are you alright?
+3082	c09a06_100_mik	MIKE: What about Kinsler?
+3083	c09a06_110_sad	SADIE: They tore him to pieces... I gotta go, Mike!
+3084	c09a06_120_sad	SADIE: Excuse me! Sorry! Let me through!
+3085	c09a06_130_mik	MIKE: Where are you going?!
+3086	c09a06_140_sad	SADIE: Underground!
+3087	c09a06_150_mik	MIKE: What!?
+3088	c09a06_150_fol	[SOUND: Covenant plasma fire slams into station.]
+3089	c09a06_160_sup	SUPERINTENDENT: (from PA) DO NOT EXIT, PLEASE!
+3090	c09a06_170_mik	MIKE: Sadie, stop! We are getting on that train, and getting the hell out of town!
+3091	c09a06_170_fol	[SOUND: (from PA) Engineer whistle.]
+3092	c09a06_200_sad	SADIE: That creature helped Vergil! It helped you and me! It helped all of us!
+3093	c09a06_210_mik	MIKE: Sadie...
+3094	c09a06_220_sad	SADIE: Dad knew how important it was! That's what he died for! I'm willing to die too! 
+3095	c09a06_230_sad	SADIE: Let me go, Mike!
+3096	c09a06_240_sup	SUPERINTENDENT: [Engineer whistle.] EMERGENCY STOP!
+3097	c09a06_241_sup	SUPERINTENDENT: (as Jonas) 'I am not worth -- your life -- my brave warrior princess!'
+3098	c09a06_250_sad	SADIE: If we don't find you, who will?
+3099	c09a06_260_sup	SUPERINTENDENT: (as Duty Officer) 'Office of Naval Intelligence --'
+3100	c09a06_261_sup	SUPERINTENDENT: YOUR TAX DOLLARS AT WORK!
+3101	c09a06_262_sup	SUPERINTENDENT: (as Stephen) 'Fallen heroes -- on the air.'
+3102	c09a06_270_sad	SADIE: Vergil, I --
+3103	c09a06_280_sup	SUPERINTENDENT: (as Sadie) 'I need you to live... for me.'
+3104	c09a06_290_cm6	CROWD: Get on the train, you two!
+3105	c09a06_300_cm4	CROWD: Brutes! Coming this way! Hurry!
+3106	c09a06_310_cm3	CROWD: No time! Argue later!
+3107	c09a06_320_mik	MIKE: We gotta go.
+3108	c09a06_330_sad	SADIE: Vergil! You're all I have left of this place!
+3109	c09a06_340_sup	SUPERINTENDENT: (as Dr. Edesha) 'Sadie -- Sadie -- Sadie -- Sadie!'
+3110	c09a06_341_sup	SUPERINTENDENT: (as Dr. Endesha) 'Sadie, sweetheart... You make me very, very proud.'
+3111	c09a06_350_sad	SADIE: You're all I have left of him...
+3112	c09a06_360_mik	MIKE: Sadie. Take my hand.
+3113	c09a06_370_sad	SADIE: OK...
+3114	c09a06_371_sad	SADIE: I'm ready.
+3115	c09a06_371_fol	[SOUND: Train whistles as it leaves the station.]
+3116	c09a06_380_sup	SUPERINTENDENT: ALL ABOARD! LAST TRAIN NOW DEPARTING!
+3117	c09a06_381_sup	SUPERINTENDENT: NEXT STOP -- MAKUPA, NAIROBI ROAD, HOPE STATION...
+3118	c09a06_382_sup	SUPERINTENDENT: And beyond.
+3119	c09a06_383_sup	[SOUND: Final train whistle and a Vergil chime.]
+
+=== pda/strings_objective ===
+3120	section_label	INTEL
+3121	section_label_previous	NAV
+3122	section_label_next	COMM
+3123	header	Header
+3124	dismiss_pda	<back_button/>  Close VISR
+3125	mission_objectives	MISSION OBJECTIVES
+3126	start_menu_campaign_primary_objectives	<primary-objectives/>
+3127	level_description_h100	Explore the city at night.
+3128	level_name_h100	Occupied city center
+3129	character_name_h100	ROOKIE
+3130	time_h100	6 hours after drop
+3131	level_description_sc100	Beat the Covenant to Dare's crash-site.
+3132	level_name_sc100	Tayari Plaza
+3133	character_name_sc100	BUCK
+3134	time_sc100	Immediately after drop
+3135	level_description_sc110	Lead a Warthog charge, clear hostiles from the park.
+3136	level_name_sc110	Uplift Reserve
+3137	character_name_sc110	DUTCH
+3138	time_sc110	30 minutes after drop
+3139	level_description_sc120	Scorpion rampage through the heart of the city.
+3140	level_name_sc120	Kizingo Blvd
+3141	character_name_sc120	MICKEY
+3142	time_sc120	90 minutes after drop
+3143	level_description_sc130	Fall back, deny access to this vital facility.
+3144	level_name_sc130	ONI Alpha Site
+3145	character_name_sc130	DUTCH
+3146	time_sc130	2 hours after drop
+3147	level_description_sc140	Pelican down.  Keep your sniper rifle handy.
+3148	level_name_sc140	NMPD HQ
+3149	character_name_sc140	ROMEO
+3150	time_sc140	3 hours after drop
+3151	level_description_sc150	Aerial combat in the flooded city.
+3152	level_name_sc150	Kikowani Station
+3153	character_name_sc150	BUCK
+3154	time_sc150	5 hours after drop
+3155	level_description_l200	Find Dare, secure the Superintendent.
+3156	level_name_l200	Superintendent data center
+3157	character_name_l200	ROOKIE
+3158	time_l200	After midnight
+3159	level_description_l300	Escort the asset out of the city.
+3160	level_name_l300	Coastal Highway
+3161	character_name_l300	ROOKIE
+3162	time_l300	Daybreak
+3163	start_menu_campaign_secondary_objectives	<secondary-objectives/>
+
+=== scoreboard/scoreboard_strings ===
+3231	place	Place
+3232	score	Score
+3233	round_score	Round
+3234	game	Players
+3235	game_film	<left_bumper/> Players (Film) <right_bumper/>
+3236	session	Players
+3237	session_film	<left_bumper/> Players (Party) <right_bumper/>
+3238	uploading	Connecting
+3239	uploading_help	Please wait...
+
+=== hud/hud_messages ===
+3250	pr_pickup	Hold <button_action_weapon_primary/> to pick up
+<plasma_rifle/>
+3251	pr_swap	Hold <button_action_weapon_primary/> to swap for
+<plasma_rifle/>
+3252	pr_picked_up	Picked up a Plasma Rifle
+3253	pr_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <plasma_rifle/>
+3254	pr_swap_ai	Hold <button_action_reload/> to take ally's
+<plasma_rifle/>
+3255	pp_pickup	Hold <button_action_weapon_primary/> to pick up
+<plasma_pistol/>
+3256	pp_swap	Hold <button_action_weapon_primary/> to swap for
+<plasma_pistol/>
+3257	pp_picked_up	Picked up a Plasma Pistol
+3258	pp_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <plasma_pistol/>
+3259	pp_swap_ai	Hold <button_action_reload/> to take ally's
+<plasma_pistol/>
+3260	cc_pickup	Hold <button_action_weapon_primary/> to pick up
+<carbine/>
+3261	cc_swap	Hold <button_action_weapon_primary/> to swap for
+<carbine/>
+3262	cc_picked_up	Picked up a Carbine
+3263	cc_ammo_singular	Picked up <hud_quantity/> round for Carbine
+3264	cc_ammo_plural	Picked up <hud_quantity/> rounds for Carbine
+3265	cc_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <carbine/>
+3266	cc_swap_ai	Hold <button_action_reload/> to take ally's
+<carbine/>
+3267	be_pickup	Hold <button_action_weapon_primary/> to pick up
+<particle_beam_rifle/>
+3268	be_swap	Hold <button_action_weapon_primary/> to swap for
+<particle_beam_rifle/>
+3269	be_picked_up	Picked up a Beam Rifle
+3270	be_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <particle_beam_rifle/>
+3271	be_swap_ai	Hold <button_action_reload/> to take ally's
+<particle_beam_rifle/>
+3272	bs_pickup	Hold <button_action_weapon_primary/> to pick up
+<brute_shot/>
+3273	bs_swap	Hold <button_action_weapon_primary/> to swap for
+<brute_shot/>
+3274	bs_picked_up	Picked up a Brute Shot
+3275	bs_ammo_singular	Picked up <hud_quantity/> grenade for Brute Shot
+3276	bs_ammo_plural	Picked up <hud_quantity/> grenades for Brute Shot
+3277	bs_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <brute_shot/>
+3278	bs_swap_ai	Hold <button_action_reload/> to take ally's
+<brute_shot/>
+3279	nd_pickup	Hold <button_action_weapon_primary/> to pick up
+<needler/>
+3280	nd_swap	Hold <button_action_weapon_primary/> to swap for
+<needler/>
+3281	nd_picked_up	Picked up a Needler
+3282	nd_ammo_singular	Picked up <hud_quantity/> needle for Needler
+3283	nd_ammo_plural	Picked up <hud_quantity/> needles for Needler
+3284	nd_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <needler/>
+3285	nd_swap_ai	Hold <button_action_reload/> to take ally's
+<needler/>
+3286	mp_pickup	Hold <button_action_weapon_primary/> to pick up
+<magnum/>
+3287	mp_swap	Hold <button_action_weapon_primary/> to swap for
+<magnum/>
+3288	mp_picked_up	Picked up a Magnum
+3289	mp_ammo_singular	Picked up <hud_quantity/> round for Magnum
+3290	mp_ammo_plural	Picked up <hud_quantity/> rounds for Magnum
+3291	mp_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <magnum/>
+3292	mp_swap_ai	Hold <button_action_reload/> to take ally's
+<magnum/>
+3293	rl_pickup	Hold <button_action_weapon_primary/> to pick up
+<rocket_launcher/>
+3294	rl_swap	Hold <button_action_weapon_primary/> to swap for
+<rocket_launcher/>
+3295	rl_picked_up	Picked up a Rocket Launcher
+3296	rl_ammo_singular	Picked up <hud_quantity/> round for Rocket Launcher
+3297	rl_ammo_plural	Picked up <hud_quantity/> rounds for Rocket Launcher
+3298	rl_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <rocket_launcher/>
+3299	rl_swap_ai	Hold <button_action_reload/> to take ally's
+<rocket_launcher/>
+3300	fc_pickup	Hold <button_action_weapon_primary/> to pick up
+<fuel_rod_gun/>
+3301	fc_swap	Hold <button_action_weapon_primary/> to swap for
+<fuel_rod_gun/>
+3302	fc_picked_up	Picked up a Fuel Rod Gun
+3303	fc_ammo_singular	Picked up <hud_quantity/> rod for Fuel Rod Gun
+3304	fc_ammo_plural	Picked up <hud_quantity/> rods for Fuel Rod Gun
+3305	fc_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <fuel_rod_gun/>
+3306	fc_swap_ai	Hold <button_action_reload/> to take ally's
+<fuel_rod_gun/>
+3307	sg_pickup	Hold <button_action_weapon_primary/> to pick up
+<shotgun/>
+3308	sg_swap	Hold <button_action_weapon_primary/> to swap for
+<shotgun/>
+3309	sg_picked_up	Picked up a Shotgun
+3310	sg_ammo_singular	Picked up <hud_quantity/> shell for Shotgun
+3311	sg_ammo_plural	Picked up <hud_quantity/> shells for Shotgun
+3312	sg_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <shotgun/>
+3313	sg_swap_ai	Hold <button_action_reload/> to take ally's
+<shotgun/>
+3314	ssmg_pickup	Hold <button_action_weapon_primary/> to pick up
+<smg_silenced/>
+3315	ssmg_swap	Hold <button_action_weapon_primary/> to swap for
+<smg_silenced/>
+3316	ssmg_picked_up	Picked up a Silenced SMG
+3317	ssmg_ammo_singular	Picked up <hud_quantity/> round for Silenced SMG
+3318	ssmg_ammo_plural	Picked up <hud_quantity/> rounds for Silenced SMG
+3319	ssmg_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <smg_silenced/>
+3320	ssmg_swap_ai	Hold <button_action_reload/> to take ally's
+<smg_silenced/>
+3321	sn_pickup	Hold <button_action_weapon_primary/> to pick up
+<sniper_rifle/>
+3322	sn_swap	Hold <button_action_weapon_primary/> to swap for
+<sniper_rifle/>
+3323	sn_picked_up	Picked up a Sniper Rifle
+3324	sn_ammo_singular	Picked up <hud_quantity/> round for Sniper Rifle
+3325	sn_ammo_plural	Picked up <hud_quantity/> rounds for Sniper Rifle
+3326	sn_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <sniper_rifle/>
+3327	sn_swap_ai	Hold <button_action_reload/> to take ally's
+<sniper_rifle/>
+3328	ar_pickup	Hold <button_action_weapon_primary/> to pick up
+<assault_rifle/>
+3329	ar_swap	Hold <button_action_weapon_primary/> to swap for
+<assault_rifle/>
+3330	ar_picked_up	Picked up an Assault Rifle
+3331	ar_ammo_singular	Picked up <hud_quantity/> round for Assault Rifle
+3332	ar_ammo_plural	Picked up <hud_quantity/> rounds for Assault Rifle
+3333	ar_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <assault_rifle/>
+3334	ar_swap_ai	Hold <button_action_reload/> to take ally's
+<assault_rifle/>
+3335	ml_pickup	Hold <button_action_weapon_primary/> to pick up
+<missile_launcher/>
+3336	ml_swap	Hold <button_action_weapon_primary/> to swap for
+<missile_launcher/>
+3337	ml_picked_up	Picked up a Missile Pod
+3338	ml_ammo_singular	Picked up <hud_quantity/> round for Missile Pod
+3339	ml_ammo_plural	Picked up <hud_quantity/> rounds for Missile Pod
+3340	remove_pod_melee	Press <button_melee_attack/> to detach Missile Pod
+3341	ml_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <missile_launcher/>
+3342	sr_pickup	Hold <button_action_weapon_primary/> to pick up
+<spike_rifle/>
+3343	sr_swap	Hold <button_action_weapon_primary/> to swap for
+<spike_rifle/>
+3344	sr_picked_up	Picked up a Spiker
+3345	sr_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <spike_rifle/>
+3346	sr_swap_ai	Hold <button_action_reload/> to take ally's
+<spike_rifle/>
+3347	laz_pickup	Hold <button_action_weapon_primary/> to pick up
+<pump_laser/>
+3348	laz_swap	Hold <button_action_weapon_primary/> to swap for
+<pump_laser/>
+3349	laz_picked_up	Picked up a Spartan Laser
+3350	laz_swap_ai	Hold <button_action_reload/> to take ally's
+<pump_laser/>
+3351	laz_ammo_singular	Picked up <hud_quantity/> round for Spartan Laser
+3352	laz_ammo_plural	Picked up <hud_quantity/> rounds for Spartan Laser
+3353	laz_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <pump_laser/>
+3354	mgturret_pickup	Hold <button_action_weapon_primary/> to pick up
+<machinegun_turret/>
+3355	mgturret_swap	Hold <button_action_weapon_primary/> to swap for
+<machinegun_turret/>
+3356	mgturret_picked_up	Picked up a Machine Gun Turret
+3357	flamethrower_pickup	Hold <button_action_weapon_primary/> to pick up
+<flamethrower/>
+3358	flamethrower_swap	Hold <button_action_weapon_primary/> to swap for
+<flamethrower/>
+3359	flamethrower_swap_ai	Hold <button_action_reload/> to take ally's
+<flamethrower/>
+3360	flamethrower_picked_up	Picked up a Flamethrower
+3361	pturret_pickup	Hold <button_action_weapon_primary/> to pick up
+<plasma_turret/>
+3362	pturret_swap	Hold <button_action_weapon_primary/> to swap for
+<plasma_turret/>
+3363	pturret_picked_up	Picked up a Plasma Turret
+3364	bo_pickup	Hold <button_action_weapon_primary/> to pick up
+<bomb/>
+3365	bo_picked_up	Picked up the Bomb
+3366	ex_pickup	Hold <button_action_weapon_primary/> to pick up
+<excavator/>
+3367	ex_swap	Hold <button_action_weapon_primary/> to swap for
+<excavator/>
+3368	ex_picked_up	Picked up a Mauler
+3369	ex_ammo_singular	Picked up <hud_quantity/> round for Mauler
+3370	ex_ammo_plural	Picked up <hud_quantity/> rounds for Mauler
+3371	ex_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <excavator/>
+3372	ex_swap_ai	Hold <button_action_reload/> to take ally's
+<excavator/>
+3373	ham_picked_up	Picked up a Gravity Hammer
+3374	ham_switch_to	Out of ammo
+Press <button_switch_weapon/> to switch to <gravity_hammer/>
+3375	ham_swap_ai	Hold <button_action_reload/> to take ally's
+<gravity_hammer/>
+3376	ham_pickup	Hold <button_action_weapon_primary/> to pick up
+<gravity_hammer/>
+3377	ham_swap	Hold <button_action_weapon_primary/> to swap for
+<gravity_hammer/>
+3378	fg_ammo_singular	Picked up a Frag Grenade
+3379	fg_ammo_plural	Picked up <hud_quantity/> Frag Grenades
+3380	pg_ammo_singular	Picked up a Plasma Grenade
+3381	pg_ammo_plural	Picked up <hud_quantity/> Plasma Grenades
+3382	clay_ammo_singular	Picked up a Spike Grenade
+3383	clay_ammo_plural	Picked up <hud_quantity/> Spike Grenades
+3384	banshee_enter	Hold <button_action_reload/> to pilot Banshee
+3385	banshee_flip	Hold <button_action_reload/> to flip Banshee
+3386	banshee_board	Hold <button_action_reload/> to board enemy Banshee
+3387	c_tower_enter	Hold <button_action_reload/> to use Covenant gun tower
+3388	ghost_enter	Hold <button_action_reload/> to drive Ghost
+3389	ghost_flip	Hold <button_action_reload/> to flip Ghost
+3390	ghost_board	Hold <button_action_reload/> to board enemy Ghost
+3391	pelican_enter_passenger	Hold <button_action_reload/> to ride in Pelican
+3392	pelican_enter_gunner	Hold <button_action_reload/> to operate Pelican turret
+3393	phantom_enter_passenger	Hold <button_action_reload/> to ride in Phantom
+3394	scorpion_enter_driver	Hold <button_action_reload/> to drive Scorpion
+3395	scorpion_flip	Hold <button_action_reload/> to flip Scorpion
+3396	scorpion_enter_passenger	Hold <button_action_reload/> to operate Scorpion turret
+3397	scorpion_enter_rider	Hold <button_action_reload/> to ride on Scorpion
+3398	scorpion_board	Hold <button_action_reload/> to board enemy Scorpion
+3399	scorpion_board_melee	Press <button_melee_attack/> to melee
+3400	scorpion_board_grenade	Use <button_throw_grenade/> to plant grenade
+3401	turret_enter	Hold <button_action_reload/> to operate turret
+3402	turret_flip	Inoperable turret
+3403	pod_enter	Hold <button_action_reload/> to operate Missile Turret
+3404	shade_enter	Hold <button_action_reload/> to operate Shade Turret
+3405	remove_turret_melee	Press <button_melee_attack/> to detach turret
+3406	pcannon_enter	Hold <button_action_reload/> to operate Plasma Cannon
+3407	remove_cannon_melee	Press <button_melee_attack/> to detach Plasma Cannon
+3408	mauler_enter_driver	Hold <button_action_reload/> to drive Prowler
+3409	mauler_enter_passenger	Hold <button_action_reload/> to ride in Prowler
+3410	mauler_enter_gunner	Hold <button_action_reload/> to operate Prowler turret
+3411	mauler_flip	Hold <button_action_reload/> to flip Prowler
+3412	mauler_board	Hold <button_action_reload/> to board enemy Prowler
+3413	warthog_enter_driver	Hold <button_action_reload/> to drive Warthog
+3414	warthog_enter_passenger	Hold <button_action_reload/> to ride in Warthog
+3415	warthog_enter_gunner	Hold <button_action_reload/> to operate Warthog turret
+3416	warthog_flip	Hold <button_action_reload/> to flip Warthog
+3417	warthog_board	Hold <button_action_reload/> to board enemy Warthog
+3418	wraith_enter_driver	Hold <button_action_reload/> to drive Wraith
+3419	wraith_enter_gunner	Hold <button_action_reload/> to operate Wraith turret
+3420	wraith_flip	Hold <button_action_reload/> to flip Wraith
+3421	wraith_board	Hold <button_action_reload/> to board enemy Wraith
+3422	wraith_board_melee	Press <button_melee_attack/> to melee
+3423	wraith_board_grenade	Use <button_throw_grenade/> to plant grenade
+3424	hornet_d_enter	Hold <button_action_reload/> to pilot Hornet
+3425	hornet_p_enter	Hold <button_action_reload/> to ride in Hornet
+3426	hornet_enter_gunner	Hold <button_action_reload/> to operate Hornet turret
+3427	hornet_flip	Press <button_action_reload/> to flip Hornet
+3428	hornet_board	Hold <button_action_reload/> to board enemy Hornet
+3429	gauss_enter	Hold <button_action_reload/> to operate Gauss Turret
+3430	zanzibar_gate_action	Hold <button_action_reload/> to open the gate
+3431	scoreboard_playerscore	<hud_scoreboard_player_score/>
+3432	scoreboard_otherplayerscore	<hud_scoreboard_other_player_score/>
+3433	scoreboard_variantname	<hud_scoreboard_variant_name/>
+3434	scoreboard_timeleft	<hud_scoreboard_time_left/>
+3435	assault_defusal	Hold <button_action_reload/> to defuse the bomb
+3436	game_engine_blocked_teleporter	Teleporter is blocked
+3437	training_flashlight	Press <button_flashlight/> to activate vision mode
+3438	training_crouch	Click <button_crouch/> to crouchwalk
+3439	training_looklong	Use <stick_look/> to turn
+3440	training_vehiclelooklong	Use <stick_look/> to aim camera
+Use <stick_move/> to accelerate in the direction camera is looking
+3441	training_stationaryvehicle	You must be in a DRIVER seat to drive a vehicle
+3442	training_devicehold	Press and HOLD <button_action_reload/> until you activate device
+3443	training_vehiclehold	Press and HOLD <button_action_reload/> until you enter seat
+3444	training_swaphold	Press and HOLD <button_action_reload/> until you pick up weapon
+3445	training_vehiclelook	Use <stick_look/> to aim camera
+3446	training_vehiclemove	Use <stick_move/> to accelerate in the direction camera is looking
+3447	training_look	Use <stick_look/> to turn
+3448	training_move	Use <stick_move/> to move
+3449	training_unzoom	Click  <button_scope_zoom/> to exit weapon zoom mode
+3450	training_fireweapon	Use <button_fire/> to fire weapon
+3451	training_zoom	Click <button_scope_zoom/> to enter weapon zoom mode
+3452	training_throwgrenade	Use <button_throw_grenade/> to throw a grenade at enemies
+3453	training_melee	Use <button_melee_attack/> to melee attack enemies
+3454	training_rearmelee	Use <button_melee_attack/> to silently kill an enemy from behind
+3455	training_vehicleboard	Press and HOLD <button_action_reload/> to board enemy vehicles
+3456	training_shieldsrecharging	Your stamina is recharging
+3457	training_shieldsdown	Your stamina is low, take cover!
+3458	training_reload	Press <button_action_reload/> to reload weapon
+3459	training_bansheeboost	Use <left_trigger/> to use Banshee boost
+3460	training_firebansheebomb	Use <button_melee_attack/> to fire Banshee bomb
+3461	training_bansheetrick	Use <button_jump/> and <stick_move/> to perform Banshee tricks
+3462	training_ebrake	Use <left_trigger/> to power slide
+3463	training_ghostboost	Use <left_trigger/> to use Ghost boost
+3464	training_stealth	Press <button_flashlight/> to engage your stealth camouflage
+3465	training_teamchat	Hold <button_flashlight/> to talk to your entire team
+3466	training_equipment	Press <button_use_equipment/> to use equipment
+3467	training_jump	Press <button_jump/> Button to jump
+3468	training_pda	Press <button_back/> to activate Visual Intelligence System
+3469	training_health_low	Your health is low, find a health pack!
+3470	training_health_recharging	Your health is recharging
+3471	hud_autosave_begin	Checkpoint...
+3472	hud_autosave_end	Checkpoint... done
+3473	hud_loading_begin	Loading...
+3474	hud_loading_end	Loading... done
+3475	hud_saving_begin	Updating (do not turn off your Xbox 360 console)...
+3476	hud_saving_end	Updating... done
+3477	hud_respawn_faliure_combat	Unable to respawn
+3478	hud_respawn_faliure_unsafe	Waiting to respawn (area not safe)
+3479	hud_respawn_faliure_moving	Waiting to respawn (teammate moving)
+3480	hud_respawn_faliure_vehicle	Waiting to respawn (teammate in a vehicle)
+3481	tutorial_look_up	Use <stick_look/> to look up
+3482	tutorial_look_down	Use <stick_look/> to look down
+3483	tutorial_movestick	Use <stick_move/> to move around
+3484	tutorial_zapper_lookatme	Use <stick_look/> to look at the sergeant
+3485	tutorial_zapper_getin	Use <stick_move/> to move inside the shield test station
+3486	tutorial_zapper_button	Use <button_action_reload/> to activate shield test station
+3487	tutorial_elevator	Training Complete
+Join Sgt. Johnson in the elevator
+3488	tutorial_tracker_button	Use <button_action_reload/> to activate motion tracker station
+3489	tutorial_looker_button	Use <button_action_reload/> to activate targeting station
+3490	tutorial_looker_lights	Use <stick_look/> to look at each light
+3491	tutorial_choose_normal	Press <button_jump/> to accept Normal aiming
+Press <b_button/> to try Inverted aiming
+3492	tutorial_choose_invert	Press <button_jump/> to accept Inverted aiming
+Press <b_button/> to try Normal aiming
+3493	tutorial_set_normal	Your aiming has been set to Normal
+Settings can be changed from the START Menu
+3494	tutorial_set_invert	Your aiming has been set to Inverted
+Settings can be changed from the START Menu
+3495	device_elevator	Hold <button_action_reload/> to activate elevator
+3496	device_bridge	Hold <button_action_reload/> to extend bridge
+3497	device_door	Hold <button_action_reload/> to open door
+3498	device_door_security	Hold  <button_action_reload/>  to open security door
+3499	device_generator	Hold <button_action_reload/> to deactivate shield generator
+3500	device_cartographer	Hold <button_action_reload/> to activate cartographer
+3501	device_bomb	Hold <button_action_reload/> to arm bomb
+3502	device_terminal	Hold <button_action_reload/> to access data terminal
+3503	device_phone	Hold <button_action_reload/> to answer phone
+3504	device_emergency_release	Hold <button_action_reload/> to arm explosive bolt
+3505	device_kiosk	Hold <button_action_reload/> to access information kiosk
+3506	device_activate	Hold <button_action_reload/> to power up terminal
+3507	device_cortana	Press <button_melee_attack/> to breach stasis field
+3508	device_pylons	Hold <button_action_reload/> to expose reactor pylons
+3509	device_pelican	Hold <button_action_reload/> to enter Pelican
+3510	device_zapper	Press and HOLD <button_action_reload/> to start energy shield test
+3511	device_gondola	Hold <button_action_reload/> to start gondola
+3512	device_plug	Hold <button_action_reload/> to power down containment shield
+3513	device_hangar	Hold <button_action_reload/> to open hangar doors
+3514	device_piston	Hold <button_action_reload/> to activate piston
+3515	device_plug_lock	Hold <button_action_reload/> to deactivate plug lock
+3516	device_lower_shield	Hold <button_action_reload/> to deactivate plasma shield
+3517	device_pry_open_pod	Hold <button_action_reload/> to pry open drop-pod
+3518	device_data_stack	Hold <button_action_reload/> to raise data-stack
+3519	device_door_knock	Hold <button_action_reload/> to knock on door
+3520	device_data_enter	Hold <button_action_reload/> to enter data-center
+3521	device_l150	Hold <button_action_reload/> to enter CITY UNDERGROUND
+3522	playtest_raisehand	Please stop playing and raise your hand
+3523	boot_griefer	<hud_betraying_player/> betrayed you.|nHold <x_button/> to eject this betrayer from the game.
+3524	cannot_boot_griefer	<hud_betraying_player/> betrayed you.|nWith so many prior ejections, you cannot boot this betrayer.
+3525	rocket_lock_available	Hold <button_fire/> to lock on
+3526	rocket_locking	Locking on
+3527	rocket_locked	Release <button_fire/> to fire tracking rocket
+3528	unlocked_extra_1	Envy
+3529	unlocked_extra_2	Grunt Birthday Party
+3530	unlocked_extra_3	Assassins
+3531	unlocked_extra_4	Thunderstorm
+3532	unlocked_extra_5	Famine
+3533	unlocked_extra_6	I Would Have Been Your Daddy
+3534	unlocked_extra_7	Blind
+3535	unlocked_extra_8	Ghost
+3536	unlocked_extra_9	Black Eye
+3537	unlocked_extra_10	Catch
+3538	unlocked_extra_11	Sputnik
+3539	unlocked_extra_12	Iron
+3540	unlocked_extra_13	Mythic
+3541	unlocked_extra_14	Angry
+3542	unlocked_extra_15	Cow Bell
+3543	unlocked_extra_16	That's Just... Wrong
+3544	mongoose_enter_driver	Hold <button_action_reload/> to drive Mongoose
+3545	mongoose_enter_passenger	Hold <button_action_reload/> to enter passenger seat.
+3546	mongoose_flip	Hold <button_action_reload/> to flip Mongoose
+3547	mongoose_board	Hold <button_action_reload/> to board enemy Mongoose
+3548	chopper_enter	Hold <button_action_reload/> to drive Chopper
+3549	chopper_flip	Hold <button_action_reload/> to flip Chopper
+3550	chopper_board	Hold <button_action_reload/> to board enemy Chopper
+3551	autoturret_picked_up	Picked up an Auto-Turret
+3552	autoturret_swap	Hold <button_action_reload/> to swap for Auto-Turret
+3553	bubbleshield_picked_up	Picked up a Bubble Shield
+3554	bubbleshield_swap	Hold <button_action_reload/> to swap for Bubble Shield
+3555	gravlift_picked_up	Picked up a Grav Lift
+3556	gravlift_swap	Hold <button_action_reload/> to swap for Grav Lift
+3557	instantcover_picked_up	Picked up a Deployable Cover
+3558	instantcover_swap	Hold <button_action_reload/> to swap for Deployable Cover
+3559	invincibility_picked_up	Picked up Invincibility
+3560	invincibility_swap	Hold <button_action_reload/> to swap for Invincibility
+3561	invisibility_picked_up	Picked up Cloaking
+3562	invisibility_swap	Hold <button_action_reload/> to swap for Cloaking
+3563	jammer_picked_up	Picked up a Radar Jammer
+3564	jammer_swap	Hold <button_action_reload/> to swap for Radar Jammer
+3565	powerdrain_picked_up	Picked up a Power Drain
+3566	powerdrain_swap	Hold <button_action_reload/> to swap for Power Drain
+3567	regenerator_picked_up	Picked up a Regenerator
+3568	regenerator_swap	Hold <button_action_reload/> to swap for Regenerator
+3569	superflare_picked_up	Picked up a Flare
+3570	superflare_swap	Hold <button_action_reload/> to swap for Flare
+3571	tripmine_picked_up	Picked up a Trip Mine
+3572	tripmine_swap	Hold <button_action_reload/> to swap for Trip Mine
+3573	vortex_picked_up	Picked up a Vortex
+3574	vortex_swap	Hold <button_action_reload/> to swap for Vortex
+3575	bomb_picked_up	Picked up a Bomb
+3576	laser_bits	0320.00
+3577	binocular_bit1	ODST BIOS A29.8179418.01
+3578	binocular_bit2	01000100011000010111011001100101
+3579	sniper_bits	DIST
+ELEV
+3580	2x	2x
+3581	5x	5x
+3582	10x	10x
+3583	powerup_pickup_red	Picked up an Overshield
+3584	powerup_pickup_blue	Picked up an Active Camo
+3585	powerup_pickup_yellow	Picked up a custom powerup
+3586	debug_host	HOST
+3587	debug_latency	LATENCY
+3588	debug_local	LOCAL
+3589	device_sc100	Hold <button_action_reload/> to inspect RECON HELMET
+3590	device_sc110	Hold <button_action_reload/> to inspect DRONE FIGHTER OPTICS
+3591	device_sc120	Hold <button_action_reload/> to inspect GAUSS TURRET
+3592	device_sc130	Hold <button_action_reload/> to inspect REMOTE DETONATOR
+3593	device_sc140	Hold <button_action_reload/> to inspect SNIPER RIFLE
+3594	device_sc150	Hold <button_action_reload/> to inspect BIO-FOAM CANISTER
+3595	device_sc160	Hold <button_action_reload/> to transition to scene 160
+3596	device_arg	Tap <button_action_reload/> to download COMM data to VISR|nHold <button_action_reload/> to download and play immediately
+3597	survival_bits	>>>WAVE:
+>>ROUND:
+>SET:
+LIVES:
+3598	buck	BUCK
+3599	dare	DARE
+3600	dutch	DUCH
+3601	romeo	ROME
+3602	mickey	MCKY
+3603	engineer	VRGL
+3604	skull_thunderstorm	Enemies are upgraded
+3605	skull_famine	Enemies drop low-ammo weapons
+3606	skull_tilt	Enemy shields deflect bullets
+3607	skull_mythic	Enemies have 2x health
+3608	skull_catch	Enemies love to throw grenades
+3609	skull_black_eye	Melee to recharge your Stamina
+3610	skull_tough_luck	Enemies always evade danger
+3611	skull_iron	Respawning is disabled. Be Careful!
+3612	thunderstorm	THUNDERSTORM
+3613	famine	FAMINE
+3614	tilt	TILT
+3615	mythic	MYTHIC
+3616	catch	CATCH
+3617	black_eye	BLACK EYE
+3618	tough_luck	TOUGH LUCK
+3619	iron	IRON
+3620	_achievement_dome_inspector	Dome inspector
+3621	_achievement_laser_blaster	Laser Blaster
+3622	_achievement_both_tubes	Both Tubes
+3623	_achievement_i_like_fire	I Like Fire
+3624	_achievement_my_clothes	My Clothes!
+3625	_achievement_pink_and_deadly	Pink and Deadly
+3626	_achievement_dark_times	Dark Times
+3627	_achievement_boom_headshot	Boom, Headshot!
+3628	_achievement_ewww_sticky	Ewww, Sticky
+3629	_achievement_wraith_killer	Wraith Killer
+3630	_achievement_naughty_naughty	Naughty Naughty
+3631	_achievement_gumshoe	Gumshoe
+3632	_achievement_super_sleuth	Super Sleuth
+3633	_achievement_find_all_audio_logs	Audiophile
+3634	_achievement_find_03_audio_logs	Tuned In
+3635	_achievement_find_15_audio_logs	All Ears
+3636	slash	/
+3637	message_downloaded	Message downloaded to VISR
+3638	bonus_text	Bonus Round: Lives awarded at 10,000
+3639	pda_activate_nav	Press <button_back/> to open VISR NAV data
+3640	pda_activate_comm	Press <button_back/> to open VISR COMM data
+3641	pda_activate_intel	Press <button_back/> to open VISR INTEL data
+3642	pda_activate_all	Press <button_back/> to open VISR database
+

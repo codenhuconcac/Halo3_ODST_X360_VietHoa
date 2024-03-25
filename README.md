@@ -2,4 +2,4 @@
 
  Halo 3: ODST Việt hóa dành cho hệ máy Xbox 360.
 
-Repo này hiện đang là placeholder.
+Bạn có thể xem tiến độ dịch của mình tại đây.
