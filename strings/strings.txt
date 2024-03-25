@@ -446,7 +446,9 @@ Saved Films: (value)
 53	c100_510_dut	DUTCH (radio):  EMP! Đang mất nguồn điện!
 54	c100_540_buc	BUCK (radio):  Ổn định lại rồi bật dù của mấy người! Chúng ta sẽ phải đáp mạnh xuống!
 
+
 =================================== h100 - MOMBASA STREETS ===================================
+
 
 === chapter_titles/atlas/h100 ===
 0	title_1	THE ROOKIE
@@ -2377,4 +2379,82 @@ LIVES:
 3640	pda_activate_comm	Press <button_back/> to open VISR COMM data
 3641	pda_activate_intel	Press <button_back/> to open VISR INTEL data
 3642	pda_activate_all	Press <button_back/> to open VISR database
+
+
+=================================== sc100 - TAYARI PLAZA ===================================
+
+
+=== cinematics\subtitles\sc100 ===
+481	sc100int_510_dar	DARE:  Cả đội, mọi người sao rồi? Anh còn đó không, Buck?
+482	sc100int_520_buc	BUCK:  Ừ. Cho tôi một giây...
+483	sc100int_530_dar	DARE:  Bên tôi có bị rơi hơi nặng. Cửa không mở được. Bên anh thì sao?
+484	sc100int_540_buc	BUCK:  Hự!  Mở tốt luôn...
+485	sc100int_550_dar	DARE:  Được thôi. Vậy khi nào anh quậy xong thì ra đây giúp tôi đi.
+486	sc100int_565_buc	BUCK:  Tôi đã... làm gì sai à? Bởi vì điều duy nhất tôi hối tiếc về cô... Là không biết cô là điệp viên khi chúng ta mới gặp nhau.|NBiết thế thì tôi đã khiến mình bớt quyến rũ hơn.
+487	sc100int_570_dar	DARE:  Đó là điều mà tôi nhớ về anh nhất, Buck. Cái cách mà anh mồm nhanh hơn não.
+488	sc100int_575_dar	DARE:  Nghe này, sao phải bàn về công việc của tôi nữa. Chúng ta đều đồng ý chấm dứt nó rồi mà.
+489	sc100int_580_buc	BUCK:  Đấy là nhiều năm trước rồi, Veronica. Tôi có... hơi tò mò về... chi tiết. 
+Hẳn là cô phải gặp mấy thằng khốn khác kể từ đó. Sao cô lại chọn tôi vào nhiệm vụ này?
+490	sc100int_590_dar	DARE:  Thứ nhất, anh là người lính giỏi nhất mà tôi biết, và thứ hai... anh thật sự không nhớ ư?
+Đêm hôm đó ấy? Câu hỏi anh nói với tôi vào buổi sáng?
+491	sc100int_595_buc	BUCK:  Tôi chỉ nhớ là mình không nhận được câu trả lời...
+492	sc100int_600_dar	DARE:  Nói lại đi, Buck? Sóng tệ quá.
+493	sc100int_610_buc	BUCK:  Tôi nói là giữ vị trí. Tôi đang tới.
+494	sc100_0030_dar	DARE:  Chúng ta đã bay trượt khỏi bãi đáp. Covenant đang hoạt động đông đúc tại khu vực này.|nHãy cẩn thận.
+495	sc100_0040_buc	BUCK:  Tôi đánh giá cao sự quan tâm của cô.
+496	sc100_0050_dar	DARE:  Còn gọi gì là giải cứu nếu anh lại đi chết chứ.
+497	sc100out_010_buc	BUCK:  Tôi tới rồi... Để tôi lo...
+498	sc100out_020_buc	BUCK:  Ôi, bố khỉ.
+499	sc100out_030_buc	BUCK:  Uây, uây!
+500	sc100out_035_buc	BUCK:  Uây!
+501	sc100out_045_buc	BUCK:  Hự...
+502	sc100out_050_buc	BUCK:  Đó vừa là cái quái gì vậy?! Anh thấy nó lần nào chưa?
+503	sc100out_060_buc	BUCK:  Này Romeo. Bật bộ đàm chưa?
+504	sc100out_070_buc	BUCK:  À, hiểu rồi. Mở mồm đi, cái loại khôn lỏi này.
+505	sc100out_080_rom	Romeo: Không,  tôi không biết nó là gì. Nhưng nó định nổ banh xác anh đấy --
+như cách nó đã làm với đại úy.
+506	sc100out_090_buc	BUCK:  Ừ... Chắc vậy. Anh có nghe được gì từ Mickey hay Dutch không?
+507	sc100out_100_rom	Romeo: Không.
+508	sc100out_110_buc	BUCK:  Thằng tân binh thì sao?
+509	sc100out_120_buc	BUCK:  Chúng ta cần phải vượt qua chuyện này, liên kết với mạng lưới chiến đấu.
+Một trong những drone của chúng ta hẳn là đã thấy họ đã rơi xuống đâu.
+510	sc100out_130_rom	ROMEO:  Vậy chúng ta từ bỏ nhiệm vụ của quý cô à? 
+Cô ấy có nói điều mà cô ấy muốn nói với anh không?
+511	sc100out_140_buc	BUCK:  Không hề... Không bao giờ cả.
+512	sc100out_150_buc	BUCK:  Chẳng quan trọng nữa. Điều tôi cần làm bây giờ là đưa người của tôi ra khỏi thành phố... 
+Ngay cả anh.
+
+
+=================================== sc110 - UPLIFT RESERVE ===================================
+
+
+=== cinematics\subtitles\sc110 ===
+10	sc110int_520_dut	DUTCH:  Chúc may mắn, mấy chế.
+11	sc110int_530_dut	DUTCH:  Tôi thì cứ ở mặt đất mà chiến thôi.
+12	sc110out_010_dut	DUTCH:  Hự! Ư...
+13	sc110out_015_dut	DUTCH:  Ờm, Chúa ơi? Tôi đâu có được huấn luyện làm phi công. 
+Nói với tôi rằng tôi không phải bay gì nữa đi.
+14	sc110out_020_dut	DUTCH:  Vậy... câu trả lời là có hay không?
+15	sc110out_030_dut	DUTCH:  Amen.
+
+
+=================================== sc120 - KIZINGO BLVD. ===================================
+
+
+=== cinematics\subtitles\sc120 ===
+10	sc120int_510_mic	MICKEY:  Này! Giao tranh ở đâu thế?
+11	sc120int_520_ma1	MARINE:  Đoán thử đê, thiên tài!
+12	sc120int_524_mic	MICKEY:  Hựa…
+13	sc120int_526_mic	MICKEY:  A!
+14	sc120int_530_mic	MICKEY:  Tổ sư chúng nó!
+15	sc120int_540_ma2	MARINE:  Muốn sống phải không?! Vậy thì xéo khỏi đường đi!
+16	sc120int_550_mic	MICKEY:  Đợi tôi tí!
+17	sc120out_010_dut	DUTCH:  Anh có nghe được gì từ pháo binh không?
+18	sc120out_020_mic	MICKEY:  Không. Romeo cũng thế.
+19	sc120out_030_dut	DUTCH:  Chắc chỉ còn anh và tôi thôi.
+20	sc120out_040_mic	MICKEY:  Ý kiến của tôi? Né bọn chúng, đợi hỗ trợ tới.
+21	sc120out_050_tec	COP:  Lạy chúa!  Có ai biết dùng thuốc nổ không?
+22	sc120out_060_dut	DUTCH:  Ý kiến của anh? Vừa phải bác bỏ rồi đấy.
+23	sc120out_070_mic	MICKEY:  Ôiii...
+
 
