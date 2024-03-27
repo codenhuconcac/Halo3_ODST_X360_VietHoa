@@ -27,7 +27,7 @@
 1097	main_menu_offline	<start_button/> Cài Đặt
 1098	main_menu_online	<start_button/> Cài Đặt   <y_button/> Bạn Bè
 
-=== start_menu/strngs ===
+=== start_menu/strings ===
 1099	start_menu_headquarters	TRUYỀN THÔNG
 1100	start_menu_settings	CÀI ĐẶT
 1101	start_menu_game_campaign	GAME
@@ -2456,5 +2456,102 @@ Nói với tôi rằng tôi không phải bay gì nữa đi.
 21	sc120out_050_tec	COP:  Lạy chúa!  Có ai biết dùng thuốc nổ không?
 22	sc120out_060_dut	DUTCH:  Ý kiến của anh? Vừa phải bác bỏ rồi đấy.
 23	sc120out_070_mic	MICKEY:  Ôiii...
+
+
+=================================== sc130 - ONI ALPHA SITE ===================================
+
+
+=== cinematics\subtitles\sc130 ===
+11	sc130int_510_dut	DUTCH: Nhanh lên nào.
+12	sc130int_520_mic	MICKEY: Anh muốn làm cùng à? Cứ tự nhiên...
+13	sc130int_530_mic	MICKEY: Nhưng đây không phải việc để vội vàng đâu.
+14	sc130int_540_dut	DUTCH: Được chưa?
+15	sc130int_550_tec	CẢNH SÁT (radio): Tín hiệu ổn!
+16	sc130int_555_tec	CẢNH SÁT (radio): Kích hoạt những kíp nổ còn lại, và rút lui về chỗ tôi!
+17	sc130int_560_mic	MICKEY: Nhanh nào, đồ cứng đầu, chúng ta phải cho nổ cây cầu này!
+18	sc130via_010_mic	MICKEY: Dutch! Kích hoạt nốt kíp nổ!
+19	sc130via_020_dut	DUTCH: Còn đám Wraith đó thì sao?
+20	sc130via_030_mic	MICKEY: Kệ bọn nó, ta còn phải cho nổ đống này!
+21	sc130out_010_ma3	CẢNH SÁT: Này, mấy bác biết Pháo binh Buck chứ?
+22	sc130out_020_mic	MICKEY: Chắc chắn rồi!
+23	sc130out_030_ma3	CẢNH SÁT: Đang chuyển kết nối!
+24	sc130out_040_buc	BUCK (radio): Thật vui vì mấy cậu vẫn bình an vô sự.
+25	sc130out_050_dut	DUTCH: Chúng tôi cũng vậy, pháo binh. Anh cần đón không?
+26	sc130out_060_buc	BUCK (radio): Vậy nhờ anh nhé. Chúng tôi đang ở sở cảnh sát.
+27	sc130out_070_dut	DUTCH: Anh đưa chúng tôi tới được chứ?
+28	sc130out_080_ma3	CẢNH SÁT: Rõ!
+29	sc130out_090_buc	BUCK (radio): Tốt. Hẹn gặp mấy cậu ở sân thượng.
+30	sc130out_100_dut	DUTCH: Cái gì?
+31	sc130out_110_mic	MICKEY: Ha ha! Rốt cuộc thì hôm nay cũng không đến nỗi tệ!
+32	sc130out_120_dut	DUTCH: Hê.
+
+
+=================================== sc140 - NMPD HQ ===================================
+
+
+=== cinematics\subtitles\sc140 ===
+8	sc140int_510_buc	BUCK:  Clear?
+9	sc140int_520_rom	ROMEO:  Yeah. We're good. 
+10	sc140int_530_buc	BUCK:  Hey. Rookie. You out there? Respond! That's an order!
+11	sc140int_540_rom	ROMEO:  Give it up, Gunny. Even if he ain't dead, he's lost in that soup. 
+Our comms can't cut through that.
+12	sc140int_550_buc	BUCK:  Oh, give up, huh? What if it were you down there?
+13	sc140int_560_rom	ROMEO:  Just saying. I ain't dead.
+14	sc140int_570_buc	BUCK:  You're a piece of work, Romeo.
+15	sc140int_580_mic	MICKEY (radio): Welcome aboard, Ladies! First stop: anywhere but here.
+16	sc140int_590_buc	BUCK:  Banshees! On your six!
+17	sc140int_600_buc	BUCK:  Hit the deck!
+18	sc140int_610_dut	DUTCH (radio): We’re losing her! Watch out!
+19	sc140int_620_buc	BUCK:  Raaarrgh!
+20	sc140int_630_buc	BUCK:  Mickey! Dutch! Status!
+21	sc140int_640_buc	BUCK:  Alive or dead, we're pulling them out! You hear me?!
+22	sc140int_650_buc	BUCK:  Make some noise. I got your back.
+23	sc140out_010_buc	BUCK:  Scatter!
+24	sc140out_030_rom	ROMEO:  Gaaaagh! (gasping)
+25	sc140out_060_buc	BUCK:  Get this thing off of me!
+26	sc140out_070_rom	ROMEO:  (cough, cough) Uuuugh…
+27	sc140out_080_buc	BUCK:  How bad?
+28	sc140out_090_rom	ROMEO:  (gasping) Not good.
+29	sc140out_100_mic	MICKEY:  We're gonna get you outta here.
+30	sc140out_110_dut	DUTCH:  Not by air, we're not.
+31	sc140out_120_buc	BUCK:  That's alright...
+32	sc140out_130_rom	ROMEO:  Aaggh!...
+33	sc140out_140_buc	BUCK:  I know another way.
+
+
+=================================== sc150 - KIKOWANI STN. ===================================
+
+
+=== cinematics\subtitles\sc140 ===
+484	sc150int_520_buc	BUCK:  We're almost there...
+ROMEO:  (wheezing) Put me down -- Put me down...for a sec.
+485	sc150int_510_rom	BUCK:  We're almost there...
+ROMEO:  (wheezing) Put me down -- Put me down...for a sec.
+486	sc150int_530_rom	ROMEO:  (gasping for air)
+487	sc150int_540_buc	BUCK:  Dutch! Medkit!
+488	sc150int_550_dut	DUTCH:  What's wrong with him?
+489	sc150int_560_buc	BUCK:  He's got a punctured lung. Can't breathe.
+490	sc150int_565_rom	ROMEO:  ...(long inhale)
+491	sc150int_570_buc	BUCK:  Better?
+492	sc150int_580_rom	ROMEO:  ...Now what?
+493	sc150int_590_buc	BUCK:  Trains ran underground, out to the old city. 
+We’re gonna find one of the tunnels, walk on outta here.
+494	sc150int_600_rom	ROMEO:  You gonna carry me all the way, sweetheart?
+495	sc150int_610_buc	BUCK:  Was planning on it. But now that you're feeling better -- 
+496	sc150int_620_buc	BUCK:  Get the door!
+497	sc150int_630_mic	MICKEY (radio):  Gunny? You're gonna want to see this.
+498	sc150int_640_mic	MICKEY:  This means we're screwed, right?
+499	sc150int_650_buc	BUCK:  Not yet.
+500	sc150int_660_buc	BUCK:  Wait here. We're gonna steal that ride.
+501	sc150_0010_buc	BUCK:  It's landing. Now's our chance! Mickey, you're with me!
+502	sc150out_010_buc	BUCK:  Keep her steady, Mickey! You doing OK?
+503	sc150out_020_rom	ROMEO:  Just glad we didn't go with your first plan...
+504	sc150out_030_rom	ROMEO:  Look at those tunnels. The one’s that aren’t flooded are probably packed with buggers.
+505	sc150out_040_rom	ROMEO:  Hell, I wouldn't go down there even if you ordered me to.
+506	sc150out_050_buc	BUCK (flashback):  Come on, Veronica! What could be more important than that carrier?
+507	sc150out_060_dar	DARE (flashback):  My orders. And Buck? Call me captain.
+508	sc150out_070_buc	BUCK:  Mickey, Turn around! Find a safe place to set us down!
+509	sc150out_080_mic	MICKEY:  What?! Why?
+510	sc150out_091_buc	BUCK:  I lost something! Now I know where to find her.
 
 
