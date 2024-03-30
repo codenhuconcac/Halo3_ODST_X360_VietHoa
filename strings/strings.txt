@@ -996,40 +996,40 @@ Locked Door
 2275	c02a03_221_fol	[ÂM THANH: Tiếng Sadie đóng sập cửa, Mike rời đi.]
 2276	c02a03_230_sad	SADIE: Có khi... mình đã cho anh ấy một bài học.
 2277	cir3_arc1	<<< Circle 3, Arc 1 transcript starts here! >>>
-2278	c03a01_010_fol	[SOUND: Tires squeal as Mike's car pulls away from Sadie.]
-2279	c03a01_010_sad	SADIE: Great. I'm stranded on the wrong side of the bridge in the middle of an alien invasion...
-2280	c03a01_011_sad	SADIE: And I just pissed-off the only person willing to help me out.
-2281	c03a01_012_sad	SADIE: Go me.
-2282	c03a01_012_fol	[SOUND: A goat near Sadie bleats.]
-2283	c03a01_020_sad	SADIE: My feeling exactly...
-2284	c03a01_030_cf1	CROWD: Move those animals!
-2285	c03a01_050_cm1	CROWD: Step aside! Let us past!
-2286	c03a01_080_cm6	CROWD: Clear out the street, we need to move!
-2287	c03a01_090_sad	SADIE: (into her Chatter) Dad?
-2288	c03a01_100_end	DR. ENDESHA: (from Chatter) Sadie! Thank God! Vergil couldn't find you anywhere!
-2289	c03a01_110_sad	SADIE: Yeah, you can thank Kinsler for that.
-2290	c03a01_120_end	DR. ENDESHA: Police Commissioner Kinsler? What do you mean?
-2291	c03a01_130_sad	SADIE: I don't want to talk about it...
-2292	c03a01_140_jns	JONAS: Get your kebabs here!
-2293	c03a01_141_sad	SADIE: Oh my God!
-2294	c03a01_150_end	DR. ENDESHA: What? What is it, Sadie?
-2295	c03a01_160_sad	SADIE: The biggest man I've ever seen!
-2296	c03a01_170_end	DR. ENDESHA: Where are you?
-2297	c03a01_180_sad	SADIE: The Old Town market. A butcher is giving away his food.
-2298	c03a01_200_sad	SADIE: Too bad it won't keep the Covenant from glassing the city...
-2299	c03a01_210_end	DR. ENDESHA: They won't glass the city!
-2300	c03a01_220_sad	SADIE: (walking to the butcher) Hang on, dad...
-2301	c03a01_230_end	DR. ENDESHA: I'm in contact with an ONI officer. She thinks these Covenant are just a reconnaissance force.
-2302	c03a01_231_end	DR. ENDESGA: And I think they're looking for the same thing Vergil found in his seismic survey!
-2303	c03a01_260_sad	SADIE: Dad. I'll call you back.
-2304	c03a01_232_fol	[SOUND: Honking car horn.]
-2305	c03a01_240_ang	ANGRY DRIVER: Move, you oaf! Get that table out of the road!
-2306	c03a01_250_jns	JONAS: Calm yourself, friend. Stop honking (laughs) and have a kebab.
-2307	c03a01_270_ang	ANGRY DRIVER: For the last time, move your fat ass --
-2308	c03a01_270_fol	[SOUND: The car creaks as Jonas leans on the hood.]
-2309	c03a01_280_ang	ANGRY DRIVER: Hey! Get off my car!
-2310	c03a01_290_jns	JONAS: My friend. I am an eight hundred pound man with a large cleaver who kills animals every day and chops them into pieces.
-2311	c02a01_291_jns	JONAS: (laughs) Do you really want us to be enemies? Or would you rather have a nice kebab?
+2278	c03a01_010_fol	[ÂM THANH: Tiếng lốp xe kêu rít lên khi xe của Mike đi xa khỏi Sadie.]
+2279	c03a01_010_sad	SADIE: Tuyệt. Giờ thì mình bị bỏ rơi ở phía bên kia cầu giữa cuộc xâm lược của người ngoài hành tinh...
+2280	c03a01_011_sad	SADIE: Và mình vừa chọc tức người duy nhất sẵn lòng giúp đỡ mình.
+2281	c03a01_012_sad	SADIE: Đi nào tôi ơi.
+2282	c03a01_012_fol	[ÂM THANH: Tiếng con dê gần Sadie kêu be be.]
+2283	c03a01_020_sad	SADIE: Đúng cảm giác của mình luôn...
+2284	c03a01_030_cf1	ĐÁM ĐÔNG: Đuổi mấy con vật này ra!
+2285	c03a01_050_cm1	ĐÁM ĐÔNG: Bước sang một bên! Để chúng tôi qua!
+2286	c03a01_080_cm6	ĐÁM ĐÔNG: Tránh ra khỏi đường, chúng tôi phải đi!
+2287	c03a01_090_sad	SADIE: (nói vào bộ đàm) Cha ơi?
+2288	c03a01_100_end	TIẾN SĨ ENDESHA: (từ bộ đàm) Sadie! Ơn Chúa! Lúc nãy Vergil chẳng thể nào tìm được con!
+2289	c03a01_110_sad	SADIE: Phải rồi, tại Kinsler mà ra nông nỗi này.
+2290	c03a01_120_end	TIẾN SĨ ENDESHA: Cảnh sát trưởng Kinsler? Ý con là sao?
+2291	c03a01_130_sad	SADIE: Con không muốn nói đâu...
+2292	c03a01_140_jns	JONAS: Kebab nóng hổi đây!
+2293	c03a01_141_sad	SADIE: Ôi trời ơi!
+2294	c03a01_150_end	TIẾN SĨ ENDESHA: Cái gì? Sao thế, Sadie?
+2295	c03a01_160_sad	SADIE: Người đàn ông lớn nhất con từng thấy!
+2296	c03a01_170_end	TIẾN SĨ ENDESHA: Con đang ở đâu?
+2297	c03a01_180_sad	SADIE: Chợ phố cũ. Có người bán thịt đang tặng thức ăn.
+2298	c03a01_200_sad	SADIE: Quá tệ là nó chẳng thể ngăn Covenant càn quét cả thành phố...
+2299	c03a01_210_end	TIẾN SĨ ENDESHA: Bọn chúng sẽ không càn quét thành phố!
+2300	c03a01_220_sad	SADIE: (tiến tới người bán thịt) Cha đợi con xíu...
+2301	c03a01_230_end	TIẾN SĨ ENDESHA: Ta đang liên lạc với sĩ quan của ONI. Cô ấy nghĩ rằng đám Covenant này chỉ là lực lượng trinh sát.
+2302	c03a01_231_end	TIẾN SĨ ENDESGA: Và ta nghĩ chúng đang tìm kiếm thứ mà Vergil đã tìm thấy trong cuộc khảo sát địa chấn của nó!
+2303	c03a01_260_sad	SADIE: Cha. Con sẽ gọi lại sau.
+2304	c03a01_232_fol	[ÂM THANH: Tiếng còi xe ô tô.]
+2305	c03a01_240_ang	TÀI XẾ NÓNG GIẬN: Cút ra, thằng đần! Bỏ cái bàn ra khỏi đường!
+2306	c03a01_250_jns	JONAS: Bình tĩnh nào, anh bạn. Đừng bấm còi nữa, (cười) và làm miếng kebab nào.
+2307	c03a01_270_ang	TÀI XẾ NÓNG GIẬN: Bố nói lần cuối, nhấc cái đít mập địt của mày --
+2308	c03a01_270_fol	[ÂM THANH: Tiếng chiếc xe kêu cọt kẹt khi Jonas tựa vào mui xe.]
+2309	c03a01_280_ang	TÀI XẾ NÓNG GIẬN: Này! Cút khỏi khỏi xe của tao!
+2310	c03a01_290_jns	JONAS: Anh bạn. Tôi đây nặng 360kg đi với con dao pha, ngày ngày giết động vật và chặt chúng thành từng mảnh
+2311	c02a01_291_jns	JONAS: (cười) Anh bạn có muốn hai ta là kẻ thù không? Hay muốn có một miếng kebab?
 2312	cir3_arc2	<<< Circle 3, Arc 2 transcript starts here! >>>
 2313	c03a02_021_fol	[SOUND: Bleating goats and a honking car horn.]
 2314	c03a02_020_cf2	CROWD: Mommy, that's too loud!
