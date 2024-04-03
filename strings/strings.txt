@@ -437,7 +437,7 @@ Saved Films: (value)
 44	c100_430_dut	DUTCH (radio):  Cô ấy vừa nói gì cơ?
 45	c100_440_dar	DARE (radio):  Bắt đầu chỉnh!
 46	c100_450_mic	MICKEY (radio):  Chúng ta đang bay chệch hướng!
-47	c100_460_dar	DARE (radio):  Chúng ta đang bay chính xác nơi tôi cần tới
+47	c100_460_dar	DARE (radio):  Chúng ta đang bay chính xác nơi tôi cần tới!
 48	c100_470_mic	MICKEY (radio):  Nhưng chúng ta sẽ bay trượt qua tàu chở quân đấy mất!
 49	c100_480_dut	DUTCH (radio):  Bức xạ!
 50	c100_490_mic	MICKEY (radio):  Covenant vừa thiết lập quả bom à?!
